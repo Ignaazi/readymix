@@ -18,13 +18,14 @@
                 <li class="nav-item"><a class="nav-link active" href="#home" onclick="setActiveMenu(this)">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="#about" onclick="setActiveMenu(this)">About</a></li>
                 
+                <!-- FIX: Services murni membuka dropdown saat diklik, sub-menu mengarah ke #services -->
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle d-flex align-items-center gap-1" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Services <i class="bi bi-chevron-down dropdown-arrow"></i>
                     </a>
                     <ul class="dropdown-menu border-0 shadow-lg rounded-3 py-2">
-                        <li><a class="dropdown-item py-2" href="#services">Product dan layanan</a></li>
-                        <li><a class="dropdown-item py-2" href="#services">Cara Pemesanan</a></li>
+                        <li><a class="dropdown-item py-2" href="#services" onclick="setDropdownActive(this)">Product dan layanan</a></li>
+                        <li><a class="dropdown-item py-2" href="#how-to-order" onclick="setDropdownActive(this)">Cara Pemesanan</a></li>
                     </ul>
                 </li>
                 <li class="nav-item"><a class="nav-link" href="#project" onclick="setActiveMenu(this)">Project</a></li>
@@ -34,8 +35,8 @@
                         Pages <i class="bi bi-chevron-down dropdown-arrow"></i>
                     </a>
                     <ul class="dropdown-menu border-0 shadow-lg rounded-3 py-2">
-                        <li><a class="dropdown-item py-2" href="#services">Service Details</a></li>
-                        <li><a class="dropdown-item py-2" href="#project">Project Details</a></li>
+                        <li><a class="dropdown-item py-2" href="#services" onclick="setDropdownActive(this)">Service Details</a></li>
+                        <li><a class="dropdown-item py-2" href="#project" onclick="setDropdownActive(this)">Project Details</a></li>
                     </ul>
                 </li>
                 
@@ -43,7 +44,6 @@
 
                 <li class="nav-item ms-lg-2 py-2 py-lg-0">
                     <div class="d-flex align-items-center phone-clicker" onclick="copyPhoneNumber()" style="cursor:pointer">
-                        <!-- Updated: Background bulat telepon diganti ke Merah Muda Lembut -->
                         <div class="bg-red-light text-red d-flex align-items-center justify-content-center rounded-circle me-2" style="width: 35px; height: 35px;">
                             <i class="bi bi-telephone-fill fs-6"></i>
                         </div>
@@ -52,7 +52,6 @@
                 </li>
                 
                 <li class="nav-item ms-lg-2 mt-2 mt-lg-0">
-                    <!-- Updated: Tombol utama diganti ke tema Merah -->
                     <a class="btn btn-red text-white fw-bold px-4 py-2 rounded-pill shadow-sm" href="#contact">Get readymix</a>
                 </li>
             </ul>
@@ -63,6 +62,7 @@
 <style>
     /* Menggunakan font Nunito untuk seluruh komponen navbar */
     #mainNavbar, #mainNavbar * {
+        box-sizing: border-box;
         font-family: "Nunito", sans-serif !important;
     }
 
@@ -110,9 +110,9 @@
     .dropdown-item { transition: all 0.2s; color: #495057; }
     .dropdown-item:hover { background-color: #ffebee; color: #e53935; }
 
-    /* Updated: Toggler Hamburger dengan Bingkai Garis di Pojok */
+    /* Toggler Hamburger dengan Bingkai Garis di Pojok */
     .custom-toggler {
-        border: 1px solid #dee2e6 !important; /* Garis bingkai luar */
+        border: 1px solid #dee2e6 !important; 
         background: transparent;
         padding: 10px 12px;
         border-radius: 6px;
@@ -139,11 +139,11 @@
     /* Efek Menyala Merah Saat Aktif/Hover */
     .custom-toggler:not(.collapsed),
     .custom-toggler:hover {
-        border-color: #e53935 !important; /* Bingkai menyala merah */
+        border-color: #e53935 !important; 
     }
     .custom-toggler:not(.collapsed) .toggler-icon,
     .custom-toggler:hover .toggler-icon {
-        background-color: #e53935; /* Garis menyala merah */
+        background-color: #e53935; 
     }
 
     /* Animasi Silang (X) */
@@ -192,9 +192,20 @@
 </style>
 
 <script>
+    // Fungsi mengubah menu aktif untuk tombol link biasa
     function setActiveMenu(element) {
         document.querySelectorAll('.nav-link').forEach(link => link.classList.remove('active'));
         element.classList.add('active');
+    }
+
+    // Fungsi khusus saat sub-menu di dalam dropdown diklik
+    function setDropdownActive(element) {
+        document.querySelectorAll('.nav-link').forEach(link => link.classList.remove('active'));
+        // Mencari elemen induk .dropdown lalu mengaktifkan tombol toggle utamanya (Services / Pages)
+        const parentDropdown = element.closest('.dropdown').querySelector('.dropdown-toggle');
+        if (parentDropdown) {
+            parentDropdown.classList.add('active');
+        }
     }
 
     function copyPhoneNumber() {

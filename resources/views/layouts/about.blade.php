@@ -12,12 +12,12 @@
             </div>
         </div>
 
-        <!-- 2. LAYOUT UTAMA: KIRI (TEKS & POIN HITAM) | KANAN (4 FOTO SEJAJAR STACK) -->
-        <div class="row g-4 g-lg-5 align-items-center">
+        <!-- 2. LAYOUT UTAMA: KIRI (TEKS & POIN + KOTAK MERAH) | KANAN (KOTAK 3D ABU-ABU + 4 FOTO GRID) -->
+        <div class="row g-4 g-lg-5 align-items-stretch">
             
-            <!-- SISI KIRI: Penjelasan Profil & Poin Karakteristik (Gaya Elemen Kiri Gambar Referensi image_ff0b49.jpg) -->
-            <div class="col-lg-7 order-lg-1">
-                <div class="pe-lg-4">
+            <!-- SISI KIRI: Penjelasan Profil, Poin Karakteristik, & Informasi Kontak Resmi -->
+            <div class="col-lg-7 d-flex flex-column justify-content-between">
+                <div class="pe-lg-4 mb-4 mb-lg-0">
                     
                     <h3 class="fw-bold text-dark mb-3" style="font-size: 2.2rem; font-weight: 800; letter-spacing: -0.5px;">
                         We Build With Precision, Passion & Purpose
@@ -71,18 +71,37 @@
                         </div>
                     </div>
 
-                    <!-- Blok Visi Misi Terang Minimalis Modern -->
-                    <div class="row g-3">
+                    <!-- Blok Informasi Alamat & Kontak Berbentuk 3D Soft Rounded Balok WARNA MERAH -->
+                    <div class="row g-4">
+                        <!-- Kolom Alamat Lengkap -->
                         <div class="col-md-6">
-                            <div class="p-3 about-clean-light-box border-start border-3 border-red-accent h-100 shadow-sm">
-                                <h6 class="fw-bold text-dark mb-2"><i class="bi bi-eye-fill text-red-accent me-2"></i> Visi Kami</h6>
-                                <p class="text-muted small mb-0">Menjadi produsen readymix paling andal melalui inovasi produk dan efisiensi rantai pasok.</p>
+                            <div class="p-3 about-3d-soft-box h-100">
+                                <!-- Judul Kotak Merah Flat Biasa + Icon -->
+                                <div class="about-flat-title-badge mb-3">
+                                    <i class="bi bi-geo-alt-fill me-2"></i> Alamat Kantor
+                                </div>
+                                <ul class="list-unstyled small text-muted mb-0 lh-lg">
+                                    <li><strong>Jl:</strong> -</li>
+                                    <li><strong>Desa:</strong> -</li>
+                                    <li><strong>Kabupaten:</strong> -</li>
+                                    <li><strong>Provinsi:</strong> -</li>
+                                </ul>
                             </div>
                         </div>
+                        <!-- Kolom Kontak & Sosial Media -->
                         <div class="col-md-6">
-                            <div class="p-3 about-clean-light-box border-start border-3 border-secondary h-100 shadow-sm">
-                                <h6 class="fw-bold text-dark mb-2"><i class="bi bi-rocket-takeoff-fill text-secondary me-2"></i> Misi Kami</h6>
-                                <p class="text-muted small mb-0">Menyediakan beton cor bermutu tinggi tepat waktu serta menjaga keselamatan kerja operasional.</p>
+                            <div class="p-3 about-3d-soft-box h-100">
+                                <!-- Judul Kotak Merah Flat Biasa + Icon -->
+                                <div class="about-flat-title-badge mb-3">
+                                    <i class="bi bi-chat-left-text-fill me-2"></i> Hubungi Kami
+                                </div>
+                                <ul class="list-unstyled small text-muted mb-0 lh-lg">
+                                    <li><i class="bi bi-telephone-fill me-2 text-dark"></i><strong>Telp:</strong> -</li>
+                                    <li><i class="bi bi-whatsapp me-2 text-success"></i><strong>WhatsApp:</strong> -</li>
+                                    <li><i class="bi bi-envelope-fill me-2 text-danger"></i><strong>Email:</strong> -</li>
+                                    <li><i class="bi bi-instagram me-2 text-danger"></i><strong>Instagram:</strong> -</li>
+                                    <li><i class="bi bi-tiktok me-2 text-dark"></i><strong>TikTok:</strong> -</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -90,24 +109,32 @@
                 </div>
             </div>
             
-            <!-- SISI KANAN: Grid 4 Foto Sejajar, Rapi, Kotak Sesuai Referensi Gambar image_ff0b49.jpg -->
-            <div class="col-lg-5 order-lg-2">
-                <div class="about-photo-grid-aligned">
-                    <!-- Foto 1 -->
-                    <div class="about-aligned-photo-card custom-card-hover">
-                        <img src="/pic2.png" alt="Batching Plant" class="img-fluid rounded-3">
+            <!-- SISI KANAN: UPDATE BARU - 4 FOTO DIBUNGKUS KOTAK 3D SOFT ABU-ABU GELAP -->
+            <div class="col-lg-5 d-flex">
+                <div class="p-3 about-3d-dark-box w-100 d-flex flex-column">
+                    <!-- Badge Judul Kotak Abu-Abu Gelap, Font Warna Putih + Icon -->
+                    <div class="about-dark-title-badge mb-3">
+                        <i class="bi bi-images me-2"></i> Our Projects
                     </div>
-                    <!-- Foto 2 -->
-                    <div class="about-aligned-photo-card custom-card-hover">
-                        <img src="/pic3.png" alt="Truck Mixer" class="img-fluid rounded-3">
-                    </div>
-                    <!-- Foto 3 -->
-                    <div class="about-aligned-photo-card custom-card-hover">
-                        <img src="/pic4.png" alt="Concrete Pump" class="img-fluid rounded-3">
-                    </div>
-                    <!-- Foto 4 -->
-                    <div class="about-aligned-photo-card custom-card-hover">
-                        <img src="/pic5.png" alt="Pengecoran Proyek" class="img-fluid rounded-3">
+                    
+                    <!-- Area Grid 4 Foto di Dalam Kotak -->
+                    <div class="about-photo-grid-inside flex-grow-1">
+                        <!-- Foto 1 -->
+                        <div class="about-aligned-photo-card custom-card-hover">
+                            <img src="/pic2.png" alt="Batching Plant" class="img-fluid rounded-3">
+                        </div>
+                        <!-- Foto 2 -->
+                        <div class="about-aligned-photo-card custom-card-hover">
+                            <img src="/pic3.png" alt="Truck Mixer" class="img-fluid rounded-3">
+                        </div>
+                        <!-- Foto 3 -->
+                        <div class="about-aligned-photo-card custom-card-hover">
+                            <img src="/pic4.png" alt="Concrete Pump" class="img-fluid rounded-3">
+                        </div>
+                        <!-- Foto 4 -->
+                        <div class="about-aligned-photo-card custom-card-hover">
+                            <img src="/pic5.png" alt="Pengecoran Proyek" class="img-fluid rounded-3">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -140,7 +167,7 @@
     .about-title-line {
         width: 100px;
         height: 4px;
-        background-color: #e53935; /* Garis Merah Menyala Pembatas */
+        background-color: #e53935; 
         border-radius: 2px;
     }
 
@@ -158,7 +185,7 @@
         gap: 1rem;
     }
     .feature-icon-box {
-        background: rgba(229, 57, 53, 0.08); /* Kotak merah transparan sangat tipis & soft */
+        background: rgba(229, 57, 53, 0.08); 
         border: 1px solid rgba(229, 57, 53, 0.2);
         color: #e53935;
         width: 44px;
@@ -175,52 +202,99 @@
         font-weight: 700;
     }
 
-    /* Wadah box putih abu tipis untuk Visi Misi */
-    .about-clean-light-box {
-        background: #f8f9fa;
-        border-radius: 8px;
-        border: 1px solid #edf2f7;
+    /* ==========================================================================
+       KOTAK KIRI: 3D BALOK SOFT SEPERTI NEWS WARNA MERAH
+       ========================================================================== */
+    .about-3d-soft-box {
+        background: #ffffff !important; 
+        border-radius: 12px; 
+        border: 1px solid #e53935; 
+        box-shadow: 0 5px 0px #e53935; 
+        position: relative;
+        top: 0;
+        transition: all 0.15s ease-in-out;
+    }
+    .about-3d-soft-box:hover {
+        top: 2px;
+        box-shadow: 0 3px 0px #e53935; 
+    }
+
+    /* KOTAK MERAH FLAT BIASA (TANPA EFEK 3D), TEKS PUTIH + ICON */
+    .about-flat-title-badge {
+        background-color: #e53935; 
+        color: #ffffff !important; 
+        padding: 5px 12px;
+        border-radius: 6px;
+        font-weight: 700;
+        font-size: 0.9rem;
+        display: inline-block;
+    }
+
+    .about-3d-soft-box ul li, .about-3d-dark-box ul li {
+        margin-bottom: 0.25rem;
     }
 
     /* ==========================================================================
-       SISI KANAN: GRID 4 FOTO SEJAJAR PARALEL (BUKAN ZIG-ZAG)
+       BARU: KOTAK KANAN - 3D BALOK SOFT SEPERTI NEWS WARNA ABU-ABU GELAP
        ========================================================================== */
-    .about-photo-grid-aligned {
+    .about-3d-dark-box {
+        background: #ffffff !important; /* Tetap warna dasar putih */
+        border-radius: 12px; 
+        border: 1px solid #64748b; /* Outline warna abu-abu sedikit gelap */
+        box-shadow: 0 5px 0px #64748b; /* Bantalan 3D bawah warna abu-abu sedikit gelap */
+        position: relative;
+        top: 0;
+        transition: all 0.15s ease-in-out;
+    }
+    .about-3d-dark-box:hover {
+        top: 2px;
+        box-shadow: 0 3px 0px #64748b; 
+    }
+
+    /* BADGE JENDELA BARU: KOTAK ABU-ABU GELAP FLAT, FONT PUTIH + ICON */
+    .about-dark-title-badge {
+        background-color: #64748b; /* Warna abu-abu sedikit gelap */
+        color: #ffffff !important; /* Font warna putih wajib */
+        padding: 5px 12px;
+        border-radius: 6px;
+        font-weight: 700;
+        font-size: 0.9rem;
+        display: inline-block;
+    }
+
+    /* GRID INTERNAL DI DALAM KOTAK BARU */
+    .about-photo-grid-inside {
         display: grid;
-        grid-template-columns: repeat(2, 1fr); /* Membagi rata 2 Kolom */
-        gap: 1.25rem;
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 1rem; 
         width: 100%;
-        max-width: 480px;
-        margin: 0 auto;
     }
 
     .about-aligned-photo-card img {
         width: 100%;
-        height: 165px; /* Tinggi kotak presisi sejajar */
+        height: 195px; /* Tinggi kotak proporsional agar fit rapi di dalam container */
         object-fit: cover;
-        border: 4px solid #ffffff; /* Bingkai putih tebal kontras dari bayangan */
-        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08); /* Soft shadow standar clean theme */
+        border: 3px solid #f1f5f9; /* Border luar foto soft */
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); 
         display: block;
     }
 
     /* Penyesuaian Responsif Layar Kecil (Mobile HP) */
     @media (max-width: 575px) {
-        .about-photo-grid-aligned {
-            gap: 0.85rem;
-            max-width: 100%;
+        .about-photo-grid-inside {
+            gap: 0.75rem;
         }
         .about-aligned-photo-card img {
-            height: 120px; /* Mengecil proporsional di HP */
-            border: 2.5px solid #ffffff;
+            height: 130px; 
         }
     }
 
-    /* Efek Hover Animasi Angkat Lembut */
+    /* Efek Hover Animasi Angkat Lembut Foto */
     .custom-card-hover {
         transition: transform 0.25s ease, box-shadow 0.25s ease;
     }
     .custom-card-hover:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12) !important;
+        transform: translateY(-4px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) !important;
     }
 </style>
