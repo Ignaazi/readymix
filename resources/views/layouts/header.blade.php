@@ -1,10 +1,10 @@
 <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
-<nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm py-3" id="mainNavbar">
+<nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm py-1" id="mainNavbar">
     <div class="container">
         <a class="navbar-brand d-flex align-items-center" href="{{ url('/') }}">
-            <img src="/logo.png" alt="NH Mitra Beton Logo" style="height: 60px; width: auto; object-fit: contain;">
+            <img src="/logo.png" alt="NH Mitra Beton Logo" style="height: 48px; width: auto; object-fit: contain;">
         </a>
         <button class="navbar-toggler custom-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navContent" aria-controls="navContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="toggler-icon top-bar"></span>
@@ -35,8 +35,6 @@
                     <ul class="dropdown-menu border-0 shadow-lg rounded-3 py-2">
                         <li><a class="dropdown-item py-2" href="{{ url('/#services') }}" onclick="setDropdownActive(this)">Service Details</a></li>
                         <li><a class="dropdown-item py-2" href="{{ url('/#project') }}" onclick="setDropdownActive(this)">Project Details</a></li>
-                        
-                        {{-- FIX: Hapus onclick agar link di bawah ini murni berfungsi pindah ke halaman baru --}}
                         <li><a class="dropdown-item py-2" href="{{ url('/term') }}">Term</a></li>
                         <li><a class="dropdown-item py-2" href="{{ url('/privacy') }}">Privacy</a></li>
                         <li><a class="dropdown-item py-2" href="{{ url('/404') }}">404</a></li>
@@ -204,7 +202,6 @@
     // Fungsi khusus saat sub-menu di dalam dropdown diklik
     function setDropdownActive(element) {
         document.querySelectorAll('.nav-link').forEach(link => link.classList.remove('active'));
-        // Mencari elemen induk .dropdown lalu mengaktifkan tombol toggle utamanya (Services / Pages)
         const parentDropdown = element.closest('.dropdown').querySelector('.dropdown-toggle');
         if (parentDropdown) {
             parentDropdown.classList.add('active');
