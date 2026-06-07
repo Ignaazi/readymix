@@ -12,6 +12,7 @@
 
     <main class="flex-grow-1">
         
+        {{-- Menggunakan Request::is('/') agar presisi membaca halaman beranda utama --}}
         @if(Request::is('/'))
             
             <div id="home">

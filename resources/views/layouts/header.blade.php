@@ -1,10 +1,9 @@
-<!-- Google Fonts: Nunito (NiceAdmin Style) -->
 <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
 <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm py-3" id="mainNavbar">
     <div class="container">
-        <a class="navbar-brand d-flex align-items-center" href="#">
+        <a class="navbar-brand d-flex align-items-center" href="{{ url('/') }}">
             <img src="/logo.png" alt="NH Mitra Beton Logo" style="height: 60px; width: auto; object-fit: contain;">
         </a>
         <button class="navbar-toggler custom-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navContent" aria-controls="navContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -15,32 +14,36 @@
 
         <div class="collapse navbar-collapse" id="navContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center gap-2 custom-nav">
-                <li class="nav-item"><a class="nav-link active" href="#home" onclick="setActiveMenu(this)">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="#about" onclick="setActiveMenu(this)">About</a></li>
+                <li class="nav-item"><a class="nav-link active" href="{{ url('/#home') }}" onclick="setActiveMenu(this)">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ url('/#about') }}" onclick="setActiveMenu(this)">About</a></li>
                 
-                <!-- FIX: Services murni membuka dropdown saat diklik, sub-menu mengarah ke #services -->
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle d-flex align-items-center gap-1" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Services <i class="bi bi-chevron-down dropdown-arrow"></i>
                     </a>
                     <ul class="dropdown-menu border-0 shadow-lg rounded-3 py-2">
-                        <li><a class="dropdown-item py-2" href="#services" onclick="setDropdownActive(this)">Product dan layanan</a></li>
-                        <li><a class="dropdown-item py-2" href="#how-to-order" onclick="setDropdownActive(this)">Cara Pemesanan</a></li>
+                        <li><a class="dropdown-item py-2" href="{{ url('/#services') }}" onclick="setDropdownActive(this)">Product dan layanan</a></li>
+                        <li><a class="dropdown-item py-2" href="{{ url('/#how-to-order') }}" onclick="setDropdownActive(this)">Cara Pemesanan</a></li>
                     </ul>
                 </li>
-                <li class="nav-item"><a class="nav-link" href="#project" onclick="setActiveMenu(this)">Project</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ url('/#project') }}" onclick="setActiveMenu(this)">Project</a></li>
                 
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle d-flex align-items-center gap-1" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Pages <i class="bi bi-chevron-down dropdown-arrow"></i>
                     </a>
                     <ul class="dropdown-menu border-0 shadow-lg rounded-3 py-2">
-                        <li><a class="dropdown-item py-2" href="#services" onclick="setDropdownActive(this)">Service Details</a></li>
-                        <li><a class="dropdown-item py-2" href="#project" onclick="setDropdownActive(this)">Project Details</a></li>
+                        <li><a class="dropdown-item py-2" href="{{ url('/#services') }}" onclick="setDropdownActive(this)">Service Details</a></li>
+                        <li><a class="dropdown-item py-2" href="{{ url('/#project') }}" onclick="setDropdownActive(this)">Project Details</a></li>
+                        
+                        {{-- FIX: Hapus onclick agar link di bawah ini murni berfungsi pindah ke halaman baru --}}
+                        <li><a class="dropdown-item py-2" href="{{ url('/term') }}">Term</a></li>
+                        <li><a class="dropdown-item py-2" href="{{ url('/privacy') }}">Privacy</a></li>
+                        <li><a class="dropdown-item py-2" href="{{ url('/404') }}">404</a></li>
                     </ul>
                 </li>
                 
-                <li class="nav-item"><a class="nav-link" href="#contact" onclick="setActiveMenu(this)">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ url('/#contact') }}" onclick="setActiveMenu(this)">Contact</a></li>
 
                 <li class="nav-item ms-lg-2 py-2 py-lg-0">
                     <div class="d-flex align-items-center phone-clicker" onclick="copyPhoneNumber()" style="cursor:pointer">
@@ -52,7 +55,7 @@
                 </li>
                 
                 <li class="nav-item ms-lg-2 mt-2 mt-lg-0">
-                    <a class="btn btn-red text-white fw-bold px-4 py-2 rounded-pill shadow-sm" href="#contact">Get readymix</a>
+                    <a class="btn btn-red text-white fw-bold px-4 py-2 rounded-pill shadow-sm" href="{{ url('/#contact') }}">Get readymix</a>
                 </li>
             </ul>
         </div>
