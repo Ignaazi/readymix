@@ -36,7 +36,7 @@
             </div>
 
             <div id="contact">
-                {{-- @include('layouts.contact') --}}
+                @include('layouts.contact')
             </div>
 
         @else

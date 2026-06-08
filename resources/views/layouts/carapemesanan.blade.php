@@ -99,31 +99,6 @@
 
         </ol>
 
-        <!-- SYARAT & KETENTUAN -->
-        <div class="row mt-5 pt-4 justify-content-center">
-            <div class="col-lg-10">
-                <div class="text-content-terms">
-                    <h4 class="fw-extrabold text-dark mb-3 d-flex align-items-center gap-2" style="font-size: 1.6rem; letter-spacing: -0.3px;">
-                        <i class="bi bi-exclamation-circle-fill text-red"></i> Syarat & Ketentuan Umum
-                    </h4>
-                    
-                    <ul class="list-unstyled d-flex flex-column gap-3 ps-1">
-                        <li class="d-flex align-items-start gap-2 text-secondary" style="font-size: 1.1rem; line-height: 1.6;">
-                            <i class="bi bi-check-circle-fill text-red mt-1" style="font-size: 1rem;"></i>
-                            <div>
-                                <strong class="text-dark">Pajak (PPN):</strong> Harga yang tertera sudah termasuk <span class="fw-bold text-dark">PPN 11%</span>. Tidak ada biaya tersembunyi untuk pajak.
-                            </div>
-                        </li>
-                        <li class="d-flex align-items-start gap-2 text-secondary" style="font-size: 1.1rem; line-height: 1.6;">
-                            <i class="bi bi-check-circle-fill text-red mt-1" style="font-size: 1rem;"></i>
-                            <div>
-                                <strong class="text-dark">Kondisi Jalan & Akses:</strong> Pembeli bertanggung jawab sepenuhnya memastikan akses jalan menuju lokasi proyek aman, padat, dan layak dilalui oleh truk mixer.
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
 
         <!-- CTA BUTTON CONTACT MARKETING -->
         <div class="row mt-5">
