@@ -67,73 +67,73 @@
                                     <tr>
                                         <td class="text-center text-muted fw-bold">1</td>
                                         <td class="fw-bold text-dark">K100</td>
-                                        <td class="text-secondary">7.4 MPa (FA & NFA)</td>
+                                        <td class="text-secondary"> (FA & NFA)</td>
                                         <td class="text-center"><span class="badge bg-success fw-bold">Ready</span></td>
                                     </tr>
                                     <tr>
                                         <td class="text-center text-muted fw-bold">2</td>
                                         <td class="fw-bold text-dark">K-150</td>
-                                        <td class="text-secondary">12.45 MPa (FA & NFA)</td>
+                                        <td class="text-secondary">(FA & NFA)</td>
                                         <td class="text-center"><span class="badge bg-success fw-bold">Ready</span></td>
                                     </tr>
                                     <tr>
                                         <td class="text-center text-muted fw-bold">3</td>
                                         <td class="fw-bold text-dark">K-175</td>
-                                        <td class="text-secondary">14.53 MPa (FA & NFA)</td>
+                                        <td class="text-secondary">(FA & NFA)</td>
                                         <td class="text-center"><span class="badge bg-success fw-bold">Ready</span></td>
                                     </tr>
                                     <tr>
                                         <td class="text-center text-muted fw-bold">4</td>
                                         <td class="fw-bold text-dark">K-200</td>
-                                        <td class="text-secondary">16.60 MPa (FA & NFA)</td>
+                                        <td class="text-secondary">(FA & NFA)</td>
                                         <td class="text-center"><span class="badge bg-success fw-bold">Ready</span></td>
                                     </tr>
                                     <tr class="services-row-highlight">
                                         <td class="text-center text-muted fw-bold">5</td>
                                         <td class="fw-bold text-dark">K-225</td>
-                                        <td class="text-secondary">18.68 MPa (FA & NFA)</td>
+                                        <td class="text-secondary">(FA & NFA)</td>
                                         <td class="text-center"><span class="badge bg-warning text-dark fw-bold"><i class="bi bi-star-fill me-1 text-dark"></i>Best Seller</span></td>
                                     </tr>
                                     <tr class="services-row-highlight">
                                         <td class="text-center text-muted fw-bold">6</td>
                                         <td class="fw-bold text-dark">K-250</td>
-                                        <td class="text-secondary">20.75 MPa (FA & NFA)</td>
+                                        <td class="text-secondary">(FA & NFA)</td>
                                         <td class="text-center"><span class="badge bg-warning text-dark fw-bold"><i class="bi bi-star-fill me-1 text-dark"></i>Best Seller</span></td>
                                     </tr>
                                     <tr class="services-row-highlight">
                                         <td class="text-center text-muted fw-bold">7</td>
                                         <td class="fw-bold text-dark">K-275</td>
-                                        <td class="text-secondary">22.83 MPa (FA & NFA)</td>
+                                        <td class="text-secondary">(FA & NFA)</td>
                                         <td class="text-center"><span class="badge bg-warning text-dark fw-bold"><i class="bi bi-star-fill me-1 text-dark"></i>Best Seller</span></td>
                                     </tr>
                                     <tr class="services-row-highlight">
                                         <td class="text-center text-muted fw-bold">8</td>
                                         <td class="fw-bold text-dark">K-300</td>
-                                        <td class="text-secondary">24.90 MPa (FA & NFA)</td>
+                                        <td class="text-secondary">(FA & NFA)</td>
                                         <td class="text-center"><span class="badge bg-warning text-dark fw-bold"><i class="bi bi-star-fill me-1 text-dark"></i>Best Seller</span></td>
                                     </tr>
                                     <tr>
                                         <td class="text-center text-muted fw-bold">9</td>
                                         <td class="fw-bold text-dark">K-350</td>
-                                        <td class="text-secondary">29.05 MPa (FA & NFA)</td>
+                                        <td class="text-secondary">(FA & NFA)</td>
                                         <td class="text-center"><span class="badge bg-success fw-bold">Ready</span></td>
                                     </tr>
                                     <tr>
                                         <td class="text-center text-muted fw-bold">10</td>
                                         <td class="fw-bold text-dark">K-400</td>
-                                        <td class="text-secondary">33.20 MPa (FA & NFA)</td>
+                                        <td class="text-secondary">(FA & NFA)</td>
                                         <td class="text-center"><span class="badge bg-success fw-bold">Ready</span></td>
                                     </tr>
                                     <tr>
                                         <td class="text-center text-muted fw-bold">11</td>
                                         <td class="fw-bold text-dark">K-450</td>
-                                        <td class="text-secondary">37.35 MPa (FA & NFA)</td>
+                                        <td class="text-secondary">(FA & NFA)</td>
                                         <td class="text-center"><span class="badge bg-success fw-bold">Ready</span></td>
                                     </tr>
                                     <tr>
                                         <td class="text-center text-muted fw-bold">12</td>
                                         <td class="fw-bold text-dark">K-500</td>
-                                        <td class="text-secondary">41.50 MPa (FA & NFA)</td>
+                                        <td class="text-secondary">(FA & NFA)</td>
                                         <td class="text-center"><span class="badge bg-success fw-bold">Ready</span></td>
                                     </tr>
                                 </tbody>
@@ -150,7 +150,7 @@
             
             <!-- GRID KIRI: LIST PENJELASAN TANPA IKON (TEMA BIRU TUA ABOUT) -->
             <div class="col-lg-7 d-flex">
-                <div class="p-4 services-3d-dark-box w-100 bg-white d-flex flex-column justify-content-start gap-4">
+                <div class="p-3 p-sm-4 services-3d-dark-box w-100 bg-white d-flex flex-column justify-content-start gap-4">
                     
                     <div>
                         <div class="services-dark-title-badge mb-1">
@@ -161,15 +161,15 @@
                     <!-- 1. Klasifikasi Truk -->
                     <div class="services-info-item">
                         <h4 class="services-list-heading text-dark mb-3">
-                            <span class="services-step-number">1</span> Klasifikasi Truk
+                            <span class="services-step-number">1</span> Klasifikasi Truk ( Readymix )
                         </h4>
                         
                         <!-- Sub Bagian: Ukuran Truk -->
-                        <div class="mb-4 ps-3 border-start border-2 border-primary-subtle">
+                        <div class="mb-4 ps-2 ps-sm-3 border-start border-2 border-primary-subtle">
                             <h5 class="services-list-subheading text-secondary mb-2">
                                 a. Jenis Ukuran Truk (2 Ukuran):
                             </h5>
-                            <ul class="list-unstyled ps-2 services-clean-list text-dark">
+                            <ul class="list-unstyled ps-1 ps-sm-2 services-clean-list text-dark">
                                 <li class="mb-2">- <strong>Truk Big Mix:</strong> Untuk alokasi pemenuhan proyek skala besar.</li>
                                 <li class="mb-2">- <strong>Truk Mini Mix:</strong> Solusi armada jangkauan area jalan / gang sempit.</li>
                                 <li class="mb-2">- <strong>Truk Pump:</strong> Truk penunjang jangkauan pompa beton.</li>
@@ -177,11 +177,11 @@
                         </div>
 
                         <!-- Sub Bagian: Tipe Truk -->
-                        <div class="ps-3 border-start border-2 border-primary-subtle">
+                        <div class="ps-2 ps-sm-3 border-start border-2 border-primary-subtle">
                             <h5 class="services-list-subheading text-secondary mb-2">
                                 b. Jenis Tipe Truk (3 Tipe):
                             </h5>
-                            <ul class="list-unstyled ps-2 services-clean-list text-dark">
+                            <ul class="list-unstyled ps-1 ps-sm-2 services-clean-list text-dark">
                                 <li class="mb-2">- <strong>Truk Ready Mix:</strong> Truk mixer pengolah dan pengantar beton cor.</li>
                                 <li class="mb-2">- <strong>Truk Pompa Beton:</strong> Armada khusus distribusi pompa cor di lokasi.</li>
                             </ul>
@@ -194,9 +194,9 @@
                     <!-- 2. Jenis Pompa -->
                     <div class="services-info-item">
                         <h4 class="services-list-heading text-dark mb-3">
-                            <span class="services-step-number">2</span> Jenis Pompa Beton
+                            <span class="services-step-number">2</span> Jenis Pompa Beton ( Concrete Pump )
                         </h4>
-                        <div class="ps-3 border-start border-2 border-danger-subtle">
+                        <div class="ps-2 ps-sm-3 border-start border-2 border-danger-subtle">
                             <ul class="list-unstyled services-clean-list services-grid-list text-dark mb-0">
                                 <li class="mb-2">- Mini Standar</li>
                                 <li class="mb-2">- Standar</li>
@@ -224,7 +224,10 @@
                         <div class="col-6 d-flex">
                             <div class="services-poster-container flex-grow-1 d-flex align-items-center justify-content-center bg-transparent border-0 p-0 m-0 position-relative overflow-hidden w-100">
                                 <img src="{{ asset('pic6.png') }}" alt="Poster Order Konstruksi 1" class="img-fluid services-poster-img rounded w-100 h-100">
-                                <div class="services-poster-overlay d-flex flex-column gap-2 align-items-center justify-content-center">
+                                <div class="services-poster-overlay d-flex flex-column flex-sm-row gap-2 align-items-center justify-content-center">
+                                    <button type="button" class="btn btn-light btn-sm shadow-sm fw-bold px-2 py-1 small" data-bs-toggle="modal" data-bs-target="#previewPosterOrder1Modal">
+                                        <i class="bi bi-eye"></i> Preview
+                                    </button>
                                     <a href="{{ asset('pic6.png') }}" download="Poster-Order-1.png" class="btn btn-danger btn-sm shadow-sm fw-bold px-2 py-1 small">
                                         <i class="bi bi-download"></i> Download
                                     </a>
@@ -236,7 +239,10 @@
                         <div class="col-6 d-flex">
                             <div class="services-poster-container flex-grow-1 d-flex align-items-center justify-content-center bg-transparent border-0 p-0 m-0 position-relative overflow-hidden w-100">
                                 <img src="{{ asset('pic7.png') }}" alt="Poster Order Konstruksi 2" class="img-fluid services-poster-img rounded w-100 h-100">
-                                <div class="services-poster-overlay d-flex flex-column gap-2 align-items-center justify-content-center">
+                                <div class="services-poster-overlay d-flex flex-column flex-sm-row gap-2 align-items-center justify-content-center">
+                                    <button type="button" class="btn btn-light btn-sm shadow-sm fw-bold px-2 py-1 small" data-bs-toggle="modal" data-bs-target="#previewPosterOrder2Modal">
+                                        <i class="bi bi-eye"></i> Preview
+                                    </button>
                                     <a href="{{ asset('pic7.png') }}" download="Poster-Order-2.png" class="btn btn-danger btn-sm shadow-sm fw-bold px-2 py-1 small">
                                         <i class="bi bi-download"></i> Download
                                     </a>
@@ -264,6 +270,48 @@
                 </div>
                 <div class="modal-footer bg-light py-2">
                     <a href="{{ asset('pic12.png') }}" download="Aturan-Mutu-Struktur.png" class="btn btn-danger btn-sm fw-bold">
+                        <i class="bi bi-download me-1"></i> Download File Asli
+                    </a>
+                    <button type="button" class="btn btn-secondary btn-sm fw-bold" data-bs-dismiss="modal">Tutup</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL POP-UP PREVIEW POSTER ORDER 1 -->
+    <div class="modal fade" id="previewPosterOrder1Modal" tabindex="-1" aria-labelledby="previewPosterOrder1ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content border-0 shadow-lg">
+                <div class="modal-header bg-dark text-white py-2 px-3">
+                    <h5 class="modal-title small fw-bold" id="previewPosterOrder1ModalLabel"><i class="bi bi-image me-2"></i>Poster Order Konstruksi 1</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body bg-dark p-1 text-center d-flex align-items-center justify-content-center">
+                    <img src="{{ asset('pic6.png') }}" alt="Preview Poster Order Konstruksi 1" class="img-fluid rounded-1" style="max-height: 82vh; object-fit: contain;">
+                </div>
+                <div class="modal-footer bg-light py-2">
+                    <a href="{{ asset('pic6.png') }}" download="Poster-Order-1.png" class="btn btn-danger btn-sm fw-bold">
+                        <i class="bi bi-download me-1"></i> Download File Asli
+                    </a>
+                    <button type="button" class="btn btn-secondary btn-sm fw-bold" data-bs-dismiss="modal">Tutup</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL POP-UP PREVIEW POSTER ORDER 2 -->
+    <div class="modal fade" id="previewPosterOrder2Modal" tabindex="-1" aria-labelledby="previewPosterOrder2ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content border-0 shadow-lg">
+                <div class="modal-header bg-dark text-white py-2 px-3">
+                    <h5 class="modal-title small fw-bold" id="previewPosterOrder2ModalLabel"><i class="bi bi-image me-2"></i>Poster Order Konstruksi 2</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body bg-dark p-1 text-center d-flex align-items-center justify-content-center">
+                    <img src="{{ asset('pic7.png') }}" alt="Preview Poster Order Konstruksi 2" class="img-fluid rounded-1" style="max-height: 82vh; object-fit: contain;">
+                </div>
+                <div class="modal-footer bg-light py-2">
+                    <a href="{{ asset('pic7.png') }}" download="Poster-Order-2.png" class="btn btn-danger btn-sm fw-bold">
                         <i class="bi bi-download me-1"></i> Download File Asli
                     </a>
                     <button type="button" class="btn btn-secondary btn-sm fw-bold" data-bs-dismiss="modal">Tutup</button>
@@ -408,7 +456,7 @@
 
     /* KUSTOMISASI UKURAN TEKS DAN ANGKA BULAT */
     .services-list-heading {
-        font-size: 1.35rem; /* Diperbesar dari versi sebelumnya */
+        font-size: 1.35rem; 
         font-weight: 800;
         display: flex;
         align-items: center;
@@ -417,7 +465,7 @@
     .services-step-number {
         background-color: #1e3a8a;
         color: #fff;
-        width: 28px; /* Sedikit diperbesar agar seimbang dengan font */
+        width: 28px; 
         height: 28px;
         border-radius: 50%;
         display: inline-flex;
@@ -426,14 +474,15 @@
         font-size: 0.85rem;
         font-weight: 800;
         margin-right: 12px;
+        flex-shrink: 0; /* Mengunci lingkaran angka agar tidak lonjong/gepeng di layar HP sempit */
     }
     .services-list-subheading {
-        font-size: 1.05rem; /* Teks subjudul klasifikasi diperbesar */
+        font-size: 1.05rem; 
         font-weight: 800;
         color: #495057 !important;
     }
     .services-clean-list li {
-        font-size: 0.98rem; /* Ukuran utama isi list diperbesar untuk kenyamanan membaca */
+        font-size: 0.98rem; 
         line-height: 1.6;
         color: #212529 !important;
     }
@@ -467,13 +516,30 @@
         background-color: rgba(255, 193, 7, 0.04) !important;
     }
 
-    /* Responsive adjustments */
+    /* MEDIA QUERY ADJUSTMENTS KHUSUS UNTUK RESPONSIVE LAYAR HP */
     @media (max-width: 991.98px) {
         .services-poster-container {
             min-height: 280px;
         }
+    }
+
+    @media (max-width: 576px) {
+        /* Mengurangi ukuran judul agar tidak patah berantakan di HP kecil */
+        .services-list-heading {
+            font-size: 1.15rem;
+        }
+        /* Mengatur agar susunan grid jenis pompa turun ke bawah secara rapi satu per satu */
         .services-grid-list {
             grid-template-columns: 1fr;
+            gap: 6px;
+        }
+        /* Merapatkan margin list teks agar tidak memakan space terlalu luas */
+        .services-clean-list li {
+            font-size: 0.92rem;
+            margin-bottom: 0.4rem !important;
+        }
+        .services-list-subheading {
+            font-size: 0.95rem;
         }
     }
 </style>
