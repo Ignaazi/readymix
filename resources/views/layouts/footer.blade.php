@@ -1,10 +1,7 @@
-<link href="https://fonts.googleapis.com/css2?family=Nunito:wght=300;400;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
 <footer class="app-main-footer bg-corporate-dark text-white pt-5 pb-4">
     <div class="container">
         <!-- Grid Utama dengan jarak gap (g-5) yang lebih longgar dan rapi -->
-        <div class="row g-5 mb-5">
+        <div class="row gy-5 gx-4 mb-5">
             
             <!-- KOLOM 1: Brand Profile (Grid Kotak Putih, Teks Item Lebih Besar) & Social Media -->
             <div class="col-lg-3 col-md-6">
@@ -98,11 +95,10 @@
                     </a>
                     
                     <!-- Instagram -->
-<a href="#" target="_blank" class="d-flex align-items-center gap-2.5 footer-interactive-link text-muted-custom py-0.5">
-    <i class="bi bi-instagram" style="color: #e1306c; font-size: 1.1rem;"></i>
-    <!-- Ukuran teks disesuaikan menjadi lebih kecil agar muat rapi -->
-    <span style="font-size: 0.80rem;">Instagram: @jualreadymixcorrjabodetabek</span>
-</a>
+                    <a href="#" target="_blank" class="d-flex align-items-center gap-2.5 footer-interactive-link text-muted-custom py-0.5">
+                        <i class="bi bi-instagram" style="color: #e1306c; font-size: 1.1rem;"></i>
+                        <span style="font-size: 0.80rem;">Instagram: @jualreadymixcorrjabodetabek</span>
+                    </a>
 
                     <!-- Tiktok -->
                     <a href="#" target="_blank" class="d-flex align-items-center gap-2.5 footer-interactive-link text-muted-custom py-0.5">
@@ -131,129 +127,3 @@
         
     </div>
 </footer>
-
-<style>
-    /* ==========================================================================
-       BASE STYLE & TYPOGRAPHY
-       ========================================================================== */
-    .app-main-footer, .app-main-footer * {
-        box-sizing: border-box;
-        font-family: "Nunito", sans-serif !important;
-    }
-    
-    .bg-corporate-dark {
-        background-color: #0b1523 !important; 
-    }
-
-    .fw-black { font-weight: 800 !important; }
-    .tracking-wide { letter-spacing: 0.5px; }
-    .text-muted-custom { color: #a0aec0 !important; }
-    .text-red-accent { color: #ef4444 !important; }
-    .text-success-accent { color: #25d366 !important; }
-
-    /* Gap kustom pendukung utilitas Bootstrap */
-    .gap-2\.5 { gap: 0.75rem !important; }
-
-    /* BUNGKUS KOTAK PROFILE LOGO PUTIH */
-    .footer-brand-card {
-        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
-    }
-
-    /* ==========================================================================
-       STYLE TAUTAN NAVIGASI (LINKS GEDE & ANIMASI PANAH)
-       ========================================================================== */
-    .footer-links-list {
-        padding-left: 0;
-    }
-
-    .footer-links-list a {
-        color: #a0aec0;
-        text-decoration: none;
-        font-size: 0.98rem; /* Ukuran tulisan link ditingkatkan agar jelas */
-        font-weight: 600;
-        display: inline-flex;
-        align-items: center;
-        transition: color 0.25s ease-in-out, transform 0.25s ease;
-    }
-    
-    /* Icon panah penunjuk menggantikan bundar-bundar lama */
-    .footer-link-icon {
-        font-size: 1.3rem;
-        color: #a0aec0;
-        line-height: 1;
-        transition: color 0.25s ease, transform 0.25s ease;
-    }
-
-    /* Efek hover modern: tulisan muter putih, panah berubah merah dan maju */
-    .footer-links-list a:hover {
-        color: #ffffff !important;
-        transform: translateX(4px);
-    }
-    
-    .footer-links-list a:hover .footer-link-icon {
-        color: #ef4444 !important; /* Berubah jadi merah aksen */
-        transform: scale(1.1);
-    }
-
-    /* Teks Menu Kontak Interaktif */
-    .footer-contact-list {
-        font-size: 0.98rem;
-        font-weight: 600;
-    }
-
-    .footer-interactive-link {
-        color: #a0aec0;
-        text-decoration: none;
-        transition: color 0.2s ease;
-    }
-    .footer-interactive-link:hover {
-        color: #ffffff !important;
-    }
-
-    /* ==========================================================================
-       STYLE SOSIAL MEDIA BULAT PRESET WARNA
-       ========================================================================== */
-    .social-icon-btn {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        width: 38px;
-        height: 38px;
-        border-radius: 50%;
-        background-color: rgba(255, 255, 255, 0.05);
-        color: #a0aec0;
-        font-size: 1.05rem;
-        text-decoration: none;
-        transition: all 0.2s ease-in-out;
-    }
-    
-    .social-icon-btn.brand-wa:hover {
-        background-color: #25d366 !important;
-        color: #ffffff !important;
-        transform: translateY(-2px);
-        box-shadow: 0 4px 10px rgba(37, 211, 102, 0.3);
-    }
-    
-    .social-icon-btn.brand-ig:hover {
-        background-color: #e1306c !important;
-        color: #ffffff !important;
-        transform: translateY(-2px);
-        box-shadow: 0 4px 10px rgba(225, 48, 108, 0.3);
-    }
-    
-    .social-icon-btn.brand-tiktok:hover {
-        background-color: #000000 !important;
-        color: #ffffff !important;
-        border: 1px solid #00f2fe;
-        transform: translateY(-2px);
-        box-shadow: 0 4px 10px rgba(0, 242, 254, 0.2);
-    }
-
-    /* ==========================================================================
-       DIVIDER LINE
-       ========================================================================== */
-    .footer-divider {
-        border-top: 1px solid rgba(255, 255, 255, 0.08) !important;
-        opacity: 1;
-    }
-</style>

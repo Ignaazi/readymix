@@ -1,0 +1,129 @@
+/* ==========================================================================
+   TERMS & PRIVACY PAGES STYLE
+   ========================================================================== */
+
+body {
+    background-color: #f8f9fa;
+    color: #334155;
+}
+
+.terms-wrapper {
+    padding: 60px 20px;
+    min-height: calc(100vh - 94px);
+}
+
+.terms-container {
+    max-width: 1150px;
+    margin: 0 auto;
+    background: transparent;
+    padding: 0;
+    box-shadow: none;
+}
+
+/* Badge tanggal dibuat memusat di tengah */
+.terms-badge {
+    background-color: #ffebee;
+    color: #e53935;
+    font-weight: 800;
+    padding: 6px 20px;
+    border-radius: 50px;
+    display: inline-block;
+    font-size: 0.85rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Judul Utama posisi tengah */
+.terms-header-title {
+    font-size: 2.8rem;
+    font-weight: 900;
+    color: #0f172a;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+/* Subtitle posisi tengah */
+.terms-subtitle {
+    font-size: 1.1rem;
+    color: #64748b;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.terms-section-title {
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: #0f172a;
+    margin-top: 35px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-align: left;
+}
+
+.terms-section-title i {
+    color: #e53935;
+    font-size: 1.3rem;
+}
+
+.terms-text {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #475569;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.terms-list {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 25px;
+}
+
+.terms-list li {
+    position: relative;
+    padding-left: 28px;
+    margin-bottom: 12px;
+    font-size: 1rem;
+    color: #475569;
+    line-height: 1.6;
+    text-align: left;
+}
+
+.terms-list li::before {
+    content: "\f270"; 
+    font-family: "bootstrap-icons" !important;
+    color: #e53935;
+    font-size: 1.1rem;
+    position: absolute;
+    left: 0;
+    top: 1px;
+}
+
+.terms-flat-note {
+    padding: 15px 0;
+    margin: 20px 0;
+    border-top: 1px dashed #cbd5e1;
+    border-bottom: 1px dashed #cbd5e1;
+    color: #64748b;
+    font-style: italic;
+    font-size: 0.95rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-align: left;
+}
+
+.terms-flat-note i {
+    color: #e53935;
+    font-size: 1.2rem;
+    font-style: normal;
+}
+
+@media (max-width: 768px) {
+    .terms-header-title { font-size: 2.2rem; }
+    .terms-section-title { font-size: 1.25rem; }
+    .terms-text { text-align: left; }
+}
