@@ -126,9 +126,9 @@
                         
                         <div class="about-photo-grid-inside flex-grow-1">
                             <div class="about-project-card custom-card-hover">
-                                <div class="project-thumb-wrapper" onclick="openAboutLightbox('/pic2.png', 'Proyek Pengecoran Masjid')">
+                                <div class="project-thumb-wrapper" onclick="openAboutLightbox('/pic2.webp', 'Proyek Pengecoran Masjid')">
                                     <span class="project-number-badge">01</span>
-                                    <img src="/pic2.png" alt="Proyek Pengecoran Beton Masjid" class="img-fluid">
+                                    <img src="/pic2.webp" alt="Proyek Pengecoran Beton Masjid" class="img-fluid">
                                 </div>
                                 <div class="project-desc-banner">
                                     <div class="project-info-left">
@@ -143,9 +143,9 @@
                             </div>
 
                             <div class="about-project-card custom-card-hover">
-                                <div class="project-thumb-wrapper" onclick="openAboutLightbox('/pic3.png', 'Proyek Pengecoran Perkantoran')">
+                                <div class="project-thumb-wrapper" onclick="openAboutLightbox('/pic3.webp', 'Proyek Pengecoran Perkantoran')">
                                     <span class="project-number-badge">02</span>
-                                    <img src="/pic3.png" alt="Pengecoran Struktur Gedung Kantor" class="img-fluid">
+                                    <img src="/pic3.webp" alt="Pengecoran Struktur Gedung Kantor" class="img-fluid">
                                 </div>
                                 <div class="project-desc-banner">
                                     <div class="project-info-left">
@@ -160,9 +160,9 @@
                             </div>
 
                             <div class="about-project-card custom-card-hover">
-                                <div class="project-thumb-wrapper" onclick="openAboutLightbox('/pic4.png', 'Proyek Pengecoran Sekolahan')">
+                                <div class="project-thumb-wrapper" onclick="openAboutLightbox('/pic4.webp', 'Proyek Pengecoran Sekolahan')">
                                     <span class="project-number-badge">03</span>
-                                    <img src="/pic4.png" alt="Pengecoran Lantai Lapangan Sekolah" class="img-fluid">
+                                    <img src="/pic4.webp" alt="Pengecoran Lantai Lapangan Sekolah" class="img-fluid">
                                 </div>
                                 <div class="project-desc-banner">
                                     <div class="project-info-left">
@@ -177,9 +177,9 @@
                             </div>
 
                             <div class="about-project-card custom-card-hover">
-                                <div class="project-thumb-wrapper" onclick="openAboutLightbox('/pic5.png', 'Proyek Pengecoran Rumahan')">
+                                <div class="project-thumb-wrapper" onclick="openAboutLightbox('/pic5.webp', 'Proyek Pengecoran Rumahan')">
                                     <span class="project-number-badge">04</span>
-                                    <img src="/pic5.png" alt="Pengecoran Beton Cor Rumah Tinggal" class="img-fluid">
+                                    <img src="/pic5.webp" alt="Pengecoran Beton Cor Rumah Tinggal" class="img-fluid">
                                 </div>
                                 <div class="project-desc-banner">
                                     <div class="project-info-left">
@@ -204,9 +204,9 @@
                         
                         <div class="about-photo-grid-inside flex-grow-1">
                             <div class="about-project-card custom-card-hover">
-                                <div class="project-thumb-wrapper" onclick="openAboutLightbox('/pic8.png', 'Layanan Beton Readymix')">
+                                <div class="project-thumb-wrapper" onclick="openAboutLightbox('/pic8.webp', 'Layanan Beton Readymix')">
                                     <span class="project-number-badge" style="background-color: #1e3a8a;">01</span>
-                                    <img src="/pic8.png" alt="Layanan Beton Readymix" class="img-fluid">
+                                    <img src="/pic8.webp" alt="Layanan Beton Readymix" class="img-fluid">
                                 </div>
                                 <div class="project-desc-banner">
                                     <div class="project-info-left">
@@ -221,9 +221,9 @@
                             </div>
 
                             <div class="about-project-card custom-card-hover">
-                                <div class="project-thumb-wrapper" onclick="openAboutLightbox('/pic9.png', 'Layanan Beton Minimix')">
+                                <div class="project-thumb-wrapper" onclick="openAboutLightbox('/pic9.webp', 'Layanan Beton Minimix')">
                                     <span class="project-number-badge" style="background-color: #1e3a8a;">02</span>
-                                    <img src="/pic9.png" alt="Layanan Beton Minimix" class="img-fluid">
+                                    <img src="/pic9.webp" alt="Layanan Beton Minimix" class="img-fluid">
                                 </div>
                                 <div class="project-desc-banner">
                                     <div class="project-info-left">
@@ -238,9 +238,9 @@
                             </div>
 
                             <div class="about-project-card custom-card-hover">
-                                <div class="project-thumb-wrapper" onclick="openAboutLightbox('/pic10.png', 'Layanan Pompa Beton Standard')">
+                                <div class="project-thumb-wrapper" onclick="openAboutLightbox('/pic10.webp', 'Layanan Pompa Beton Standard')">
                                     <span class="project-number-badge" style="background-color: #1e3a8a;">03</span>
-                                    <img src="/pic10.png" alt="Layanan Pompa Beton Standard" class="img-fluid">
+                                    <img src="/pic10.webp" alt="Layanan Pompa Beton Standard" class="img-fluid">
                                 </div>
                                 <div class="project-desc-banner">
                                     <div class="project-info-left">
@@ -255,9 +255,9 @@
                             </div>
 
                             <div class="about-project-card custom-card-hover">
-                                <div class="project-thumb-wrapper" onclick="openAboutLightbox('/pic11.png', 'Layanan Pompa Mini / Long Boom')">
+                                <div class="project-thumb-wrapper" onclick="openAboutLightbox('/pic11.webp', 'Layanan Pompa Mini / Long Boom')">
                                     <span class="project-number-badge" style="background-color: #1e3a8a;">04</span>
-                                    <img src="/pic11.png" alt="Layanan Pompa Mini / Long Boom" class="img-fluid">
+                                    <img src="/pic11.webp" alt="Layanan Pompa Mini / Long Boom" class="img-fluid">
                                 </div>
                                 <div class="project-desc-banner">
                                     <div class="project-info-left">

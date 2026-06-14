@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm py-1" id="mainNavbar">
     <div class="container">
         <a class="navbar-brand d-flex align-items-center" href="{{ url('/') }}">
-            <img src="/logo.png" alt="NH Mitra Beton Logo" style="height: 48px; width: auto; object-fit: contain;">
+            <img src="/logo.webp" alt="NH Mitra Beton Logo" style="height: 48px; width: auto; object-fit: contain;">
         </a>
         <button class="navbar-toggler custom-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navContent" aria-controls="navContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="toggler-icon top-bar"></span>

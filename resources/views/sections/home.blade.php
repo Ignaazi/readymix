@@ -1,4 +1,4 @@
-<section id="home" class="home-hero-section-fluid" style="background-image: url('/pic1.png');">
+<section id="home" class="home-hero-section-fluid" style="background-image: url('/pic1.webp');">
     <div class="hero-overlay-light"></div>
     
     <div class="hero-container-fluid">

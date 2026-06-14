@@ -7,7 +7,7 @@
             <div class="col-lg-3 col-md-6">
                 <div class="footer-brand-card p-4 rounded-3 mb-3 bg-white border-0 shadow-sm">
                     <div class="d-flex align-items-center gap-2 mb-3">
-                        <img src="/logo.png" alt="Logo PT Readymix Beton Indonesia" class="footer-brand-logo img-fluid" style="max-height: 45px; width: auto;">
+                        <img src="/logo.webp" alt="Logo PT Readymix Beton Indonesia" class="footer-brand-logo img-fluid" style="max-height: 45px; width: auto;">
                     </div>
                     <p class="lh-relaxed mb-0 text-dark opacity-90" style="font-size: 0.95rem;">
                         Solusi penyedia Ready mix, Mini mix, Big mix, Concrete pump, Se JABODETABEK untuk membantu proyek anda 
