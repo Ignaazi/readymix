@@ -1,5 +1,5 @@
 /* ==========================================================================
-   CONTACT SECTION STYLE
+   CONTACT SECTION STYLE - FULL UPDATED & FIXED COLOR (SYNC WITH HTML)
    ========================================================================== */
 
 /* Integrasi Font Utama */
@@ -106,23 +106,39 @@
 }
 
 /* ==========================================================================
-   TOMBOL SEND MESSAGE GAYA 3D BLOCK (RED THEME)
+   TOMBOL SEND MESSAGE GAYA FLAT MINIMALIS (RED THEME) - NO 3D
    ========================================================================== */
-.btn-submit-action {
-    background-color: #e53935;
+   .btn-custom-submit {
+    background-color: #e53935 !important;
+    color: #ffffff !important; 
+    border: 1px solid #e53935 !important;
+    border-radius: 6px !important;
+    padding: 12px 40px !important;
+    font-weight: 700 !important;
+    font-size: 1rem !important;
+    box-shadow: none !important; /* 👈 Kita buang efek bayangan/3D-nya */
+    transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out !important;
+    display: inline-block !important;
+    text-decoration: none !important;
+    cursor: pointer !important;
+    outline: none !important;
+    text-align: center !important;
+    transform: none !important; /* 👈 Menghilangkan efek amblas pas diklik */
+}
+
+/* Efek Hover Biasa */
+.btn-custom-submit:hover, 
+.btn-custom-submit:focus {
+    background-color: #c62828 !important; /* Merah agak gelap pas didekati kursor */
+    border-color: #c62828 !important;
     color: #ffffff !important;
-    border: 1px solid #b71c1c;
-    border-radius: 6px;
-    padding: 12px 35px;
-    font-weight: 700;
-    font-size: 1rem;
-    box-shadow: 0 4px 0px #b71c1c;
-    transition: all 0.1s ease-in-out;
+    box-shadow: none !important;
 }
-.btn-submit-action:hover {
-    background-color: #d32f2f;
-}
-.btn-submit-action:active {
-    transform: translateY(3px);
-    box-shadow: 0 1px 0px #b71c1c;
+
+/* Efek pas diklik biasa tanpa mentul */
+.btn-custom-submit:active {
+    background-color: #b71c1c !important;
+    border-color: #b71c1c !important;
+    transform: none !important;
+    box-shadow: none !important;
 }

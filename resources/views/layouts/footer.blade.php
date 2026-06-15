@@ -1,9 +1,7 @@
 <footer class="app-main-footer bg-corporate-dark text-white pt-5 pb-4">
     <div class="container">
-        <!-- Grid Utama dengan jarak gap (g-5) yang lebih longgar dan rapi -->
         <div class="row gy-5 gx-4 mb-5">
             
-            <!-- KOLOM 1: Brand Profile (Grid Kotak Putih, Teks Item Lebih Besar) & Social Media -->
             <div class="col-lg-3 col-md-6">
                 <div class="footer-brand-card p-4 rounded-3 mb-3 bg-white border-0 shadow-sm">
                     <div class="d-flex align-items-center gap-2 mb-3">
@@ -14,15 +12,13 @@
                     </p>
                 </div>
                 
-                <!-- Ikon Sosial Media Warna Asli Aplikasi -->
                 <div class="footer-social-links d-flex gap-2.5 ps-1 pt-2">
-                    <a href="https://wa.me/6281212830218" target="_blank" class="social-icon-btn brand-wa" title="WhatsApp"><i class="bi bi-whatsapp"></i></a>
-                    <a href="#" class="social-icon-btn brand-ig" title="Instagram"><i class="bi bi-instagram"></i></a>
-                    <a href="#" class="social-icon-btn brand-tiktok" title="TikTok"><i class="bi bi-tiktok"></i></a>
+                    <a href="https://wa.me/6281212830218?text={{ urlencode('Halo PT Readymix Beton Indonesia, saya ingin tanya mengenai pemesanan readymix.') }}" target="_blank" class="social-icon-btn brand-wa" title="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+                    <a href="https://www.instagram.com/jualraedymixcorrjabodetabek?igsh=bjVqMW8xam90OGVk&utm_source=qr" target="_blank" class="social-icon-btn brand-ig" title="Instagram"><i class="bi bi-instagram"></i></a>
+                    <a href="https://www.tiktok.com/@readymixpompacor?_r=1&_t=ZS-972VI7DhgaT" target="_blank" class="social-icon-btn brand-tiktok" title="TikTok"><i class="bi bi-tiktok"></i></a>
                 </div>
             </div>
 
-            <!-- KOLOM 2: Useful Links (Menggunakan Icon Tanda Panah Modern & Tulisan Lebih Gede) -->
             <div class="col-lg-3 col-md-6 ps-lg-5">
                 <h5 class="text-white fw-bold mb-4 tracking-wide text-uppercase" style="font-size: 1.1rem;">
                     Useful Links
@@ -56,7 +52,6 @@
                 </ul>
             </div>
 
-            <!-- KOLOM 3: Our Services (Tulisan Gede & Gap Rapi) -->
             <div class="col-lg-3 col-md-6">
                 <h5 class="text-white fw-bold mb-4 tracking-wide text-uppercase" style="font-size: 1.1rem;">
                     Our Services
@@ -75,33 +70,28 @@
                 </ul>
             </div>
 
-            <!-- KOLOM 4: Contact Us (Tulisan Gede & Gap Rapi) -->
             <div class="col-lg-3 col-md-6">
                 <h5 class="text-white fw-bold mb-4 tracking-wide text-uppercase" style="font-size: 1.1rem;">
                     Contact Us
                 </h5>
                 <div class="footer-contact-list d-flex flex-column gap-3 text-muted-custom">
                     
-                    <!-- Telephone -->
-                    <div class="d-flex align-items-center gap-2.5 py-0.5">
+                    <a href="tel:+6281212830218" class="d-flex align-items-center gap-2.5 footer-interactive-link text-muted-custom py-0.5" style="text-decoration: none;">
                         <i class="bi bi-telephone-fill text-red-accent" style="font-size: 1.1rem;"></i>
                         <span>Telephone: 0812-1283-0218</span>
-                    </div>
+                    </a>
                     
-                    <!-- Whatsapp -->
-                    <a href="https://wa.me/6281212830218" target="_blank" class="d-flex align-items-center gap-2.5 footer-interactive-link text-muted-custom py-0.5">
+                    <a href="https://wa.me/6281212830218?text={{ urlencode('Halo PT Readymix Beton Indonesia, saya ingin tanya mengenai pemesanan readymix.') }}" target="_blank" class="d-flex align-items-center gap-2.5 footer-interactive-link text-muted-custom py-0.5">
                         <i class="bi bi-whatsapp text-success-accent" style="font-size: 1.1rem;"></i>
                         <span>Whatsapp: 0812-1283-0218</span>
                     </a>
                     
-                    <!-- Instagram -->
-                    <a href="#" target="_blank" class="d-flex align-items-center gap-2.5 footer-interactive-link text-muted-custom py-0.5">
+                    <a href="https://www.instagram.com/jualraedymixcorrjabodetabek?igsh=bjVqMW8xam90OGVk&utm_source=qr" target="_blank" class="d-flex align-items-center gap-2.5 footer-interactive-link text-muted-custom py-0.5">
                         <i class="bi bi-instagram" style="color: #e1306c; font-size: 1.1rem;"></i>
                         <span style="font-size: 0.80rem;">Instagram: @jualreadymixcorrjabodetabek</span>
                     </a>
 
-                    <!-- Tiktok -->
-                    <a href="#" target="_blank" class="d-flex align-items-center gap-2.5 footer-interactive-link text-muted-custom py-0.5">
+                    <a href="https://www.tiktok.com/@readymixpompacor?_r=1&_t=ZS-972VI7DhgaT" target="_blank" class="d-flex align-items-center gap-2.5 footer-interactive-link text-muted-custom py-0.5">
                         <i class="bi bi-tiktok text-white" style="font-size: 1.1rem;"></i>
                         <span>Tiktok: readymixpompacor</span>
                     </a>
@@ -111,7 +101,6 @@
 
         </div>
 
-        <!-- Bagian Garis Pemisah Akhir & Copyright -->
         <hr class="footer-divider my-4">
         
         <div class="row">
@@ -120,7 +109,7 @@
                     &copy; Copyright <span class="fw-bold text-white">Readymix Nuhaldi</span>. All Rights Reserved.
                 </p>
                 <p class="mb-0 style-build-text" style="font-size: 0.8rem; opacity: 0.5;">
-                    Designed with by @ajitech
+                    Designed by @ajitech
                 </p>
             </div>
         </div>

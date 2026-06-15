@@ -5,8 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Readymix Beton Indonesia</title>
     
-    <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <!-- 🚀 LOGO TAB BROWSER BARU (FAVICON) 🚀 -->
+    <link rel="icon" type="image/png" href="{{ asset('brow.png') }}">
+    <link rel="shortcut icon" type="image/png" href="{{ asset('brow.png') }}">
+    
+    <!-- Favicon Bawaan -->
+    <link class="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
     <link rel="shortcut icon" href="/favicon.ico">
@@ -14,10 +18,10 @@
     <meta name="apple-mobile-web-app-title" content="Readymixnh">
     <meta name="theme-color" content="#000000">
 
+    <!-- ⚡ KONTROL UTAMA FRONT-END (VITE CHANNELS) -->
     @vite(['resources/css/app.scss', 'resources/js/app.js'])
 
     {{-- ini buat cdn boostrp 1 --}}
-    
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
@@ -60,9 +64,6 @@
     </main>
 
     @include('layouts.footer')
-
-{{-- ini jangan lupa di upload script csd bootsrap --}}
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
