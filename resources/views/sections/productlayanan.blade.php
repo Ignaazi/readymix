@@ -24,13 +24,13 @@
                         </div>
 
                         <div class="services-poster-container flex-grow-1 d-flex align-items-center justify-content-center bg-transparent border-0 p-0 m-0 position-relative overflow-hidden w-100">
-                            <img src="{{ asset('pic12.png') }}" alt="Aturan Mutu Struktur" class="img-fluid services-poster-img rounded w-100 h-100">
+                            <img src="{{ asset('pic12.webp') }}" alt="Aturan Mutu Struktur" class="img-fluid services-poster-img rounded w-100 h-100">
                             
                             <div class="services-poster-overlay d-flex flex-column flex-sm-row gap-2 align-items-center justify-content-center">
                                 <button type="button" class="btn btn-light btn-sm shadow-sm fw-bold px-3" data-bs-toggle="modal" data-bs-target="#previewPosterModal">
                                     <i class="bi bi-eye me-1"></i> Preview
                                 </button>
-                                <a href="{{ asset('pic12.png') }}" download="Aturan-Mutu-Struktur.png" class="btn btn-danger btn-sm shadow-sm fw-bold px-3">
+                                <a href="{{ asset('pic12.webp') }}" download="Aturan-Mutu-Struktur.png" class="btn btn-danger btn-sm shadow-sm fw-bold px-3">
                                     <i class="bi bi-download me-1"></i> Download
                                 </a>
                             </div>
@@ -220,30 +220,30 @@
 
                     <!-- Row Internal Menampilkan Dua Poster Berdampingan Penuh -->
                     <div class="row g-2 flex-grow-1 align-items-stretch">
-                        <!-- Poster Kanan 1: pic6.png -->
+                        <!-- Poster Kanan 1: pic6.webp -->
                         <div class="col-6 d-flex">
                             <div class="services-poster-container flex-grow-1 d-flex align-items-center justify-content-center bg-transparent border-0 p-0 m-0 position-relative overflow-hidden w-100">
-                                <img src="{{ asset('pic6.png') }}" alt="Poster Order Konstruksi 1" class="img-fluid services-poster-img rounded w-100 h-100">
+                                <img src="{{ asset('pic6.webp') }}" alt="Poster Order Konstruksi 1" class="img-fluid services-poster-img rounded w-100 h-100">
                                 <div class="services-poster-overlay d-flex flex-column flex-sm-row gap-2 align-items-center justify-content-center">
                                     <button type="button" class="btn btn-light btn-sm shadow-sm fw-bold px-2 py-1 small" data-bs-toggle="modal" data-bs-target="#previewPosterOrder1Modal">
                                         <i class="bi bi-eye"></i> Preview
                                     </button>
-                                    <a href="{{ asset('pic6.png') }}" download="Poster-Order-1.png" class="btn btn-danger btn-sm shadow-sm fw-bold px-2 py-1 small">
+                                    <a href="{{ asset('pic6.webp') }}" download="Poster-Order-1.png" class="btn btn-danger btn-sm shadow-sm fw-bold px-2 py-1 small">
                                         <i class="bi bi-download"></i> Download
                                     </a>
                                 </div>
                             </div>
                         </div>
                         
-                        <!-- Poster Kanan 2: pic7.png -->
+                        <!-- Poster Kanan 2: pic7.webp -->
                         <div class="col-6 d-flex">
                             <div class="services-poster-container flex-grow-1 d-flex align-items-center justify-content-center bg-transparent border-0 p-0 m-0 position-relative overflow-hidden w-100">
-                                <img src="{{ asset('pic7.png') }}" alt="Poster Order Konstruksi 2" class="img-fluid services-poster-img rounded w-100 h-100">
+                                <img src="{{ asset('pic7.webp') }}" alt="Poster Order Konstruksi 2" class="img-fluid services-poster-img rounded w-100 h-100">
                                 <div class="services-poster-overlay d-flex flex-column flex-sm-row gap-2 align-items-center justify-content-center">
                                     <button type="button" class="btn btn-light btn-sm shadow-sm fw-bold px-2 py-1 small" data-bs-toggle="modal" data-bs-target="#previewPosterOrder2Modal">
                                         <i class="bi bi-eye"></i> Preview
                                     </button>
-                                    <a href="{{ asset('pic7.png') }}" download="Poster-Order-2.png" class="btn btn-danger btn-sm shadow-sm fw-bold px-2 py-1 small">
+                                    <a href="{{ asset('pic7.webp') }}" download="Poster-Order-2.png" class="btn btn-danger btn-sm shadow-sm fw-bold px-2 py-1 small">
                                         <i class="bi bi-download"></i> Download
                                     </a>
                                 </div>
@@ -266,10 +266,10 @@
                     <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body bg-dark p-1 text-center d-flex align-items-center justify-content-center">
-                    <img src="{{ asset('pic12.png') }}" alt="Preview Aturan Mutu Struktur" class="img-fluid rounded-1" style="max-height: 82vh; object-fit: contain;">
+                    <img src="{{ asset('pic12.webp') }}" alt="Preview Aturan Mutu Struktur" class="img-fluid rounded-1" style="max-height: 82vh; object-fit: contain;">
                 </div>
                 <div class="modal-footer bg-light py-2">
-                    <a href="{{ asset('pic12.png') }}" download="Aturan-Mutu-Struktur.png" class="btn btn-danger btn-sm fw-bold">
+                    <a href="{{ asset('pic12.webp') }}" download="Aturan-Mutu-Struktur.png" class="btn btn-danger btn-sm fw-bold">
                         <i class="bi bi-download me-1"></i> Download File Asli
                     </a>
                     <button type="button" class="btn btn-secondary btn-sm fw-bold" data-bs-dismiss="modal">Tutup</button>
@@ -287,10 +287,10 @@
                     <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body bg-dark p-1 text-center d-flex align-items-center justify-content-center">
-                    <img src="{{ asset('pic6.png') }}" alt="Preview Poster Order Konstruksi 1" class="img-fluid rounded-1" style="max-height: 82vh; object-fit: contain;">
+                    <img src="{{ asset('pic6.webp') }}" alt="Preview Poster Order Konstruksi 1" class="img-fluid rounded-1" style="max-height: 82vh; object-fit: contain;">
                 </div>
                 <div class="modal-footer bg-light py-2">
-                    <a href="{{ asset('pic6.png') }}" download="Poster-Order-1.png" class="btn btn-danger btn-sm fw-bold">
+                    <a href="{{ asset('pic6.webp') }}" download="Poster-Order-1.png" class="btn btn-danger btn-sm fw-bold">
                         <i class="bi bi-download me-1"></i> Download File Asli
                     </a>
                     <button type="button" class="btn btn-secondary btn-sm fw-bold" data-bs-dismiss="modal">Tutup</button>
@@ -308,10 +308,10 @@
                     <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body bg-dark p-1 text-center d-flex align-items-center justify-content-center">
-                    <img src="{{ asset('pic7.png') }}" alt="Preview Poster Order Konstruksi 2" class="img-fluid rounded-1" style="max-height: 82vh; object-fit: contain;">
+                    <img src="{{ asset('pic7.webp') }}" alt="Preview Poster Order Konstruksi 2" class="img-fluid rounded-1" style="max-height: 82vh; object-fit: contain;">
                 </div>
                 <div class="modal-footer bg-light py-2">
-                    <a href="{{ asset('pic7.png') }}" download="Poster-Order-2.png" class="btn btn-danger btn-sm fw-bold">
+                    <a href="{{ asset('pic7.webp') }}" download="Poster-Order-2.png" class="btn btn-danger btn-sm fw-bold">
                         <i class="bi bi-download me-1"></i> Download File Asli
                     </a>
                     <button type="button" class="btn btn-secondary btn-sm fw-bold" data-bs-dismiss="modal">Tutup</button>
@@ -320,226 +320,3 @@
         </div>
     </div>
 </section>
-
-<!-- PUSTAKA HTML2CANVAS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
-<script>
-    function downloadTableAsImage() {
-        const element = document.getElementById('tableAreaToDownload');
-        const downloadBtn = element.querySelector('.services-png-btn');
-        if(downloadBtn) downloadBtn.style.visibility = 'hidden';
-
-        html2canvas(element, {
-            scale: 2,
-            backgroundColor: '#ffffff',
-            useCORS: true
-        }).then(canvas => {
-            if(downloadBtn) downloadBtn.style.visibility = 'visible';
-            const link = document.createElement('a');
-            link.download = 'Daftar-Mutu-Karakteristik-Tabel.png';
-            link.href = canvas.toDataURL('image/png');
-            link.click();
-        }).catch(err => {
-            if(downloadBtn) downloadBtn.style.visibility = 'visible';
-            console.error('Gagal memproses unduhan tabel:', err);
-        });
-    }
-</script>
-
-<style>
-    /* Sinkronisasi Font & Reset Global Sesuai Section About */
-    #services, #services * {
-        box-sizing: border-box;
-        font-family: "Nunito", sans-serif !important;
-    }
-
-    /* Style Judul Sesuai Section About */
-    .services-main-title {
-        font-size: 2.6rem;
-        font-weight: 900;
-        letter-spacing: 0.5px;
-        text-transform: uppercase;
-        margin-bottom: 0.75rem;
-    }
-    .services-title-line {
-        width: 100px;
-        height: 4px;
-        background-color: #e53935; 
-        border-radius: 2px;
-    }
-
-    @media (max-width: 768px) {
-        .services-main-title { font-size: 1.8rem; }
-        .services-title-line { width: 70px; }
-    }
-
-    /* KOTAK KIRI/MERAH (TEMA MERAH TIMBUL ABOUT) */
-    .services-3d-soft-box {
-        background: #ffffff !important; 
-        border-radius: 12px; 
-        border: 1px solid #e53935; 
-        box-shadow: 0 5px 0px #e53935; 
-        position: relative;
-        top: 0;
-        transition: all 0.15s ease-in-out;
-    }
-    .services-3d-soft-box:hover {
-        top: 2px;
-        box-shadow: 0 3px 0px #e53935; 
-    }
-    .services-flat-title-badge {
-        background-color: #e53935; 
-        color: #ffffff !important; 
-        padding: 5px 12px;
-        border-radius: 6px;
-        font-weight: 700;
-        font-size: 0.9rem;
-        display: inline-block;
-    }
-
-    /* KONTANER POSTER UTUH PAS DENGAN AREA CONTAINER */
-    .services-poster-container {
-        position: relative;
-        overflow: hidden;
-        max-width: 100%;
-        height: auto;
-        min-height: 380px;
-    }
-    .services-poster-img {
-        object-fit: contain;
-        width: 100%;
-        height: 100%;
-        max-height: 470px;
-        transition: transform 0.3s ease;
-    }
-    .services-poster-overlay {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(0, 0, 0, 0.45);
-        opacity: 0;
-        transition: opacity 0.25s ease-in-out;
-        z-index: 3;
-    }
-    .services-poster-container:hover .services-poster-overlay {
-        opacity: 1;
-    }
-    .services-poster-container:hover .services-poster-img {
-        transform: scale(1.02);
-    }
-
-    /* KOTAK KANAN/BIRU (TEMA BIRU TUA TIMBUL ABOUT) */
-    .services-3d-dark-box {
-        background: #ffffff !important; 
-        border-radius: 12px; 
-        border: 1px solid #1e3a8a; 
-        box-shadow: 0 5px 0px #1e3a8a; 
-        position: relative;
-        top: 0;
-        transition: all 0.15s ease-in-out;
-    }
-    .services-3d-dark-box:hover {
-        top: 2px;
-        box-shadow: 0 3px 0px #1e3a8a; 
-    }
-    .services-dark-title-badge {
-        background-color: #1e3a8a; 
-        color: #ffffff !important; 
-        padding: 5px 12px;
-        border-radius: 6px;
-        font-weight: 700;
-        font-size: 0.9rem;
-        display: inline-block;
-    }
-
-    /* KUSTOMISASI UKURAN TEKS DAN ANGKA BULAT */
-    .services-list-heading {
-        font-size: 1.35rem; 
-        font-weight: 800;
-        display: flex;
-        align-items: center;
-        letter-spacing: -0.2px;
-    }
-    .services-step-number {
-        background-color: #1e3a8a;
-        color: #fff;
-        width: 28px; 
-        height: 28px;
-        border-radius: 50%;
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 0.85rem;
-        font-weight: 800;
-        margin-right: 12px;
-        flex-shrink: 0; /* Mengunci lingkaran angka agar tidak lonjong/gepeng di layar HP sempit */
-    }
-    .services-list-subheading {
-        font-size: 1.05rem; 
-        font-weight: 800;
-        color: #495057 !important;
-    }
-    .services-clean-list li {
-        font-size: 0.98rem; 
-        line-height: 1.6;
-        color: #212529 !important;
-    }
-    .services-grid-list {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 10px 20px;
-    }
-
-    /* Tombol Unduh Kustomisasi */
-    .services-png-btn {
-        font-size: 0.82rem;
-        border-radius: 6px;
-        transition: opacity 0.15s ease, transform 0.15s ease;
-    }
-    .services-png-btn:hover {
-        transform: translateY(-1px);
-        opacity: 0.9;
-        color: #ffffff !important;
-    }
-
-    /* Styling Data Tabel */
-    .table-bordered th, .table-bordered td {
-        padding: 0.55rem 0.75rem !important;
-        font-size: 0.82rem;
-    }
-    .table-striped tbody tr:nth-of-type(odd) {
-        background-color: rgba(0, 0, 0, 0.015);
-    }
-    .services-row-highlight {
-        background-color: rgba(255, 193, 7, 0.04) !important;
-    }
-
-    /* MEDIA QUERY ADJUSTMENTS KHUSUS UNTUK RESPONSIVE LAYAR HP */
-    @media (max-width: 991.98px) {
-        .services-poster-container {
-            min-height: 280px;
-        }
-    }
-
-    @media (max-width: 576px) {
-        /* Mengurangi ukuran judul agar tidak patah berantakan di HP kecil */
-        .services-list-heading {
-            font-size: 1.15rem;
-        }
-        /* Mengatur agar susunan grid jenis pompa turun ke bawah secara rapi satu per satu */
-        .services-grid-list {
-            grid-template-columns: 1fr;
-            gap: 6px;
-        }
-        /* Merapatkan margin list teks agar tidak memakan space terlalu luas */
-        .services-clean-list li {
-            font-size: 0.92rem;
-            margin-bottom: 0.4rem !important;
-        }
-        .services-list-subheading {
-            font-size: 0.95rem;
-        }
-    }
-</style>

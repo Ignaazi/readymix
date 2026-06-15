@@ -1,2 +1,21 @@
-/* Hapus semua baris Tailwind tadi */
-@import 'bootstrap/dist/css/bootstrap.min.css';
+// Import Bootstrap SCSS
+@import 'bootstrap/scss/bootstrap';
+
+// Import Bootstrap Icons dari local node_modules
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+
+// Import Google Fonts Nunito secara rapi
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap');
+
+// Import Custom Layout Components
+@import 'header';
+@import 'footer';
+
+// Import Section Styles
+@import 'sections/home';
+@import 'sections/about';
+@import 'sections/productlayanan';
+@import 'sections/carapemesanan';
+@import 'sections/contact';
+@import 'sections/404';
+@import 'sections/terms';

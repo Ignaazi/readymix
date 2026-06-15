@@ -1,0 +1,248 @@
+/* ==========================================================================
+   CARA PEMESANAN SECTION STYLE
+   ========================================================================== */
+
+/* Sinkronisasi Aturan Font Utama Halaman Pemesanan */
+#order-steps, #order-steps * {
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif !important;
+}
+
+/* ==========================================================================
+   STYLE HEADER SECTION
+   ========================================================================== */
+.steps-main-title {
+    font-size: 2.6rem;
+    font-weight: 900;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-bottom: 0.75rem;
+}
+.steps-title-line {
+    width: 100px;
+    height: 4px;
+    background-color: #e53935; 
+    border-radius: 2px;
+}
+
+@media (max-width: 768px) {
+    .steps-main-title { font-size: 1.8rem; }
+    .steps-title-line { width: 70px; }
+}
+
+/* ==========================================================================
+   KOMPONEN ANGKA BULAT & TIMELINE PROCESS LINE (RESPONSIF DAN DINAMIS)
+   ========================================================================== */
+.process-flow-wrapper {
+    position: relative;
+}
+
+.process-marker-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px; /* Jarak antara lingkaran nomor dengan box grid */
+    position: relative;
+    z-index: 5;
+}
+
+.marker-circle {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 1.2rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    color: #ffffff;
+    border: 3px solid #ffffff;
+    transition: transform 0.2s ease;
+}
+
+/* Warna Angka Sesuai Masing-Masing Karakter Grid */
+.node-red .marker-circle { background-color: #e53935; box-shadow: 0 0 0 2px #e53935; }
+.node-blue .marker-circle { background-color: #1e88e5; box-shadow: 0 0 0 2px #1e88e5; }
+.node-yellow .marker-circle { background-color: #fdd835; color: #212121; box-shadow: 0 0 0 2px #fdd835; }
+.node-green .marker-circle { background-color: #43a047; box-shadow: 0 0 0 2px #43a047; }
+
+/* --- TIMELINE MODE DESKTOP: LAYAR LEBAR (4 KOLOM SEJAJAR) --- */
+@media (min-width: 1200px) {
+    .process-timeline-container {
+        position: relative;
+    }
+    .process-node {
+        position: relative;
+    }
+    /* Membuat Garis Lurus Horizontal Menghubungkan Angka Bulat */
+    .process-node:not(.final-node) .process-marker-top::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: calc(50% + 21px); /* Dimulai dari ujung lingkaran luar angka */
+        width: calc(100% + 3px); /* Menjangkau jarak kolom Bootstrap g-4 */
+        height: 3px;
+        border-top: 3px dashed #ced4da;
+        z-index: -1;
+        pointer-events: none;
+    }
+    
+    /* Pewarnaan Garis Dinamis Sesuai Grid Saat Lewat */
+    .node-red:not(.final-node) .process-marker-top::after { border-top-color: #e53935; }
+    .node-blue:not(.final-node) .process-marker-top::after { border-top-color: #1e88e5; }
+    .node-yellow:not(.final-node) .process-marker-top::after { border-top-color: #fdd835; }
+}
+
+/* --- TIMELINE MODE TABLET / MEDIUM DESKTOP (2 BARIS x 2 KOLOM) --- */
+@media (min-width: 768px) and (max-width: 1199.98px) {
+    .process-node {
+        position: relative;
+        margin-bottom: 20px;
+    }
+    /* Garis horizontal hanya ditarik dari kolom ganjil ke genap (1 ke 2, 3 ke 4) */
+    .process-node:nth-child(1) .process-marker-top::after,
+    .process-node:nth-child(3) .process-marker-top::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: calc(50% + 21px);
+        width: calc(100% + 3px);
+        height: 3px;
+        border-top: 3px dashed #ced4da;
+        z-index: -1;
+        pointer-events: none;
+    }
+    .process-node:nth-child(1) .process-marker-top::after { border-top-color: #e53935; }
+    .process-node:nth-child(3) .process-marker-top::after { border-top-color: #fdd835; }
+}
+
+/* --- TIMELINE MODE MOBILE / SMARTPHONE (1 KOLOM VERTIKAL KE BAWAH) --- */
+@media (max-width: 767.98px) {
+    .process-node {
+        position: relative;
+        padding-bottom: 35px; /* Memberi ruang space agar garis tidak menabrak box di bawah */
+    }
+    /* Mengubah Garis Alur Menjadi Vertikal dari Atas Kebawah Menembus Box */
+    .process-node:not(.final-node)::after {
+        content: "";
+        position: absolute;
+        left: 50%;
+        top: 21px; /* Dimulai dari titik tengah vertikal lingkaran angka */
+        bottom: -20px; /* Menembus ke bawah batas margin box */
+        width: 3px;
+        border-left: 3px dashed #ced4da;
+        z-index: 1;
+        pointer-events: none;
+        transform: translateX(-50%);
+    }
+    
+    /* Pewarnaan Garis Alur Vertikal Sesuai Grid */
+    .node-red:not(.final-node)::after { border-left-color: #e53935; }
+    .node-blue:not(.final-node)::after { border-left-color: #1e88e5; }
+    .node-yellow:not(.final-node)::after { border-left-color: #fdd835; }
+}
+
+/* ==========================================================================
+   BASE STYLE UNTUK KOTAK 3D BLOCK FULL COLOR
+   ========================================================================== */
+.step-3d-full-box {
+    border-radius: 14px; 
+    position: relative;
+    top: 0;
+    transition: all 0.15s ease-in-out;
+    z-index: 2;
+}
+.step-3d-full-box:hover {
+    top: 3px;
+    transform: translateY(-2px);
+}
+.process-flow-wrapper:hover .marker-circle {
+    transform: scale(1.1);
+}
+.opacity-90 { opacity: 0.92; }
+
+/* BADGE UNTUK KOTAK MERAH, BIRU, HIJAU */
+.step-badge-contrast {
+    background: rgba(255, 255, 255, 0.2); 
+    color: #ffffff !important; 
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-weight: 800;
+    font-size: 0.8rem;
+    display: inline-block;
+    letter-spacing: 0.5px;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+/* BADGE KHUSUS KOTAK KUNING */
+.step-badge-dark {
+    background: rgba(0, 0, 0, 0.07); 
+    color: #212121 !important; 
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-weight: 800;
+    font-size: 0.8rem;
+    display: inline-block;
+    letter-spacing: 0.5px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* VARIASI WARNA KOTAK 3D BLOCK */
+.step-red {
+    background-color: #e53935 !important;
+    border: 1px solid #b71c1c;
+    box-shadow: 0 6px 0px #b71c1c;
+    color: #ffffff !important;
+}
+.step-red:hover { box-shadow: 0 3px 0px #b71c1c; }
+
+.step-blue {
+    background-color: #1e88e5 !important;
+    border: 1px solid #1565c0;
+    box-shadow: 0 6px 0px #1565c0;
+    color: #ffffff !important;
+}
+.step-blue:hover { box-shadow: 0 3px 0px #1565c0; }
+
+.step-yellow {
+    background-color: #fdd835 !important;
+    border: 1px solid #f57f17;
+    box-shadow: 0 6px 0px #f57f17;
+    color: #212121 !important;
+}
+.step-yellow:hover { box-shadow: 0 3px 0px #f57f17; }
+
+.step-green {
+    background-color: #43a047 !important;
+    border: 1px solid #2e7d32;
+    box-shadow: 0 6px 0px #2e7d32;
+    color: #ffffff !important;
+}
+.step-green:hover { box-shadow: 0 3px 0px #2e7d32; }
+
+/* ==========================================================================
+   STYLE TEKS UTAMA & LAYOUT TERMA
+   ========================================================================== */
+.fw-extrabold { font-weight: 800 !important; }
+.text-red { color: #e53935 !important; }
+
+/* ==========================================================================
+   TOMBOL 3D WHATSAPP ACTION (UKURAN DIPERBESAR)
+   ========================================================================== */
+.btn-wa-action {
+    background-color: #25d366;
+    color: #ffffff !important;
+    border: 1px solid #1ebd59;
+    border-radius: 35px;
+    padding: 14px 50px;
+    font-weight: 700;
+    font-size: 1.15rem;
+    box-shadow: 0 5px 0px #1ebd59;
+    transition: all 0.15s ease;
+}
+.btn-wa-action:hover {
+    transform: translateY(2px);
+    box-shadow: 0 2px 0px #1ebd59;
+    background-color: #128c7e;
+}

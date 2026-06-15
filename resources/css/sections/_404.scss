@@ -1,0 +1,127 @@
+/* ==========================================================================
+   404 ERROR PAGE STYLE
+   ========================================================================== */
+
+/* Style Konten Box Error 404 Sesuai Foto Contoh */
+body {
+    background-color: #f8f9fa;
+    color: #495057;
+}
+
+.error-container { 
+    min-height: calc(100vh - 94px); 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    padding: 60px 20px; 
+}
+
+.error-layout-box {
+    max-width: 1050px;
+    width: 100%;
+}
+
+.visual-404-side {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.huge-number {
+    font-size: 9rem;
+    font-weight: 900;
+    color: #e53935;
+    line-height: 1;
+    letter-spacing: -2px;
+}
+
+/* Animasi floating/melayang halus pada lingkaran emoji */
+.emoji-circle-frame {
+    width: 130px;
+    height: 130px;
+    background-color: #ffebee;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #e53935;
+    font-size: 4.5rem;
+    line-height: 1;
+    animation: floatEmoji 3s ease-in-out infinite;
+}
+
+/* Efek putaran pusing ritmis pada mata/wajah ikon */
+.emoji-circle-frame i {
+    display: inline-block;
+    animation: dizzyRoll 6s linear infinite;
+}
+
+.visual-dots {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 25px;
+}
+
+/* Tiga bulatan dikasih efek stagger wave (gerak naik-turun bergantian) */
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ffebee;
+    animation: waveDots 1.5s ease-in-out infinite;
+}
+.dot.active {
+    background-color: #e53935;
+}
+/* Penundaan (delay) animasi biar efeknya bergelombang teratur */
+.dot:nth-child(1) { animation-delay: 0s; }
+.dot:nth-child(2) { animation-delay: 0.2s; }
+.dot:nth-child(3) { animation-delay: 0.4s; }
+
+/* ==========================================================================
+   LOGIKA KEYFRAMES ANIMASI GERAK INTERAKTIF
+   ========================================================================== */
+/* 1. Animasi Melayang untuk Lingkaran Tengah */
+@keyframes floatEmoji {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-12px); }
+    100% { transform: translateY(0px); }
+}
+
+/* 2. Animasi Goyang Kepala / Pusing Halus untuk Ikon Muka */
+@keyframes dizzyRoll {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(5deg); }
+    75% { transform: rotate(-5deg); }
+    100% { transform: rotate(0deg); }
+}
+
+/* 3. Animasi Bergelombang untuk Tiga Bulatan Di Bawah */
+@keyframes waveDots {
+    0%, 100% { transform: translateY(0); opacity: 0.6; }
+    50% { transform: translateY(-8px); opacity: 1; }
+}
+
+/* Sisi Kanan: Keterangan Teks & List Checklist */
+.text-404-side { padding-left: 30px; }
+.error-top-badge { background-color: #ffebee; color: #e53935; font-weight: 800; padding: 6px 18px; border-radius: 50px; display: inline-block; font-size: 0.85rem; letter-spacing: 0.5px; margin-bottom: 20px; }
+.main-error-title { font-size: 2.3rem; font-weight: 900; color: #0f172a; line-height: 1.2; margin-bottom: 20px; }
+.checklist-error-instruction { list-style: none; padding-left: 0; margin-bottom: 30px; }
+.checklist-error-instruction li { margin-bottom: 12px; font-size: 1rem; color: #475569; display: flex; align-items: center; gap: 10px; }
+.checklist-error-instruction li i { color: #e53935; font-size: 1.2rem; }
+
+.btn-back-home {
+    background-color: #e53935; color: #ffffff !important; border: 1px solid #c62828; border-radius: 8px; padding: 12px 28px; font-weight: 700; font-size: 0.95rem; box-shadow: 0 4px 0px #c62828; transition: all 0.1s ease; text-decoration: none; display: inline-flex; align-items: center; gap: 8px;
+}
+.btn-back-home:hover { transform: translateY(2px); box-shadow: 0 2px 0px #c62828; }
+
+@media (max-width: 767px) {
+    .error-container { padding: 40px 15px; }
+    .text-404-side { padding-left: 0; text-align: center; margin-top: 40px; }
+    .checklist-error-instruction li { justify-content: center; text-align: left; }
+    .huge-number { font-size: 6.5rem; }
+    .emoji-circle-frame { width: 95px; height: 95px; font-size: 3.2rem; }
+    .main-error-title { font-size: 1.8rem; }
+}

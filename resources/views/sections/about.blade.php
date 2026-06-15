@@ -58,7 +58,7 @@
                                         <h5 class="text-dark mb-1">Premium Quality</h5>
                                         <p class="text-muted small mb-0">Komposisi racikan beton konsisten kokoh tahan lama lama.</p>
                                     </div>
-                                  </div>
+                                </div>
                             </div>
                         </div>
 
@@ -126,9 +126,9 @@
                         
                         <div class="about-photo-grid-inside flex-grow-1">
                             <div class="about-project-card custom-card-hover">
-                                <div class="project-thumb-wrapper" onclick="openAboutLightbox('/pic2.png', 'Proyek Pengecoran Masjid')">
+                                <div class="project-thumb-wrapper" onclick="openAboutLightbox('/pic2.webp', 'Proyek Pengecoran Masjid')">
                                     <span class="project-number-badge">01</span>
-                                    <img src="/pic2.png" alt="Proyek Pengecoran Beton Masjid" class="img-fluid">
+                                    <img src="/pic2.webp" alt="Proyek Pengecoran Beton Masjid" class="img-fluid">
                                 </div>
                                 <div class="project-desc-banner">
                                     <div class="project-info-left">
@@ -143,9 +143,9 @@
                             </div>
 
                             <div class="about-project-card custom-card-hover">
-                                <div class="project-thumb-wrapper" onclick="openAboutLightbox('/pic3.png', 'Proyek Pengecoran Perkantoran')">
+                                <div class="project-thumb-wrapper" onclick="openAboutLightbox('/pic3.webp', 'Proyek Pengecoran Perkantoran')">
                                     <span class="project-number-badge">02</span>
-                                    <img src="/pic3.png" alt="Pengecoran Struktur Gedung Kantor" class="img-fluid">
+                                    <img src="/pic3.webp" alt="Pengecoran Struktur Gedung Kantor" class="img-fluid">
                                 </div>
                                 <div class="project-desc-banner">
                                     <div class="project-info-left">
@@ -160,9 +160,9 @@
                             </div>
 
                             <div class="about-project-card custom-card-hover">
-                                <div class="project-thumb-wrapper" onclick="openAboutLightbox('/pic4.png', 'Proyek Pengecoran Sekolahan')">
+                                <div class="project-thumb-wrapper" onclick="openAboutLightbox('/pic4.webp', 'Proyek Pengecoran Sekolahan')">
                                     <span class="project-number-badge">03</span>
-                                    <img src="/pic4.png" alt="Pengecoran Lantai Lapangan Sekolah" class="img-fluid">
+                                    <img src="/pic4.webp" alt="Pengecoran Lantai Lapangan Sekolah" class="img-fluid">
                                 </div>
                                 <div class="project-desc-banner">
                                     <div class="project-info-left">
@@ -177,9 +177,9 @@
                             </div>
 
                             <div class="about-project-card custom-card-hover">
-                                <div class="project-thumb-wrapper" onclick="openAboutLightbox('/pic5.png', 'Proyek Pengecoran Rumahan')">
+                                <div class="project-thumb-wrapper" onclick="openAboutLightbox('/pic5.webp', 'Proyek Pengecoran Rumahan')">
                                     <span class="project-number-badge">04</span>
-                                    <img src="/pic5.png" alt="Pengecoran Beton Cor Rumah Tinggal" class="img-fluid">
+                                    <img src="/pic5.webp" alt="Pengecoran Beton Cor Rumah Tinggal" class="img-fluid">
                                 </div>
                                 <div class="project-desc-banner">
                                     <div class="project-info-left">
@@ -204,9 +204,9 @@
                         
                         <div class="about-photo-grid-inside flex-grow-1">
                             <div class="about-project-card custom-card-hover">
-                                <div class="project-thumb-wrapper" onclick="openAboutLightbox('/pic8.png', 'Layanan Beton Readymix')">
+                                <div class="project-thumb-wrapper" onclick="openAboutLightbox('/pic8.webp', 'Layanan Beton Readymix')">
                                     <span class="project-number-badge" style="background-color: #1e3a8a;">01</span>
-                                    <img src="/pic8.png" alt="Layanan Beton Readymix" class="img-fluid">
+                                    <img src="/pic8.webp" alt="Layanan Beton Readymix" class="img-fluid">
                                 </div>
                                 <div class="project-desc-banner">
                                     <div class="project-info-left">
@@ -221,9 +221,9 @@
                             </div>
 
                             <div class="about-project-card custom-card-hover">
-                                <div class="project-thumb-wrapper" onclick="openAboutLightbox('/pic9.png', 'Layanan Beton Minimix')">
+                                <div class="project-thumb-wrapper" onclick="openAboutLightbox('/pic9.webp', 'Layanan Beton Minimix')">
                                     <span class="project-number-badge" style="background-color: #1e3a8a;">02</span>
-                                    <img src="/pic9.png" alt="Layanan Beton Minimix" class="img-fluid">
+                                    <img src="/pic9.webp" alt="Layanan Beton Minimix" class="img-fluid">
                                 </div>
                                 <div class="project-desc-banner">
                                     <div class="project-info-left">
@@ -238,9 +238,9 @@
                             </div>
 
                             <div class="about-project-card custom-card-hover">
-                                <div class="project-thumb-wrapper" onclick="openAboutLightbox('/pic10.png', 'Layanan Pompa Beton Standard')">
+                                <div class="project-thumb-wrapper" onclick="openAboutLightbox('/pic10.webp', 'Layanan Pompa Beton Standard')">
                                     <span class="project-number-badge" style="background-color: #1e3a8a;">03</span>
-                                    <img src="/pic10.png" alt="Layanan Pompa Beton Standard" class="img-fluid">
+                                    <img src="/pic10.webp" alt="Layanan Pompa Beton Standard" class="img-fluid">
                                 </div>
                                 <div class="project-desc-banner">
                                     <div class="project-info-left">
@@ -255,9 +255,9 @@
                             </div>
 
                             <div class="about-project-card custom-card-hover">
-                                <div class="project-thumb-wrapper" onclick="openAboutLightbox('/pic11.png', 'Layanan Pompa Mini / Long Boom')">
+                                <div class="project-thumb-wrapper" onclick="openAboutLightbox('/pic11.webp', 'Layanan Pompa Mini / Long Boom')">
                                     <span class="project-number-badge" style="background-color: #1e3a8a;">04</span>
-                                    <img src="/pic11.png" alt="Layanan Pompa Mini / Long Boom" class="img-fluid">
+                                    <img src="/pic11.webp" alt="Layanan Pompa Mini / Long Boom" class="img-fluid">
                                 </div>
                                 <div class="project-desc-banner">
                                     <div class="project-info-left">
@@ -293,288 +293,3 @@
         </div>
     </div>
 </div>
-
-<script>
-    function openAboutLightbox(imageSrc, titleText) {
-        document.getElementById('lightboxImage').src = imageSrc;
-        document.getElementById('lightboxCaption').innerText = titleText;
-        var myModal = new bootstrap.Modal(document.getElementById('aboutLightboxModal'));
-        myModal.show();
-    }
-</script>
-
-<style>
-    #about, #about * {
-        box-sizing: border-box;
-        font-family: "Nunito", sans-serif !important;
-    }
-
-    .about-main-title {
-        font-size: 2.6rem;
-        font-weight: 900;
-        letter-spacing: 0.5px;
-        text-transform: uppercase;
-        margin-bottom: 0.75rem;
-    }
-    .about-title-line {
-        width: 100px;
-        height: 4px;
-        background-color: #e53935; 
-        border-radius: 2px;
-    }
-
-    @media (max-width: 768px) {
-        .about-main-title { font-size: 1.8rem; }
-        .about-title-line { width: 70px; }
-    }
-
-    .about-feature-item {
-        display: flex;
-        align-items: flex-start;
-        gap: 1rem;
-    }
-    .feature-icon-box {
-        background: rgba(229, 57, 53, 0.08); 
-        border: 1px solid rgba(229, 57, 53, 0.2);
-        color: #e53935;
-        width: 44px;
-        height: 44px;
-        border-radius: 10px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 1.3rem;
-        flex-shrink: 0;
-    }
-    .feature-text-box h5 {
-        font-size: 1.1rem;
-        font-weight: 700;
-    }
-
-    .about-3d-soft-box {
-        background: #ffffff !important; 
-        border-radius: 12px; 
-        border: 1px solid #e53935; 
-        box-shadow: 0 5px 0px #e53935; 
-        position: relative;
-        top: 0;
-        transition: all 0.15s ease-in-out;
-    }
-    .about-3d-soft-box:hover {
-        top: 2px;
-        box-shadow: 0 3px 0px #e53935; 
-    }
-
-    .about-flat-title-badge {
-        background-color: #e53935; 
-        color: #ffffff !important; 
-        padding: 5px 12px;
-        border-radius: 6px;
-        font-weight: 700;
-        font-size: 0.9rem;
-        display: inline-block;
-    }
-
-    .about-3d-green-box {
-        background: #ffffff !important; 
-        border-radius: 12px; 
-        border: 1px solid #198754; 
-        box-shadow: 0 5px 0px #198754; 
-        position: relative;
-        top: 0;
-        transition: all 0.15s ease-in-out;
-        width: 100%;
-    }
-    .about-3d-green-box:hover {
-        top: 2px;
-        box-shadow: 0 3px 0px #198754; 
-    }
-
-    .about-green-title-badge {
-        background-color: #198754; 
-        color: #ffffff !important; 
-        padding: 5px 12px;
-        border-radius: 6px;
-        font-weight: 700;
-        font-size: 0.9rem;
-        display: inline-block;
-    }
-
-    .about-maps-embed-wrapper {
-        position: relative;
-        width: 100%;
-        overflow: hidden;
-    }
-
-    .about-3d-dark-box {
-        background: #ffffff !important; 
-        border-radius: 12px; 
-        border: 1px solid #64748b; 
-        box-shadow: 0 5px 0px #64748b; 
-        position: relative;
-        top: 0;
-        transition: all 0.15s ease-in-out;
-    }
-    .about-3d-dark-box:hover {
-        top: 2px;
-        box-shadow: 0 3px 0px #64748b; 
-    }
-
-    .about-dark-title-badge {
-        background-color: #64748b; 
-        color: #ffffff !important; 
-        padding: 5px 12px;
-        border-radius: 6px;
-        font-weight: 700;
-        font-size: 0.9rem;
-        display: inline-block;
-    }
-
-    .about-photo-grid-inside {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr); 
-        gap: 0.75rem; 
-    }
-
-    .about-project-card {
-        background: #ffffff;
-        border: 1px solid #e2e8f0;
-        border-radius: 8px;
-        overflow: hidden;
-        display: flex;
-        flex-direction: column;
-        height: 100%;
-    }
-
-    .project-thumb-wrapper {
-        position: relative;
-        width: 100%;
-        overflow: hidden;
-        cursor: pointer;
-        display: flex;
-        background-color: #f8fafc;
-    }
-
-    .project-number-badge {
-        position: absolute;
-        top: 8px;
-        left: 8px;
-        background-color: #e53935;
-        color: #ffffff !important;
-        font-size: 0.68rem;
-        font-weight: 800;
-        width: 22px;
-        height: 22px;
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        z-index: 4;
-    }
-
-    .about-project-card img {
-        width: 100%;
-        height: auto; 
-        aspect-ratio: 16 / 10; 
-        object-fit: fill; 
-        transition: transform 0.3s ease;
-    }
-
-    .project-thumb-wrapper:hover img {
-        transform: scale(1.03);
-    }
-
-    .project-desc-banner {
-        padding: 0.55rem 0.65rem;
-        background-color: #f8fafc;
-        border-top: 1px solid #f1f5f9;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        gap: 0.5rem;
-        margin-top: auto; 
-    }
-
-    .project-info-left {
-        display: flex;
-        align-items: center;
-        gap: 6px;
-        flex-grow: 1;
-        min-width: 0;
-    }
-
-    .project-desc-icon {
-        font-size: 1rem;
-        display: flex;
-        align-items: center;
-        flex-shrink: 0;
-    }
-
-    .project-desc-text h6 {
-        font-size: 0.78rem;
-        font-weight: 800;
-        margin: 0;
-        color: #1e293b;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }
-
-    .project-desc-text p {
-        font-size: 0.62rem;
-        margin: 1px 0 0 0;
-        color: #64748b;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }
-
-    .btn-grid-preview {
-        background-color: #e53935;
-        color: #ffffff !important;
-        font-size: 0.65rem;
-        font-weight: 700;
-        padding: 4px 10px;
-        border-radius: 4px;
-        text-decoration: none !important;
-        flex-shrink: 0;
-        transition: background-color 0.2s;
-    }
-
-    .style-lightbox-img {
-        max-height: 75vh;
-        object-fit: contain;
-        border: 4px solid #ffffff;
-    }
-    .style-lightbox-caption {
-        background-color: rgba(0, 0, 0, 0.75);
-        color: #ffffff !important;
-        padding: 8px 16px;
-        border-radius: 20px;
-        display: inline-block;
-        margin-top: 12px;
-        font-size: 0.95rem;
-        font-weight: 700;
-    }
-
-    @media (min-width: 992px) {
-        .style-block-height {
-            height: 48%; 
-        }
-    }
-
-    @media (max-width: 575px) {
-        .project-desc-banner { flex-direction: column; align-items: stretch; gap: 0.4rem; padding: 0.5rem; }
-        .btn-grid-preview { width: 100%; text-align: center; }
-    }
-
-    .custom-card-hover {
-        transition: transform 0.2s ease, box-shadow 0.2s ease;
-        position: relative;
-        top: 0;
-    }
-    .custom-card-hover:hover {
-        top: -4px;
-        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08) !important;
-    }
-</style>
