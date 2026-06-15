@@ -121,7 +121,7 @@
                     
                     <div class="d-flex flex-column style-block-height">
                         <div class="about-dark-title-badge mb-2">
-                            <i class="bi bi-images me-2"></i> Our Projects
+                            <i class="bi bi-images me-2"></i> Our Projectss
                         </div>
                         
                         <div class="about-photo-grid-inside flex-grow-1">
