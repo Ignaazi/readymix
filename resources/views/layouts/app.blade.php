@@ -15,7 +15,13 @@
     <meta name="theme-color" content="#000000">
 
     @vite(['resources/css/app.scss', 'resources/js/app.js'])
+
+    {{-- ini buat cdn boostrp 1 --}}
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
+
 <body class="d-flex flex-column min-vh-100 bg-light"> 
 
     @include('layouts.header')
@@ -54,6 +60,9 @@
     </main>
 
     @include('layouts.footer')
+
+{{-- ini jangan lupa di upload script csd bootsrap --}}
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
