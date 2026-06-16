@@ -1,10 +1,6 @@
-<!-- Mengubah bg-white menjadi background abu-abu terang khas AdminLTE agar selang-seling -->
 <section id="project-section" class="py-5" style="background-color: #f4f6f9; overflow: hidden;">
     <div class="container py-md-4">
         
-        <!-- ========================================== -->
-        <!-- 1. SEKSI GRID FOTO PROYEK (MOBILE FULL WIDTH SQUARE) -->
-        <!-- ========================================== -->
         <div class="row mb-4">
             <div class="col-12 text-center">
                 <h2 class="about-main-title text-dark">
@@ -14,10 +10,8 @@
             </div>
         </div>
 
-        <!-- Grid Foto: col-12 pas mobile (full), col-md-5 pas desktop -->
         <div class="row g-4 justify-content-center mb-5">
             
-            <!-- Kiri Atas / Foto 1 (Garis Merah) -->
             <div class="col-12 col-md-5 d-flex justify-content-center justify-content-md-end">
                 <div class="project-thumb-wrapper position-relative project-square-box border border-4 border-danger rounded-3" 
                      onclick="openAboutLightbox('/pic2.webp', 'Proyek Pengecoran Kiri Atas')">
@@ -26,7 +20,6 @@
                 </div>
             </div>
 
-            <!-- Kanan Atas / Foto 2 (Garis Biru) -->
             <div class="col-12 col-md-5 d-flex justify-content-center justify-content-md-start">
                 <div class="project-thumb-wrapper position-relative project-square-box border border-4 border-primary rounded-3" 
                      onclick="openAboutLightbox('/pic3.webp', 'Proyek Pengecoran Kanan Atas')">
@@ -35,7 +28,6 @@
                 </div>
             </div>
 
-            <!-- Kiri Bawah / Foto 3 (Garis Merah) -->
             <div class="col-12 col-md-5 d-flex justify-content-center justify-content-md-end">
                 <div class="project-thumb-wrapper position-relative project-square-box border border-4 border-danger rounded-3" 
                      onclick="openAboutLightbox('/pic4.webp', 'Proyek Pengecoran Kiri Bawah')">
@@ -44,7 +36,6 @@
                 </div>
             </div>
 
-            <!-- Kanan Bawah / Foto 4 (Garis Biru) -->
             <div class="col-12 col-md-5 d-flex justify-content-center justify-content-md-start">
                 <div class="project-thumb-wrapper position-relative project-square-box border border-4 border-primary rounded-3" 
                      onclick="openAboutLightbox('/pic5.webp', 'Proyek Pengecoran Kanan Bawah')">
@@ -55,9 +46,6 @@
 
         </div>
 
-        <!-- ========================================== -->
-        <!-- 2. SEKSI TESTIMONI FLAT 3D DENGAN HOVER TIPIS -->
-        <!-- ========================================== -->
         <div class="row mb-4">
             <div class="col-12 text-center">
                 <h3 class="fw-bold text-dark mb-2" style="font-size: 2rem; font-weight: 800; letter-spacing: -0.5px;">
@@ -67,15 +55,13 @@
             </div>
         </div>
 
-        <!-- Grid 4 Kotak Komentar Berjejer Samping -->
         <div class="row g-3 align-items-stretch">
             
-            <!-- Testimoni 1: KOTAK ORANJE -->
             <div class="col-sm-6 col-lg-3 d-flex">
                 <div class="p-4 rounded-3 text-center w-100 text-white nuhaldi-3d-testi bg-testi-orange d-flex flex-column justify-content-between">
                     <div>
                         <div class="testi-bootstrap-icon-box mx-auto mb-3">
-                            <i class="bi bi-person-workspace fs-3"></i>
+                            <img src="man1.webp" alt="Mas Hendra" class="testi-avatar-img">
                         </div>
                         <h5 class="fw-bold mb-1 fs-6 text-white">Mas Hendra</h5>
                         <span class="text-white-50 d-block mb-3 small-text">Kontraktor Ruko - Cikarang</span>
@@ -87,12 +73,11 @@
                 </div>
             </div>
 
-            <!-- Testimoni 2: KOTAK KUNING -->
             <div class="col-sm-6 col-lg-3 d-flex">
                 <div class="p-4 rounded-3 text-center w-100 text-dark nuhaldi-3d-testi bg-testi-yellow d-flex flex-column justify-content-between">
                     <div>
                         <div class="testi-bootstrap-icon-box mx-auto mb-3 text-dark border-dark-subtle">
-                            <i class="bi bi-person-heart fs-3"></i>
+                            <img src="woman1.webp" alt="Mbak Citra" class="testi-avatar-img">
                         </div>
                         <h5 class="fw-bold mb-1 fs-6 text-dark">Mbak Citra</h5>
                         <span class="text-muted d-block mb-3 small-text">Pemilik Rumah - Bekasi</span>
@@ -104,14 +89,11 @@
                 </div>
             </div>
 
-            <!-- Testimoni 3: KOTAK BIRU BIASA -->
             <div class="col-sm-6 col-lg-3 d-flex">
                 <div class="p-4 rounded-3 text-center w-100 text-white nuhaldi-3d-testi bg-testi-blue d-flex flex-column justify-content-between">
                     <div>
                         <div class="testi-bootstrap-icon-box mx-auto mb-3">
-                            <svg class="bi bi-people-fill text-white" width="28" height="28" fill="currentColor" viewBox="0 0 16 16">
-                                <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.24 2.24 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.3 6.3 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5"/>
-                            </svg>
+                            <img src="woman2.webp" alt="Ibu Hj. Aminah" class="testi-avatar-img">
                         </div>
                         <h5 class="fw-bold mb-1 fs-6 text-white">Ibu Hj. Aminah</h5>
                         <span class="text-white-50 d-block mb-3 small-text">Pengurus Yayasan - Jakarta</span>
@@ -123,12 +105,11 @@
                 </div>
             </div>
 
-            <!-- Testimoni 4: KOTAK BIRU STABILO -->
             <div class="col-sm-6 col-lg-3 d-flex">
                 <div class="p-4 rounded-3 text-center w-100 text-dark nuhaldi-3d-testi bg-testi-cyan d-flex flex-column justify-content-between">
                     <div>
                         <div class="testi-bootstrap-icon-box mx-auto mb-3 text-dark border-dark-subtle">
-                            <i class="bi bi-person-bounding-box fs-3"></i>
+                            <img src="man2.webp" alt="Pak Sarif" class="testi-avatar-img">
                         </div>
                         <h5 class="fw-bold mb-1 fs-6 text-dark">Pak Sarif</h5>
                         <span class="text-dark-50 d-block mb-3 small-text" style="opacity: 0.7;">Developer Senior - JABODETABEK</span>
@@ -145,9 +126,6 @@
     </div>
 </section>
 
-<!-- ========================================== -->
-<!-- 3. CSS SELEKSI ADJUSTMENT                      -->
-<!-- ========================================== -->
 <style>
     .project-square-box {
         width: 100%;
@@ -200,11 +178,20 @@
         justify-content: center;
         box-shadow: inset 0 2px 4px rgba(0,0,0,0.08);
         transition: transform 0.2s ease;
+        overflow: hidden; /* 👈 Ditambahkan agar foto tidak luber keluar lingkaran */
     }
     .bg-testi-yellow .testi-bootstrap-icon-box,
     .bg-testi-cyan .testi-bootstrap-icon-box {
         background: rgba(17, 26, 46, 0.07);
         border: 2px solid rgba(17, 26, 46, 0.15);
+    }
+
+    /* Styling Tambahan Khusus untuk Foto Avatar Testi */
+    .testi-avatar-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* 👈 Biar foto otomatis memotong proporsional rapi */
+        border-radius: 50%;
     }
 
     .nuhaldi-3d-testi:hover .testi-bootstrap-icon-box {
