@@ -55,6 +55,10 @@
                 @include('sections.project')
             </div>
 
+            <div id="testimonial">
+                @include('sections.testimonial')
+            </div>
+
             <div id="contact">
                 @include('sections.contact')
             </div>
