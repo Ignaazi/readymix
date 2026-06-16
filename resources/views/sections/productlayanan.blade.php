@@ -14,8 +14,8 @@
         <!-- ================= BARIS PERTAMA: MUTU STRUKTUR & TABEL ================= -->
         <div class="row g-4 align-items-stretch mb-5">
             
-            <!-- GRID KIRI: KOTAK MERAH (POSTER ATURAN MUTU) -->
-            <div class="col-lg-4 d-flex flex-column justify-content-between">
+            <!-- GRID KIRI: KOTAK MERAH (LEBIH LEBAR - SEKARANG col-lg-6 BIAR FOTO BESAR & RAPIH) -->
+            <div class="col-lg-6 d-flex flex-column justify-content-between">
                 <div class="pe-lg-2 mb-4 mb-lg-0 d-flex flex-column h-100 justify-content-between">
                     <div class="p-3 services-3d-soft-box w-100 d-flex flex-column h-100 bg-white">
                         
@@ -23,16 +23,40 @@
                             <i class="bi bi-shield-check me-2"></i> Aturan Mutu Struktur
                         </div>
 
-                        <div class="services-poster-container flex-grow-1 d-flex align-items-center justify-content-center bg-transparent border-0 p-0 m-0 position-relative overflow-hidden w-100">
-                            <img src="{{ asset('pic12.webp') }}" alt="Aturan Mutu Struktur" class="img-fluid services-poster-img rounded w-100 h-100">
+                        <!-- Row Internal Dua Ukuran Poster Berdampingan Penuh -->
+                        <div class="row g-2 flex-grow-1 align-items-stretch">
+                            <!-- Poster Aturan Mutu Ukuran 1 -->
+                            <div class="col-6 d-flex">
+                                <div class="services-poster-container flex-grow-1 d-flex align-items-center justify-content-center bg-transparent border-0 p-0 m-0 position-relative overflow-hidden w-100" style="min-height: 420px;">
+                                    <img src="{{ asset('pic12.webp') }}" alt="Aturan Mutu Struktur Ukuran 1" class="img-fluid services-poster-img rounded w-100 h-100" style="object-fit: cover;">
+                                    
+                                    <div class="services-poster-overlay d-flex flex-column flex-sm-row gap-2 align-items-center justify-content-center">
+                                        <button type="button" class="btn btn-light btn-sm shadow-sm fw-bold px-2 py-1 small" data-bs-toggle="modal" data-bs-target="#previewPosterModal">
+                                            <i class="bi bi-eye"></i> Preview
+                                        </button>
+                                        <!-- 🔥 UPDATE: href mengarah ke aset asli -->
+                                        <a href="{{ asset('pic12.webp') }}" download="Aturan-Mutu-Struktur-1.png" class="btn btn-danger btn-sm shadow-sm fw-bold px-2 py-1 small">
+                                            <i class="bi bi-download"></i> Download
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
                             
-                            <div class="services-poster-overlay d-flex flex-column flex-sm-row gap-2 align-items-center justify-content-center">
-                                <button type="button" class="btn btn-light btn-sm shadow-sm fw-bold px-3" data-bs-toggle="modal" data-bs-target="#previewPosterModal">
-                                    <i class="bi bi-eye me-1"></i> Preview
-                                </button>
-                                <a href="{{ asset('pic12.webp') }}" download="Aturan-Mutu-Struktur.png" class="btn btn-danger btn-sm shadow-sm fw-bold px-3">
-                                    <i class="bi bi-download me-1"></i> Download
-                                </a>
+                            <!-- Poster Aturan Mutu Ukuran 2 -->
+                            <div class="col-6 d-flex">
+                                <div class="services-poster-container flex-grow-1 d-flex align-items-center justify-content-center bg-transparent border-0 p-0 m-0 position-relative overflow-hidden w-100" style="min-height: 420px;">
+                                    <img src="{{ asset('pic13.webp') }}" alt="Aturan Mutu Struktur Ukuran 2" class="img-fluid services-poster-img rounded w-100 h-100" style="object-fit: cover;">
+                                    
+                                    <div class="services-poster-overlay d-flex flex-column flex-sm-row gap-2 align-items-center justify-content-center">
+                                        <button type="button" class="btn btn-light btn-sm shadow-sm fw-bold px-2 py-1 small" data-bs-toggle="modal" data-bs-target="#previewPoster2Modal">
+                                            <i class="bi bi-eye"></i> Preview
+                                        </button>
+                                        <!-- 🔥 UPDATE: href mengarah ke aset asli -->
+                                        <a href="{{ asset('pic13.webp') }}" download="Aturan-Mutu-Struktur-2.png" class="btn btn-danger btn-sm shadow-sm fw-bold px-2 py-1 small">
+                                            <i class="bi bi-download"></i> Download
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
@@ -40,8 +64,8 @@
                 </div>
             </div>
             
-            <!-- GRID KANAN: KOTAK BIRU TUA (TABEL DATA MUTU) -->
-            <div class="col-lg-8 d-flex">
+            <!-- GRID KANAN: KOTAK BIRU TUA -->
+            <div class="col-lg-6 d-flex">
                 <div id="tableAreaToDownload" class="p-3 services-3d-dark-box w-100 d-flex flex-column justify-content-between gap-3 bg-white">
                     <div class="d-flex flex-column h-100 w-100">
                         <div class="d-flex flex-column flex-sm-row justify-content-between align-items-start align-items-sm-center gap-2 mb-3">
@@ -53,14 +77,15 @@
                             </button>
                         </div>
 
+                        <!-- Responsive Table wrapper -->
                         <div class="table-responsive flex-grow-1 bg-white">
-                            <table class="table table-bordered table-striped align-middle mb-0 small" style="border-color: #dee2e6;">
+                            <table class="table table-bordered table-striped align-middle mb-0 small" style="border-color: #dee2e6; font-size: 0.78rem;">
                                 <thead class="table-light text-dark fw-semibold text-center">
                                     <tr>
                                         <th scope="col" class="py-2 text-secondary" style="width: 8%;">NO.</th>
                                         <th scope="col" class="py-2 text-secondary" style="width: 32%;">MUTU K</th>
                                         <th scope="col" class="py-2 text-secondary" style="width: 35%;">MUTU FC (MPA)</th>
-                                        <th scope="col" class="py-2 text-secondary" style="width: 25%;">KETERANGAN</th>
+                                        <th scope="col" class="py-2 text-secondary" style="width: 25%;">KET.</th>
                                     </tr>
                                 </thead>
                                 <tbody class="text-dark">
@@ -92,25 +117,25 @@
                                         <td class="text-center text-muted fw-bold">5</td>
                                         <td class="fw-bold text-dark">K-225</td>
                                         <td class="text-secondary">(FA & NFA)</td>
-                                        <td class="text-center"><span class="badge bg-warning text-dark fw-bold"><i class="bi bi-star-fill me-1 text-dark"></i>Best Seller</span></td>
+                                        <td class="text-center"><span class="badge bg-warning text-dark fw-bold">Best Seller</span></td>
                                     </tr>
                                     <tr class="services-row-highlight">
                                         <td class="text-center text-muted fw-bold">6</td>
                                         <td class="fw-bold text-dark">K-250</td>
                                         <td class="text-secondary">(FA & NFA)</td>
-                                        <td class="text-center"><span class="badge bg-warning text-dark fw-bold"><i class="bi bi-star-fill me-1 text-dark"></i>Best Seller</span></td>
+                                        <td class="text-center"><span class="badge bg-warning text-dark fw-bold">Best Seller</span></td>
                                     </tr>
                                     <tr class="services-row-highlight">
                                         <td class="text-center text-muted fw-bold">7</td>
                                         <td class="fw-bold text-dark">K-275</td>
                                         <td class="text-secondary">(FA & NFA)</td>
-                                        <td class="text-center"><span class="badge bg-warning text-dark fw-bold"><i class="bi bi-star-fill me-1 text-dark"></i>Best Seller</span></td>
+                                        <td class="text-center"><span class="badge bg-warning text-dark fw-bold">Best Seller</span></td>
                                     </tr>
                                     <tr class="services-row-highlight">
                                         <td class="text-center text-muted fw-bold">8</td>
                                         <td class="fw-bold text-dark">K-300</td>
                                         <td class="text-secondary">(FA & NFA)</td>
-                                        <td class="text-center"><span class="badge bg-warning text-dark fw-bold"><i class="bi bi-star-fill me-1 text-dark"></i>Best Seller</span></td>
+                                        <td class="text-center"><span class="badge bg-warning text-dark fw-bold">Best Seller</span></td>
                                     </tr>
                                     <tr>
                                         <td class="text-center text-muted fw-bold">9</td>
@@ -145,10 +170,10 @@
 
         </div>
 
-        <!-- ================= BARIS KEDUA: LIST PENJELASAN ARMADA (TEXT BESAR & NOMOR) & POSTER ORDER ================= -->
+        <!-- ================= BARIS KEDUA: LIST PENJELASAN ARMADA & POSTER ORDER ================= -->
         <div class="row g-4 align-items-stretch">
             
-            <!-- GRID KIRI: LIST PENJELASAN TANPA IKON (TEMA BIRU TUA ABOUT) -->
+            <!-- GRID KIRI: LIST PENJELASAN TANPA IKON -->
             <div class="col-lg-7 d-flex">
                 <div class="p-3 p-sm-4 services-3d-dark-box w-100 bg-white d-flex flex-column justify-content-start gap-4">
                     
@@ -164,7 +189,6 @@
                             <span class="services-step-number">1</span> Klasifikasi Truk ( Readymix )
                         </h4>
                         
-                        <!-- Sub Bagian: Ukuran Truk -->
                         <div class="mb-4 ps-2 ps-sm-3 border-start border-2 border-primary-subtle">
                             <h5 class="services-list-subheading text-secondary mb-2">
                                 a. Jenis Ukuran Truk (2 Ukuran):
@@ -176,7 +200,6 @@
                             </ul>
                         </div>
 
-                        <!-- Sub Bagian: Tipe Truk -->
                         <div class="ps-2 ps-sm-3 border-start border-2 border-primary-subtle">
                             <h5 class="services-list-subheading text-secondary mb-2">
                                 b. Jenis Tipe Truk (3 Tipe):
@@ -188,7 +211,6 @@
                         </div>
                     </div>
 
-                    <!-- Divider Tipis Bersih -->
                     <hr class="my-0 opacity-10" style="border-color: #dee2e6;">
 
                     <!-- 2. Jenis Pompa -->
@@ -213,14 +235,12 @@
             <div class="col-lg-5 d-flex">
                 <div class="p-3 services-3d-soft-box w-100 d-flex flex-column h-100 bg-white">
                     
-                    <!-- Lencana Judul AYO ORDER !!! -->
                     <div class="services-flat-title-badge mb-3 bg-danger text-center w-100 py-2 shadow-sm text-uppercase fw-black letter-spacing-1">
                         <i class="bi bi-cart-check-fill me-2 fs-5"></i> Ayo Order !!! <i class="bi bi-fire ms-1"></i>
                     </div>
 
-                    <!-- Row Internal Menampilkan Dua Poster Berdampingan Penuh -->
                     <div class="row g-2 flex-grow-1 align-items-stretch">
-                        <!-- Poster Kanan 1: pic6.webp -->
+                        <!-- Poster Kanan 1 -->
                         <div class="col-6 d-flex">
                             <div class="services-poster-container flex-grow-1 d-flex align-items-center justify-content-center bg-transparent border-0 p-0 m-0 position-relative overflow-hidden w-100">
                                 <img src="{{ asset('pic6.webp') }}" alt="Poster Order Konstruksi 1" class="img-fluid services-poster-img rounded w-100 h-100">
@@ -235,7 +255,7 @@
                             </div>
                         </div>
                         
-                        <!-- Poster Kanan 2: pic7.webp -->
+                        <!-- Poster Kanan 2 -->
                         <div class="col-6 d-flex">
                             <div class="services-poster-container flex-grow-1 d-flex align-items-center justify-content-center bg-transparent border-0 p-0 m-0 position-relative overflow-hidden w-100">
                                 <img src="{{ asset('pic7.webp') }}" alt="Poster Order Konstruksi 2" class="img-fluid services-poster-img rounded w-100 h-100">
@@ -257,19 +277,48 @@
         </div>
     </div>
 
-    <!-- MODAL POP-UP PREVIEW POSTER ATURAN MUTU -->
+    <!-- ==========================================================================
+       MODAL REGION (POP-UP PREVIEW)
+       ========================================================================== -->
+
+    <!-- MODAL POP-UP PREVIEW POSTER ATURAN MUTU 1 -->
     <div class="modal fade" id="previewPosterModal" tabindex="-1" aria-labelledby="previewPosterModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-lg">
             <div class="modal-content border-0 shadow-lg">
                 <div class="modal-header bg-dark text-white py-2 px-3">
-                    <h5 class="modal-title small fw-bold" id="previewPosterModalLabel"><i class="bi bi-image me-2"></i>Aturan Mutu Struktur</h5>
+                    <h5 class="modal-title small fw-bold" id="previewPosterModalLabel"><i class="bi bi-image me-2"></i>Aturan Mutu Struktur - Ukuran 1</h5>
                     <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body bg-dark p-1 text-center d-flex align-items-center justify-content-center">
-                    <img src="{{ asset('pic12.webp') }}" alt="Preview Aturan Mutu Struktur" class="img-fluid rounded-1" style="max-height: 82vh; object-fit: contain;">
+                    <!-- 🔥 FIXED: src sudah menggunakan asset asli -->
+                    <img src="{{ asset('pic12.webp') }}" alt="Preview Aturan Mutu Struktur 1" class="img-fluid rounded-1" style="max-height: 82vh; object-fit: contain;">
                 </div>
                 <div class="modal-footer bg-light py-2">
-                    <a href="{{ asset('pic12.webp') }}" download="Aturan-Mutu-Struktur.png" class="btn btn-danger btn-sm fw-bold">
+                    <!-- 🔥 FIXED: href untuk download sudah menggunakan asset asli -->
+                    <a href="{{ asset('pic12.webp') }}" download="Aturan-Mutu-Struktur-1.png" class="btn btn-danger btn-sm fw-bold">
+                        <i class="bi bi-download me-1"></i> Download File Asli
+                    </a>
+                    <button type="button" class="btn btn-secondary btn-sm fw-bold" data-bs-dismiss="modal">Tutup</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL POP-UP PREVIEW POSTER ATURAN MUTU 2 -->
+    <div class="modal fade" id="previewPoster2Modal" tabindex="-1" aria-labelledby="previewPoster2ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content border-0 shadow-lg">
+                <div class="modal-header bg-dark text-white py-2 px-3">
+                    <h5 class="modal-title small fw-bold" id="previewPoster2ModalLabel"><i class="bi bi-image me-2"></i>Aturan Mutu Struktur - Ukuran 2</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body bg-dark p-1 text-center d-flex align-items-center justify-content-center">
+                    <!-- 🔥 FIXED: src sudah menggunakan asset asli -->
+                    <img src="{{ asset('pic13.webp') }}" alt="Preview Aturan Mutu Struktur 2" class="img-fluid rounded-1" style="max-height: 82vh; object-fit: contain;">
+                </div>
+                <div class="modal-footer bg-light py-2">
+                    <!-- 🔥 FIXED: href untuk download sudah menggunakan asset asli -->
+                    <a href="{{ asset('pic13.webp') }}" download="Aturan-Mutu-Struktur-2.png" class="btn btn-danger btn-sm fw-bold">
                         <i class="bi bi-download me-1"></i> Download File Asli
                     </a>
                     <button type="button" class="btn btn-secondary btn-sm fw-bold" data-bs-dismiss="modal">Tutup</button>

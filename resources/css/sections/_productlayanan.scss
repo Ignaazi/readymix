@@ -2,7 +2,7 @@
    PRODUCT DAN LAYANAN SECTION STYLE
    ========================================================================== */
 
-#services, #services * {
+   #services, #services * {
     box-sizing: border-box;
     font-family: "Nunito", sans-serif !important;
 }
@@ -192,4 +192,42 @@
     .services-list-subheading {
         font-size: 0.95rem;
     }
+}
+
+/* ==========================================================================
+   🔥 UPDATE: TOMBOL HUBUNGI WHATSAPP (CAPSULE PILL ROUNDED STYLE)
+   ========================================================================== */
+   .btn-services-wa {
+    background-color: #25d366 !important; /* Warna Hijau Khas WhatsApp */
+    color: #ffffff !important;
+    border: 1px solid #25d366 !important;
+    border-radius: 50px !important; /* 👈 Diubah jadi 50px biar melengkung bulat penuh (Capsule) */
+    padding: 12px 36px !important; /* Sedikit disesuaikan biar proporsinya makin cakep */
+    font-weight: 700 !important;
+    font-size: 0.95rem !important;
+    box-shadow: none !important; /* Flat polos tanpa 3D */
+    transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out !important;
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    gap: 8px; /* Jarak antara ikon WA dan teks */
+    text-decoration: none !important;
+    cursor: pointer !important;
+    outline: none !important;
+}
+
+/* Efek Hover Hijau Lebih Gelap Sedikit */
+.btn-services-wa:hover,
+.btn-services-wa:focus {
+    background-color: #1ebd56 !important;
+    border-color: #1ebd56 !important;
+    color: #ffffff !important;
+    box-shadow: none !important;
+}
+
+/* Efek Saat Diklik */
+.btn-services-wa:active {
+    background-color: #1aa149 !important;
+    border-color: #1aa149 !important;
+    box-shadow: none !important;
 }
