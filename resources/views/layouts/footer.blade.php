@@ -13,7 +13,7 @@
                 </div>
                 
                 <div class="footer-social-links d-flex gap-2.5 ps-1 pt-2">
-                    <a href="https://wa.me/6281212830218?text={{ urlencode('Halo PT Readymix Beton Indonesia, saya ingin tanya mengenai pemesanan readymix.') }}" target="_blank" class="social-icon-btn brand-wa" title="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+                    <a href="https://wa.me/6281212830218?text={{ urlencode('Halo Readymixnh, saya ingin tanya mengenai pemesanan readymix.') }}" target="_blank" class="social-icon-btn brand-wa" title="WhatsApp"><i class="bi bi-whatsapp"></i></a>
                     <a href="https://www.instagram.com/jualraedymixcorrjabodetabek?igsh=bjVqMW8xam90OGVk&utm_source=qr" target="_blank" class="social-icon-btn brand-ig" title="Instagram"><i class="bi bi-instagram"></i></a>
                     <a href="https://www.tiktok.com/@readymixpompacor?_r=1&_t=ZS-972VI7DhgaT" target="_blank" class="social-icon-btn brand-tiktok" title="TikTok"><i class="bi bi-tiktok"></i></a>
                 </div>

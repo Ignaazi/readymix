@@ -22,7 +22,7 @@
 
 
         const textMessage = 
-            `*HALO PT READYMIX BETON INDONESIA*\n` +
+            `*HALO Readymixnh*\n` +
             `Ada pesan baru dari formulir kontak website:\n\n` +
             `👤 *Nama Pengirim:* ${name}\n` +
             `📧 *Email:* ${email}\n` +

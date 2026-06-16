@@ -50,8 +50,9 @@
                 @include('sections.carapemesanan')
             </div>
 
+            
             <div id="project">
-                {{-- @include('sections.project') --}}
+                @include('sections.project')
             </div>
 
             <div id="contact">

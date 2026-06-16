@@ -1,5 +1,5 @@
 /* ==========================================================================
-   CONTACT SECTION STYLE - FULL UPDATED & FIXED COLOR (SYNC WITH HTML)
+   CONTACT SECTION STYLE - CLEAN WHITE STYLE (SYNC WITH CARA PEMESANAN)
    ========================================================================== */
 
 /* Integrasi Font Utama */
@@ -31,16 +31,21 @@
 }
 
 /* ==========================================================================
-   STYLE KARTU INFORMASI KIRI
+   STYLE KARTU INFORMASI KIRI (PUTIH BERSIH MINIMALIS)
    ========================================================================== */
 .contact-info-card {
     border-radius: 10px;
-    border: 1px solid rgba(0,0,0,0.04) !important;
+    background-color: #ffffff !important; /* 👈 Putih bersih total */
+    border: 1px solid #eef0f3 !important; /* Border super tipis abu-abu lembut */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.02) !important; /* Shadow sangat samar */
     transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
+
+/* Hover flat minimalis */
 .contact-info-card:hover {
     transform: translateY(-2px);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.05) !important;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.04) !important;
+    border-color: #ced4da !important;
 }
 
 /* Bungkus Icon Bulat Kotak Soft */
@@ -55,11 +60,11 @@
     font-size: 1.3rem;
 }
 
-/* Varian Soft Color untuk Ikon Sesuai Identitas Grid Sebelumnya */
-.bg-red-soft { background-color: rgba(229, 57, 53, 0.08); }
-.bg-blue-soft { background-color: rgba(30, 136, 229, 0.08); }
-.bg-yellow-soft { background-color: rgba(253, 216, 53, 0.15); }
-.bg-green-soft { background-color: rgba(67, 160, 71, 0.08); }
+/* Varian Soft Color untuk Ikon */
+.bg-red-soft { background-color: rgba(229, 57, 53, 0.06); }
+.bg-blue-soft { background-color: rgba(30, 136, 229, 0.06); }
+.bg-yellow-soft { background-color: rgba(253, 216, 53, 0.1); }
+.bg-green-soft { background-color: rgba(67, 160, 71, 0.06); }
 
 .text-red { color: #e53935 !important; }
 .text-blue { color: #1e88e5 !important; }
@@ -67,11 +72,13 @@
 .text-green { color: #43a047 !important; }
 
 /* ==========================================================================
-   STYLE FORMULIR KANAN
+   STYLE FORMULIR KANAN (PUTIH MENYATU)
    ========================================================================== */
 .contact-form-container {
     border-radius: 12px;
-    border: 1px solid rgba(0,0,0,0.04);
+    background-color: #ffffff !important; /* 👈 Menggunakan putih bersih tanpa abu-abu */
+    border: 1px solid #eef0f3;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.02) !important;
 }
 
 /* Custom Input Controls */
@@ -79,16 +86,16 @@
     padding: 13px 16px;
     font-size: 0.95rem;
     color: #495057;
-    background-color: #ffffff;
-    border: 1px solid #ced4da;
+    background-color: #ffffff !important; 
+    border: 1px solid #e0e4ec; /* Border pembatas input yang bersih */
     border-radius: 6px;
     transition: all 0.2s ease-in-out;
 }
 
-/* State Hover & Focus - Memberi Aksen Border Sesuai Tema Web */
+/* State Hover & Focus - Aksen Border Merah */
 .custom-input:focus, .custom-select:focus {
     border-color: #e53935;
-    box-shadow: 0 0 0 3px rgba(229, 57, 53, 0.15);
+    box-shadow: 0 0 0 3px rgba(229, 57, 53, 0.12);
     outline: 0;
 }
 
@@ -108,7 +115,7 @@
 /* ==========================================================================
    TOMBOL SEND MESSAGE GAYA FLAT MINIMALIS (RED THEME) - NO 3D
    ========================================================================== */
-   .btn-custom-submit {
+.btn-custom-submit {
     background-color: #e53935 !important;
     color: #ffffff !important; 
     border: 1px solid #e53935 !important;
@@ -116,26 +123,26 @@
     padding: 12px 40px !important;
     font-weight: 700 !important;
     font-size: 1rem !important;
-    box-shadow: none !important; /* 👈 Kita buang efek bayangan/3D-nya */
+    box-shadow: none !important; 
     transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out !important;
     display: inline-block !important;
     text-decoration: none !important;
     cursor: pointer !important;
     outline: none !important;
     text-align: center !important;
-    transform: none !important; /* 👈 Menghilangkan efek amblas pas diklik */
+    transform: none !important; 
 }
 
-/* Efek Hover Biasa */
+/* Efek Hover Kalem */
 .btn-custom-submit:hover, 
 .btn-custom-submit:focus {
-    background-color: #c62828 !important; /* Merah agak gelap pas didekati kursor */
+    background-color: #c62828 !important; 
     border-color: #c62828 !important;
     color: #ffffff !important;
     box-shadow: none !important;
 }
 
-/* Efek pas diklik biasa tanpa mentul */
+/* Efek Aktif Klik Biasa */
 .btn-custom-submit:active {
     background-color: #b71c1c !important;
     border-color: #b71c1c !important;
