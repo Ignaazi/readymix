@@ -5,16 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Readymix Beton Indonesia</title>
     
-    <!-- 🚀 LOGO TAB BROWSER BARU (FAVICON) 🚀 -->
-    <link rel="icon" type="image/png" href="{{ asset('brow.png') }}">
-    <link rel="shortcut icon" type="image/png" href="{{ asset('brow.png') }}">
+<!-- 🚀 LOGO TAB BROWSER BARU (FAVICON) 🚀 -->
+    <link class="apple-touch-icon" sizes="180x180" href="{{ asset('apple-touch-icon.png') }}">
+    <link rel="icon" type="image/png" sizes="96x96" href="{{ asset('favicon-96x96.png') }}">
+    <link rel="icon" type="image/svg+xml" href="{{ asset('favicon.svg') }}">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('favicon.ico') }}">
+    <link rel="manifest" href="{{ asset('site.webmanifest') }}">
     
-    <!-- Favicon Bawaan -->
-    <link class="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
-    <link rel="shortcut icon" href="/favicon.ico">
-    <link rel="manifest" href="/site.webmanifest">
+    <!-- Meta Pembantu -->
     <meta name="apple-mobile-web-app-title" content="Readymixnh">
     <meta name="theme-color" content="#000000">
 
