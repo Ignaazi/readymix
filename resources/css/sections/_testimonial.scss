@@ -1,0 +1,53 @@
+/* ==========================================================================
+   TESTIMONIAL SECTION STYLE
+   ========================================================================== */
+
+#testimonial-section, #testimonial-section * {
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif !important;
+}
+
+.bg-testi-orange    { background-color: #ff6f00 !important; }
+.bg-testi-yellow    { background-color: #ffcc00 !important; }
+.bg-testi-blue      { background-color: #007bff !important; }
+.bg-testi-cyan      { background-color: #00f0ff !important; }
+
+.small-text { font-size: 0.75rem; }
+
+.nuhaldi-3d-testi {
+    border-bottom: 5px solid rgba(0, 0, 0, 0.22) !important;
+    border-right: 2px solid rgba(0, 0, 0, 0.12) !important;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: default;
+}
+
+.nuhaldi-3d-testi:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 16px rgba(17, 26, 46, 0.12);
+}
+
+.testi-bootstrap-icon-box {
+    width: 60px;
+    height: 60px;
+    background: rgba(255, 255, 255, 0.2);
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 0 2px 4px rgba(0,0,0,0.08);
+    transition: transform 0.2s ease;
+    overflow: hidden;
+}
+
+.testi-avatar-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.nuhaldi-3d-testi:hover .testi-bootstrap-icon-box {
+    transform: scale(1.08);
+}

@@ -2,6 +2,16 @@
    HEADER/NAVBAR STYLE - UPDATED & FIXED
    ========================================================================== */
 
+/*
+ * Anchor scroll offset — prevents section headers from being hidden
+ * behind the sticky navbar. 80px covers the navbar height (~56px on
+ * mobile) plus a comfortable breathing gap so titles are fully visible.
+ */
+html {
+    scroll-padding-top: 60px;
+    scroll-behavior: smooth;
+}
+
 /* Menggunakan font Nunito untuk seluruh komponen navbar */
 #mainNavbar, #mainNavbar * {
     box-sizing: border-box;
