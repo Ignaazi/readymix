@@ -1,8 +1,27 @@
 ---
 deployment:
   tasks:
-    - export APP_PATH=/home/reaf9419/repositories/readymix/
+    - export APP_PATH=/home/reaf9419/readymix-app/
     - export WEB_PATH=/home/reaf9419/public_html/
     
-    # Sinkronisasi seluruh file repositori agar siap digunakan
-    - /bin/rsync -amv --exclude=.git --exclude=.cpanel.yml * $APP_PATH
+    # 1. Buat folder tujuan luar jika belum ada
+    - /bin/mkdir -p $APP_PATH
+    
+    # 2. Salin folder inti Laravel secara spesifik satu per satu ke folder luar
+    - /bin/cp -R app $APP_PATH
+    - /bin/cp -R bootstrap $APP_PATH
+    - /bin/cp -R config $APP_PATH
+    - /bin/cp -R database $APP_PATH
+    - /bin/cp -R resources $APP_PATH
+    - /bin/cp -R routes $APP_PATH
+    - /bin/cp -R storage $APP_PATH
+    - /bin/cp -R vendor $APP_PATH
+    - /bin/cp .env $APP_PATH
+    
+    # 3. Salin HANYA isi folder public milik Laravel langsung ke public_html
+    - /bin/cp -R public/app $WEB_PATH
+    - /bin/cp -R public/build $WEB_PATH
+    - /bin/cp public/index.php $WEB_PATH
+    - /bin/cp public/.htaccess $WEB_PATH
+    - /bin/cp public/robots.txt $WEB_PATH
+    - /bin/cp public/favicon.ico $WEB_PATH
