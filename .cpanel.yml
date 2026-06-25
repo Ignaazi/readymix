@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/reaf9419/public_html/
+    - /bin/rsync -amv --exclude=.git --exclude=.cpanel.yml * $DEPLOYPATH
