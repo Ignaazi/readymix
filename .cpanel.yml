@@ -1,5 +1,8 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/reaf9419/public_html/
-    - /bin/rsync -amv --exclude=.git --exclude=.cpanel.yml * $DEPLOYPATH
+    - export APP_PATH=/home/reaf9419/repositories/readymix/
+    - export WEB_PATH=/home/reaf9419/public_html/
+    
+    # Sinkronisasi seluruh file repositori agar siap digunakan
+    - /bin/rsync -amv --exclude=.git --exclude=.cpanel.yml * $APP_PATH
