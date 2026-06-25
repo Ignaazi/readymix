@@ -71,17 +71,4 @@
     }
 }
 
-/* ==========================================================================
-   RESPONSIVE — MOBILE (≤480px): SINGLE COLUMN
-   ========================================================================== */
-
-@media (max-width: 480px) {
-    .project-gallery-grid {
-        gap: 1.25rem;
-    }
-
-    .project-gallery-card {
-        flex: 0 0 100%;  /* full width */
-        max-width: 100%;
-    }
-}
+/* Mobile — 2 columns (inherits tablet rule above) */

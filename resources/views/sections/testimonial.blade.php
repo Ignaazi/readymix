@@ -16,7 +16,7 @@
                 <div class="p-4 rounded-3 text-center w-100 text-white nuhaldi-3d-testi bg-testi-orange d-flex flex-column justify-content-between">
                     <div>
                         <div class="testi-bootstrap-icon-box mx-auto mb-3">
-                            <img src="man1.webp" alt="Mas Hendra" class="testi-avatar-img">
+                            <img src="{{ asset('man1.webp') }}" alt="Mas Hendra" class="testi-avatar-img">
                         </div>
                         <h5 class="fw-bold mb-1 fs-6 text-white">Mas Hendra</h5>
                         <span class="text-white-50 d-block mb-3 small-text">Kontraktor Ruko - Cikarang</span>
@@ -32,7 +32,7 @@
                 <div class="p-4 rounded-3 text-center w-100 text-dark nuhaldi-3d-testi bg-testi-yellow d-flex flex-column justify-content-between">
                     <div>
                         <div class="testi-bootstrap-icon-box mx-auto mb-3 text-dark border-dark-subtle">
-                            <img src="woman1.webp" alt="Mbak Citra" class="testi-avatar-img">
+                            <img src="{{ asset('woman1.webp') }}" alt="Mbak Citra" class="testi-avatar-img">
                         </div>
                         <h5 class="fw-bold mb-1 fs-6 text-dark">Mbak Citra</h5>
                         <span class="text-muted d-block mb-3 small-text">Pemilik Rumah - Bekasi</span>
@@ -48,7 +48,7 @@
                 <div class="p-4 rounded-3 text-center w-100 text-white nuhaldi-3d-testi bg-testi-blue d-flex flex-column justify-content-between">
                     <div>
                         <div class="testi-bootstrap-icon-box mx-auto mb-3">
-                            <img src="woman2.webp" alt="Ibu Hj. Aminah" class="testi-avatar-img">
+                            <img src="{{ asset('woman2.webp') }}" alt="Ibu Hj. Aminah" class="testi-avatar-img">
                         </div>
                         <h5 class="fw-bold mb-1 fs-6 text-white">Ibu Hj. Aminah</h5>
                         <span class="text-white-50 d-block mb-3 small-text">Pengurus Yayasan - Jakarta</span>
@@ -64,7 +64,7 @@
                 <div class="p-4 rounded-3 text-center w-100 text-dark nuhaldi-3d-testi bg-testi-cyan d-flex flex-column justify-content-between">
                     <div>
                         <div class="testi-bootstrap-icon-box mx-auto mb-3 text-dark border-dark-subtle">
-                            <img src="man2.webp" alt="Pak Sarif" class="testi-avatar-img">
+                            <img src="{{ asset('man2.webp') }}" alt="Pak Sarif" class="testi-avatar-img">
                         </div>
                         <h5 class="fw-bold mb-1 fs-6 text-dark">Pak Sarif</h5>
                         <span class="text-dark-50 d-block mb-3 small-text" style="opacity: 0.7;">Developer Senior - JABODETABEK</span>

@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm py-1" id="mainNavbar">
     <div class="container">
         <a class="navbar-brand d-flex align-items-center" href="{{ url('/') }}">
-            <img src="/logo.webp" alt="NH Mitra Beton Logo" style="height: 48px; width: auto; object-fit: contain;">
+            <img src="{{ asset('logo.webp') }}" alt="NH Mitra Beton Logo" style="height: 48px; width: auto; object-fit: contain;">
         </a>
         <button class="navbar-toggler custom-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navContent" aria-controls="navContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="toggler-icon top-bar"></span>
@@ -45,12 +45,12 @@
                         <div class="bg-red-light text-red d-flex align-items-center justify-content-center rounded-circle me-2" style="width: 35px; height: 35px;">
                             <i class="bi bi-telephone-fill fs-6"></i>
                         </div>
-                        <span class="fw-bold text-red small" id="phoneNum">0812-1283-0218</span>
+                        <span class="fw-bold text-red small header-phone-text" id="phoneNum">0812-1283-0218</span>
                     </div>
                 </li>
                 
                 <li class="nav-item ms-lg-2 mt-2 mt-lg-0">
-                    <a class="btn btn-red text-white fw-bold px-4 py-2 rounded-pill shadow-sm" href="{{ url('/#contact') }}">Get readymix</a>
+                    <a class="btn btn-red text-white fw-bold px-4 py-2 rounded-pill shadow-sm btn-get-readymix" href="{{ url('/#contact') }}">Get readymix</a>
                 </li>
             </ul>
         </div>

@@ -85,7 +85,7 @@
                         <div class="manual-contact-item-row">
                             <div class="contact-info-left">
                                 <i class="bi bi-instagram text-ig"></i>
-                                <span><strong>IG:</strong> <span class="copy-target">@jualreadymixcorrjabodetabek</span></span>
+                                <span><strong>IG:</strong> <a class="copy-target" href="https://www.instagram.com/jualraedymixcorrjabodetabek?igsh=bjVqMW8xam90OGVk&utm_source=qr" target="_blank" rel="nofollow noopener" style="color: #fff; text-decoration: none;">@jualreadymixcorrjabodetabek</a></span>
                             </div>
                             <button class="btn-copy-action" onclick="copyText(this)" title="Salin Username"><i class="bi bi-copy"></i></button>
                         </div>
@@ -93,7 +93,7 @@
                         <div class="manual-contact-item-row">
                             <div class="contact-info-left">
                                 <i class="bi bi-tiktok text-tiktok"></i>
-                                <span><strong>TikTok:</strong> <span class="copy-target">readymixpompacor</span></span>
+                                <span><strong>TikTok:</strong> <a class="copy-target" href="https://www.tiktok.com/@readymixpompacor?_r=1&_t=ZS-972VI7DhgaT" target="_blank" rel="nofollow noopener" style="color: #fff; text-decoration: none;">readymixpompacor</a></span>
                             </div>
                             <button class="btn-copy-action" onclick="copyText(this)" title="Salin Username"><i class="bi bi-copy"></i></button>
                         </div>

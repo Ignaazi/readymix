@@ -27,34 +27,26 @@
                         <div class="row g-2 flex-grow-1 align-items-stretch">
                             <!-- Poster Aturan Mutu Ukuran 1 -->
                             <div class="col-6 d-flex">
-                                <div class="services-poster-container flex-grow-1 d-flex align-items-center justify-content-center bg-transparent border-0 p-0 m-0 position-relative overflow-hidden w-100" style="min-height: 420px;">
-                                    <img src="{{ asset('pic12.webp') }}" alt="Aturan Mutu Struktur Ukuran 1" class="img-fluid services-poster-img rounded w-100 h-100" style="object-fit: cover;">
+                                <div class="services-poster-container flex-grow-1 d-flex align-items-center justify-content-center bg-transparent border-0 p-0 m-0 position-relative overflow-hidden w-100">
+                                    <img src="{{ asset('pic12.webp') }}" alt="Aturan Mutu Struktur Ukuran 1" class="img-fluid services-poster-img rounded w-100 h-100">
                                     
                                     <div class="services-poster-overlay d-flex flex-column flex-sm-row gap-2 align-items-center justify-content-center">
                                         <button type="button" class="btn btn-light btn-sm shadow-sm fw-bold px-2 py-1 small" data-bs-toggle="modal" data-bs-target="#previewPosterModal">
                                             <i class="bi bi-eye"></i> Preview
                                         </button>
-                                        <!-- 🔥 UPDATE: href mengarah ke aset asli -->
-                                        <a href="{{ asset('pic12.webp') }}" download="Aturan-Mutu-Struktur-1.png" class="btn btn-danger btn-sm shadow-sm fw-bold px-2 py-1 small">
-                                            <i class="bi bi-download"></i> Download
-                                        </a>
                                     </div>
                                 </div>
                             </div>
                             
                             <!-- Poster Aturan Mutu Ukuran 2 -->
                             <div class="col-6 d-flex">
-                                <div class="services-poster-container flex-grow-1 d-flex align-items-center justify-content-center bg-transparent border-0 p-0 m-0 position-relative overflow-hidden w-100" style="min-height: 420px;">
-                                    <img src="{{ asset('pic13.webp') }}" alt="Aturan Mutu Struktur Ukuran 2" class="img-fluid services-poster-img rounded w-100 h-100" style="object-fit: cover;">
+                                <div class="services-poster-container flex-grow-1 d-flex align-items-center justify-content-center bg-transparent border-0 p-0 m-0 position-relative overflow-hidden w-100">
+                                    <img src="{{ asset('pic13.webp') }}" alt="Aturan Mutu Struktur Ukuran 2" class="img-fluid services-poster-img rounded w-100 h-100">
                                     
                                     <div class="services-poster-overlay d-flex flex-column flex-sm-row gap-2 align-items-center justify-content-center">
                                         <button type="button" class="btn btn-light btn-sm shadow-sm fw-bold px-2 py-1 small" data-bs-toggle="modal" data-bs-target="#previewPoster2Modal">
                                             <i class="bi bi-eye"></i> Preview
                                         </button>
-                                        <!-- 🔥 UPDATE: href mengarah ke aset asli -->
-                                        <a href="{{ asset('pic13.webp') }}" download="Aturan-Mutu-Struktur-2.png" class="btn btn-danger btn-sm shadow-sm fw-bold px-2 py-1 small">
-                                            <i class="bi bi-download"></i> Download
-                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -219,11 +211,11 @@
                             <span class="services-step-number">2</span> Jenis Pompa Beton ( Concrete Pump )
                         </h4>
                         <div class="ps-2 ps-sm-3 border-start border-2 border-danger-subtle">
-                            <ul class="list-unstyled services-clean-list services-grid-list text-dark mb-0">
-                                <li class="mb-2">- Mini Standar</li>
-                                <li class="mb-2">- Standar</li>
-                                <li class="mb-2">- Longboom</li>
-                                <li class="mb-2">- Super Longboom</li>
+                            <ul class="list-unstyled services-clean-list text-dark mb-0">
+                                <li>- Mini Standar</li>
+                                <li>- Standar</li>
+                                <li>- Longboom</li>
+                                <li>- Super Longboom</li>
                             </ul>
                         </div>
                     </div>
@@ -236,7 +228,7 @@
                 <div class="p-3 services-3d-soft-box w-100 d-flex flex-column h-100 bg-white">
                     
                     <div class="services-flat-title-badge mb-3 bg-danger text-center w-100 py-2 shadow-sm text-uppercase fw-black letter-spacing-1">
-                        <i class="bi bi-cart-check-fill me-2 fs-5"></i> Ayo Order !!! <i class="bi bi-fire ms-1"></i>
+                        <i class="bi bi-cart-check-fill me-2 fs-5"></i> Ayo Order !!!
                     </div>
 
                     <div class="row g-2 flex-grow-1 align-items-stretch">
@@ -245,13 +237,10 @@
                             <div class="services-poster-container flex-grow-1 d-flex align-items-center justify-content-center bg-transparent border-0 p-0 m-0 position-relative overflow-hidden w-100">
                                 <img src="{{ asset('pic6.webp') }}" alt="Poster Order Konstruksi 1" class="img-fluid services-poster-img rounded w-100 h-100">
                                 <div class="services-poster-overlay d-flex flex-column flex-sm-row gap-2 align-items-center justify-content-center">
-                                    <button type="button" class="btn btn-light btn-sm shadow-sm fw-bold px-2 py-1 small" data-bs-toggle="modal" data-bs-target="#previewPosterOrder1Modal">
-                                        <i class="bi bi-eye"></i> Preview
-                                    </button>
-                                    <a href="{{ asset('pic6.webp') }}" download="Poster-Order-1.png" class="btn btn-danger btn-sm shadow-sm fw-bold px-2 py-1 small">
-                                        <i class="bi bi-download"></i> Download
-                                    </a>
-                                </div>
+                                        <button type="button" class="btn btn-light btn-sm shadow-sm fw-bold px-2 py-1 small" data-bs-toggle="modal" data-bs-target="#previewPosterOrder1Modal">
+                                            <i class="bi bi-eye"></i> Preview
+                                        </button>
+                                    </div>
                             </div>
                         </div>
                         
@@ -260,13 +249,10 @@
                             <div class="services-poster-container flex-grow-1 d-flex align-items-center justify-content-center bg-transparent border-0 p-0 m-0 position-relative overflow-hidden w-100">
                                 <img src="{{ asset('pic7.webp') }}" alt="Poster Order Konstruksi 2" class="img-fluid services-poster-img rounded w-100 h-100">
                                 <div class="services-poster-overlay d-flex flex-column flex-sm-row gap-2 align-items-center justify-content-center">
-                                    <button type="button" class="btn btn-light btn-sm shadow-sm fw-bold px-2 py-1 small" data-bs-toggle="modal" data-bs-target="#previewPosterOrder2Modal">
-                                        <i class="bi bi-eye"></i> Preview
-                                    </button>
-                                    <a href="{{ asset('pic7.webp') }}" download="Poster-Order-2.png" class="btn btn-danger btn-sm shadow-sm fw-bold px-2 py-1 small">
-                                        <i class="bi bi-download"></i> Download
-                                    </a>
-                                </div>
+                                        <button type="button" class="btn btn-light btn-sm shadow-sm fw-bold px-2 py-1 small" data-bs-toggle="modal" data-bs-target="#previewPosterOrder2Modal">
+                                            <i class="bi bi-eye"></i> Preview
+                                        </button>
+                                    </div>
                             </div>
                         </div>
                     </div>

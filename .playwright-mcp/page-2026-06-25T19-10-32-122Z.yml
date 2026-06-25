@@ -1,0 +1,669 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - link "NH Mitra Beton Logo" [ref=e4] [cursor=pointer]:
+        - /url: http://localhost:8000
+        - img "NH Mitra Beton Logo" [ref=e5]
+      - list [ref=e7]:
+        - listitem [ref=e8]:
+          - link "Home" [ref=e9] [cursor=pointer]:
+            - /url: http://localhost:8000/#home
+        - listitem [ref=e10]:
+          - link "About" [ref=e11] [cursor=pointer]:
+            - /url: http://localhost:8000/#about
+        - listitem [ref=e12]:
+          - button "Services " [ref=e13] [cursor=pointer]:
+            - text: Services
+            - generic [ref=e14]: 
+        - listitem [ref=e15]:
+          - link "Project" [ref=e16] [cursor=pointer]:
+            - /url: http://localhost:8000/#project
+        - listitem [ref=e17]:
+          - button "Pages " [ref=e18] [cursor=pointer]:
+            - text: Pages
+            - generic [ref=e19]: 
+        - listitem [ref=e20]:
+          - link "Contact" [ref=e21] [cursor=pointer]:
+            - /url: http://localhost:8000/#contact
+        - listitem [ref=e22]:
+          - generic [ref=e25] [cursor=pointer]: 
+        - listitem [ref=e26]:
+          - link "Get readymix" [ref=e27] [cursor=pointer]:
+            - /url: http://localhost:8000/#contact
+  - main [ref=e28]:
+    - generic [ref=e33]:
+      - generic [ref=e34]:
+        - heading "Produsen Beton Readymix JABODETABEK & Jasa Cor Pompa Beton Cikarang Bekasi Dan Sekitarnya" [level=1] [ref=e35]
+        - paragraph [ref=e36]:
+          - strong [ref=e37]: Readymix Nuhaldi
+          - text: hadir sebagai supplier material alam dan produsen terpercaya yang bergerak di bidang penyedia beton cor, readymix, jayamix, dan minimix. Kami melayani area JABODETABEK, Cikarang Selatan, hingga seluruh area Kabupaten Bekasi dengan dukungan armada penunjang lengkap seperti concrete pump, vibrator, dan trowel beton kualitas SNI.
+        - generic [ref=e39]:
+          - generic [ref=e40]:
+            - generic [ref=e42]: 
+            - generic [ref=e43]:
+              - generic [ref=e44]: 4+
+              - generic [ref=e45]: Years Experience
+          - generic [ref=e46]:
+            - generic [ref=e48]: 
+            - generic [ref=e49]:
+              - generic [ref=e50]: 200+
+              - generic [ref=e51]: Projects Completed
+          - generic [ref=e52]:
+            - generic [ref=e54]: 
+            - generic [ref=e55]:
+              - generic [ref=e56]: 4.9 / 5
+              - generic [ref=e57]: Google Maps Rating
+      - generic [ref=e59]:
+        - generic [ref=e60]: "Hubungi kami :"
+        - generic [ref=e61]:
+          - link " Whatsapp" [ref=e62] [cursor=pointer]:
+            - /url: https://wa.me/6281212830218?text=Halo+Readymixnh+Beton+Indonesia%2C+saya+ingin+tanya+mengenai+pemesanan+readymix.
+            - generic [ref=e63]: 
+            - text: Whatsapp
+          - link " Telepon" [ref=e64] [cursor=pointer]:
+            - /url: tel:081212830218
+            - generic [ref=e65]: 
+            - text: Telepon
+        - generic [ref=e66]:
+          - generic [ref=e67]:
+            - generic [ref=e68]:
+              - generic [ref=e69]: 
+              - generic [ref=e70]:
+                - strong [ref=e71]: "Telp:"
+                - text: 0812-1283-0218
+            - button "" [ref=e72] [cursor=pointer]:
+              - generic [ref=e73]: 
+          - generic [ref=e74]:
+            - generic [ref=e75]:
+              - generic [ref=e76]: 
+              - generic [ref=e77]:
+                - strong [ref=e78]: "WA:"
+                - text: 0812-1283-0218
+            - button "" [ref=e79] [cursor=pointer]:
+              - generic [ref=e80]: 
+          - generic [ref=e81]:
+            - generic [ref=e82]:
+              - generic [ref=e83]: 
+              - generic [ref=e84]:
+                - strong [ref=e85]: "IG:"
+                - text: "@jualreadymixcorrjabodetabek"
+            - button "" [ref=e86] [cursor=pointer]:
+              - generic [ref=e87]: 
+          - generic [ref=e88]:
+            - generic [ref=e89]:
+              - generic [ref=e90]: 
+              - generic [ref=e91]:
+                - strong [ref=e92]: "TikTok:"
+                - text: readymixpompacor
+            - button "" [ref=e93] [cursor=pointer]:
+              - generic [ref=e94]: 
+    - generic [ref=e95]:
+      - generic [ref=e97]:
+        - heading "PROFIL PERUSAHAAN READYMIX NUHALDI" [level=2] [ref=e100]
+        - generic [ref=e102]:
+          - generic [ref=e104]:
+            - generic [ref=e105]:
+              - heading "Supplier Beton Cor Jayamix, Minimix & Pompa Beton Berkualitas" [level=3] [ref=e106]
+              - paragraph [ref=e107]:
+                - strong [ref=e108]: Readymix Nuhaldi
+                - text: (PT Readymix Beton Indonesia) berkomitmen penuh sebagai supplier utama penyedia beton siap pakai (readymix concrete) premium. Kami siap melayani pengiriman beton cor jayamix, minimix, hingga sewa pompa beton (concrete pump) untuk area Cikarang Selatan, Kabupaten Bekasi, serta seluruh wilayah JABODETABEK dengan kualitas mutu presisi tinggi standar SNI.
+              - generic [ref=e109]:
+                - generic [ref=e111]:
+                  - generic [ref=e113]: 
+                  - generic [ref=e114]:
+                    - heading "Licensed & Insured" [level=5] [ref=e115]
+                    - paragraph [ref=e116]: Terakreditasi penuh dengan jaminan mutu standar mutu SNI.
+                - generic [ref=e118]:
+                  - generic [ref=e120]: 
+                  - generic [ref=e121]:
+                    - heading "On-Time Delivery" [level=5] [ref=e122]
+                    - paragraph [ref=e123]: Pengiriman instan tepat waktu dengan armada truk mixer prima.
+                - generic [ref=e125]:
+                  - generic [ref=e127]: 
+                  - generic [ref=e128]:
+                    - heading "Expert Workforce" [level=5] [ref=e129]
+                    - paragraph [ref=e130]: Didukung oleh tim teknis profesional berpengalaman di lapangan.
+                - generic [ref=e132]:
+                  - generic [ref=e134]: 
+                  - generic [ref=e135]:
+                    - heading "Premium Quality" [level=5] [ref=e136]
+                    - paragraph [ref=e137]: Komposisi racikan beton konsisten kokoh tahan lama lama.
+              - generic [ref=e138]:
+                - generic [ref=e140]:
+                  - generic [ref=e141]:
+                    - generic [ref=e142]: 
+                    - text: Alamat Kantor
+                  - list [ref=e143]:
+                    - listitem [ref=e144]:
+                      - strong [ref=e145]: "Jl:"
+                      - text: Ciremai Raya 10 No. 22
+                    - listitem [ref=e146]:
+                      - strong [ref=e147]: "Desa:"
+                      - text: Sukadami
+                    - listitem [ref=e148]:
+                      - strong [ref=e149]: "Kecamatan:"
+                      - text: Cikarang Selatan
+                    - listitem [ref=e150]:
+                      - strong [ref=e151]: "Kabupaten:"
+                      - text: Bekasi, Jawa Barat
+                - generic [ref=e153]:
+                  - generic [ref=e154]:
+                    - generic [ref=e155]: 
+                    - text: Hubungi Kami
+                  - list [ref=e156]:
+                    - listitem [ref=e157]:
+                      - generic [ref=e158]: 
+                      - strong [ref=e159]: "Telp:"
+                      - text: 0812-1283-0218
+                    - listitem [ref=e160]:
+                      - generic [ref=e161]: 
+                      - strong [ref=e162]: "WhatsApp:"
+                      - text: 0812-1283-0218
+                    - listitem [ref=e163]:
+                      - generic [ref=e164]: 
+                      - strong [ref=e165]: "Instagram:"
+                      - text: "@jualreadymixcorrjabodetabek"
+                    - listitem [ref=e166]:
+                      - generic [ref=e167]: 
+                      - strong [ref=e168]: "TikTok:"
+                      - text: readymixpompacor
+            - generic [ref=e171]:
+              - generic [ref=e172]:
+                - generic [ref=e173]: 
+                - text: Google Maps Official Batching Plant
+              - iframe [ref=e175]:
+                
+          - generic [ref=e177]:
+            - generic [ref=e178]:
+              - generic [ref=e179]:
+                - generic [ref=e180]: 
+                - text: Our Projects
+              - generic [ref=e181]:
+                - generic [ref=e182]:
+                  - img "Proyek Pengecoran Beton Masjid" [ref=e184] [cursor=pointer]
+                  - generic [ref=e185]:
+                    - generic [ref=e187]:
+                      - heading "Proyek Masjid" [level=6] [ref=e188]
+                      - paragraph [ref=e189]: Pengecoran tempat ibadah
+                    - link "Preview" [ref=e190] [cursor=pointer]:
+                      - /url: "#"
+                - generic [ref=e191]:
+                  - img "Pengecoran Struktur Gedung Kantor" [ref=e193] [cursor=pointer]
+                  - generic [ref=e194]:
+                    - generic [ref=e196]:
+                      - heading "Proyek Kantor" [level=6] [ref=e197]
+                      - paragraph [ref=e198]: Gedung bisnis modern
+                    - link "Preview" [ref=e199] [cursor=pointer]:
+                      - /url: "#"
+                - generic [ref=e200]:
+                  - img "Pengecoran Lantai Lapangan Sekolah" [ref=e202] [cursor=pointer]
+                  - generic [ref=e203]:
+                    - generic [ref=e205]:
+                      - heading "Proyek Sekolah" [level=6] [ref=e206]
+                      - paragraph [ref=e207]: Infrastruktur pendidikan
+                    - link "Preview" [ref=e208] [cursor=pointer]:
+                      - /url: "#"
+                - generic [ref=e209]:
+                  - img "Pengecoran Beton Cor Rumah Tinggal" [ref=e211] [cursor=pointer]
+                  - generic [ref=e212]:
+                    - generic [ref=e214]:
+                      - heading "Proyek Rumahan" [level=6] [ref=e215]
+                      - paragraph [ref=e216]: Hunian pribadi kokoh
+                    - link "Preview" [ref=e217] [cursor=pointer]:
+                      - /url: "#"
+            - separator [ref=e218]
+            - generic [ref=e219]:
+              - generic [ref=e220]:
+                - generic [ref=e221]: 
+                - text: Our Services
+              - generic [ref=e222]:
+                - generic [ref=e223]:
+                  - img "Layanan Beton Readymix" [ref=e225] [cursor=pointer]
+                  - generic [ref=e226]:
+                    - generic [ref=e228]:
+                      - heading "Beton Readymix" [level=6] [ref=e229]
+                      - paragraph [ref=e230]: Beton Siap Pakai Standar SNI
+                    - link "Preview" [ref=e231] [cursor=pointer]:
+                      - /url: "#"
+                - generic [ref=e232]:
+                  - img "Layanan Beton Minimix" [ref=e234] [cursor=pointer]
+                  - generic [ref=e235]:
+                    - generic [ref=e237]:
+                      - heading "Beton Minimix" [level=6] [ref=e238]
+                      - paragraph [ref=e239]: Truk Mixer Akses Jalan Sempit
+                    - link "Preview" [ref=e240] [cursor=pointer]:
+                      - /url: "#"
+                - generic [ref=e241]:
+                  - img "Layanan Pompa Beton Standard" [ref=e243] [cursor=pointer]
+                  - generic [ref=e244]:
+                    - generic [ref=e246]:
+                      - heading "Pompa Beton" [level=6] [ref=e247]
+                      - paragraph [ref=e248]: Sewa Alat Concrete Pump
+                    - link "Preview" [ref=e249] [cursor=pointer]:
+                      - /url: "#"
+                - generic [ref=e250]:
+                  - img "Layanan Pompa Mini / Long Boom" [ref=e252] [cursor=pointer]
+                  - generic [ref=e253]:
+                    - generic [ref=e255]:
+                      - heading "Pompa Long Boom" [level=6] [ref=e256]
+                      - paragraph [ref=e257]: Jangkauan Pengecoran Tinggi
+                    - link "Preview" [ref=e258] [cursor=pointer]:
+                      - /url: "#"
+      - text:        
+    - generic [ref=e260]:
+      - generic [ref=e261]:
+        - heading "PRODUCT DAN LAYANAN KAMI" [level=2] [ref=e264]
+        - generic [ref=e266]:
+          - generic [ref=e269]:
+            - generic [ref=e270]:
+              - generic [ref=e271]: 
+              - text: Aturan Mutu Struktur
+            - generic [ref=e272]:
+              - generic [ref=e274]:
+                - img "Aturan Mutu Struktur Ukuran 1" [ref=e275]
+                - button " Preview" [ref=e277] [cursor=pointer]:
+                  - generic [ref=e278]: 
+                  - text: Preview
+              - generic [ref=e280]:
+                - img "Aturan Mutu Struktur Ukuran 2" [ref=e281]
+                - button " Preview" [ref=e283] [cursor=pointer]:
+                  - generic [ref=e284]: 
+                  - text: Preview
+          - generic [ref=e287]:
+            - generic [ref=e288]:
+              - generic [ref=e289]:
+                - generic [ref=e290]: 
+                - text: Daftar Mutu Karakteristik FA & NFA
+              - button " Download Table" [ref=e291] [cursor=pointer]:
+                - generic [ref=e292]: 
+                - text: Download Table
+            - table [ref=e294]:
+              - rowgroup [ref=e295]:
+                - row "NO. MUTU K MUTU FC (MPA) KET." [ref=e296]:
+                  - columnheader "NO." [ref=e297]
+                  - columnheader "MUTU K" [ref=e298]
+                  - columnheader "MUTU FC (MPA)" [ref=e299]
+                  - columnheader "KET." [ref=e300]
+              - rowgroup [ref=e301]:
+                - row "1 K100 (FA & NFA) Ready" [ref=e302]:
+                  - cell "1" [ref=e303]
+                  - cell "K100" [ref=e304]
+                  - cell "(FA & NFA)" [ref=e305]
+                  - cell "Ready" [ref=e306]:
+                    - generic [ref=e307]: Ready
+                - row "2 K-150 (FA & NFA) Ready" [ref=e308]:
+                  - cell "2" [ref=e309]
+                  - cell "K-150" [ref=e310]
+                  - cell "(FA & NFA)" [ref=e311]
+                  - cell "Ready" [ref=e312]:
+                    - generic [ref=e313]: Ready
+                - row "3 K-175 (FA & NFA) Ready" [ref=e314]:
+                  - cell "3" [ref=e315]
+                  - cell "K-175" [ref=e316]
+                  - cell "(FA & NFA)" [ref=e317]
+                  - cell "Ready" [ref=e318]:
+                    - generic [ref=e319]: Ready
+                - row "4 K-200 (FA & NFA) Ready" [ref=e320]:
+                  - cell "4" [ref=e321]
+                  - cell "K-200" [ref=e322]
+                  - cell "(FA & NFA)" [ref=e323]
+                  - cell "Ready" [ref=e324]:
+                    - generic [ref=e325]: Ready
+                - row "5 K-225 (FA & NFA) Best Seller" [ref=e326]:
+                  - cell "5" [ref=e327]
+                  - cell "K-225" [ref=e328]
+                  - cell "(FA & NFA)" [ref=e329]
+                  - cell "Best Seller" [ref=e330]:
+                    - generic [ref=e331]: Best Seller
+                - row "6 K-250 (FA & NFA) Best Seller" [ref=e332]:
+                  - cell "6" [ref=e333]
+                  - cell "K-250" [ref=e334]
+                  - cell "(FA & NFA)" [ref=e335]
+                  - cell "Best Seller" [ref=e336]:
+                    - generic [ref=e337]: Best Seller
+                - row "7 K-275 (FA & NFA) Best Seller" [ref=e338]:
+                  - cell "7" [ref=e339]
+                  - cell "K-275" [ref=e340]
+                  - cell "(FA & NFA)" [ref=e341]
+                  - cell "Best Seller" [ref=e342]:
+                    - generic [ref=e343]: Best Seller
+                - row "8 K-300 (FA & NFA) Best Seller" [ref=e344]:
+                  - cell "8" [ref=e345]
+                  - cell "K-300" [ref=e346]
+                  - cell "(FA & NFA)" [ref=e347]
+                  - cell "Best Seller" [ref=e348]:
+                    - generic [ref=e349]: Best Seller
+                - row "9 K-350 (FA & NFA) Ready" [ref=e350]:
+                  - cell "9" [ref=e351]
+                  - cell "K-350" [ref=e352]
+                  - cell "(FA & NFA)" [ref=e353]
+                  - cell "Ready" [ref=e354]:
+                    - generic [ref=e355]: Ready
+                - row "10 K-400 (FA & NFA) Ready" [ref=e356]:
+                  - cell "10" [ref=e357]
+                  - cell "K-400" [ref=e358]
+                  - cell "(FA & NFA)" [ref=e359]
+                  - cell "Ready" [ref=e360]:
+                    - generic [ref=e361]: Ready
+                - row "11 K-450 (FA & NFA) Ready" [ref=e362]:
+                  - cell "11" [ref=e363]
+                  - cell "K-450" [ref=e364]
+                  - cell "(FA & NFA)" [ref=e365]
+                  - cell "Ready" [ref=e366]:
+                    - generic [ref=e367]: Ready
+                - row "12 K-500 (FA & NFA) Ready" [ref=e368]:
+                  - cell "12" [ref=e369]
+                  - cell "K-500" [ref=e370]
+                  - cell "(FA & NFA)" [ref=e371]
+                  - cell "Ready" [ref=e372]:
+                    - generic [ref=e373]: Ready
+        - generic [ref=e374]:
+          - generic [ref=e376]:
+            - generic [ref=e378]:
+              - generic [ref=e379]: 
+              - text: Klasifikasi Armada & Spesifikasi Pompa
+            - generic [ref=e380]:
+              - heading "1 Klasifikasi Truk ( Readymix )" [level=4] [ref=e381]:
+                - generic [ref=e382]: "1"
+                - text: Klasifikasi Truk ( Readymix )
+              - generic [ref=e383]:
+                - heading "a. Jenis Ukuran Truk (2 Ukuran):" [level=5] [ref=e384]
+                - list [ref=e385]:
+                  - listitem [ref=e386]:
+                    - text: "-"
+                    - strong [ref=e387]: "Truk Big Mix:"
+                    - text: Untuk alokasi pemenuhan proyek skala besar.
+                  - listitem [ref=e388]:
+                    - text: "-"
+                    - strong [ref=e389]: "Truk Mini Mix:"
+                    - text: Solusi armada jangkauan area jalan / gang sempit.
+                  - listitem [ref=e390]:
+                    - text: "-"
+                    - strong [ref=e391]: "Truk Pump:"
+                    - text: Truk penunjang jangkauan pompa beton.
+              - generic [ref=e392]:
+                - heading "b. Jenis Tipe Truk (3 Tipe):" [level=5] [ref=e393]
+                - list [ref=e394]:
+                  - listitem [ref=e395]:
+                    - text: "-"
+                    - strong [ref=e396]: "Truk Ready Mix:"
+                    - text: Truk mixer pengolah dan pengantar beton cor.
+                  - listitem [ref=e397]:
+                    - text: "-"
+                    - strong [ref=e398]: "Truk Pompa Beton:"
+                    - text: Armada khusus distribusi pompa cor di lokasi.
+            - separator [ref=e399]
+            - generic [ref=e400]:
+              - heading "2 Jenis Pompa Beton ( Concrete Pump )" [level=4] [ref=e401]:
+                - generic [ref=e402]: "2"
+                - text: Jenis Pompa Beton ( Concrete Pump )
+              - list [ref=e404]:
+                - listitem [ref=e405]: "- Mini Standar"
+                - listitem [ref=e406]: "- Standar"
+                - listitem [ref=e407]: "- Longboom"
+                - listitem [ref=e408]: "- Super Longboom"
+          - generic [ref=e410]:
+            - generic [ref=e411]:
+              - generic [ref=e412]: 
+              - text: Ayo Order !!!
+            - generic [ref=e413]:
+              - generic [ref=e415]:
+                - img "Poster Order Konstruksi 1" [ref=e416]
+                - button " Preview" [ref=e418] [cursor=pointer]:
+                  - generic [ref=e419]: 
+                  - text: Preview
+              - generic [ref=e421]:
+                - img "Poster Order Konstruksi 2" [ref=e422]
+                - button " Preview" [ref=e424] [cursor=pointer]:
+                  - generic [ref=e425]: 
+                  - text: Preview
+      - text:        
+    - generic [ref=e428]:
+      - generic [ref=e430]:
+        - heading "CARA MUDAH PEMESANAN" [level=2] [ref=e431]
+        - paragraph [ref=e433]: Teman-Teman Ayo Ikuti 4 langkah praktis berikut untuk melakukan pemesanan !!!
+      - list [ref=e434]:
+        - listitem [ref=e435]:
+          - generic [ref=e436]:
+            - generic [ref=e438]: "1"
+            - generic [ref=e440]:
+              - generic [ref=e441]:
+                - generic [ref=e442]: 
+                - text: STEP 01
+              - heading "Konsultasi & Mutu" [level=3] [ref=e443]
+              - paragraph [ref=e444]: Hubungi tim marketing kami via WhatsApp atau Telepon untuk konsultasi mengenai volume beton, jenis mutu (K-225, K-300, dll), serta kebutuhan armada pendukung.
+        - listitem [ref=e445]:
+          - generic [ref=e446]:
+            - generic [ref=e448]: "2"
+            - generic [ref=e450]:
+              - generic [ref=e451]:
+                - generic [ref=e452]: 
+                - text: STEP 02
+              - heading "Survey Lokasi Proyek" [level=3] [ref=e453]
+              - paragraph [ref=e454]: Tim teknis kami akan datang ke lokasi proyek Anda untuk memastikan akses jalan truk mixer, kesiapan bekisting, dan menentukan tipe pompa beton yang paling cocok.
+        - listitem [ref=e455]:
+          - generic [ref=e456]:
+            - generic [ref=e458]: "3"
+            - generic [ref=e460]:
+              - generic [ref=e461]:
+                - generic [ref=e462]: 
+                - text: STEP 03
+              - heading "Invoicing & Payment" [level=3] [ref=e463]
+              - paragraph [ref=e464]: Setelah data pesanan tervalidasi, kami akan menerbitkan invoice resmi. Pembayaran dilakukan secara aman melalui transfer bank sebelum jadwal pengecoran dikunci.
+        - listitem [ref=e465]:
+          - generic [ref=e466]:
+            - generic [ref=e468]: "4"
+            - generic [ref=e470]:
+              - generic [ref=e471]:
+                - generic [ref=e472]: 
+                - text: STEP 04
+              - heading "Pengiriman & Cor" [level=3] [ref=e473]
+              - paragraph [ref=e474]: Beton readymix dikirim langsung dari batching plant terdekat menggunakan armada truk mixer segar ke lokasi proyek sesuai jadwal yang disepakati bersama.
+      - generic [ref=e476]:
+        - paragraph [ref=e477]: Sudah Siap Cor? Hubungi Kami Sekarang
+        - link " Chat Whatsapp" [ref=e479] [cursor=pointer]:
+          - /url: https://wa.me/6281212830218?text=Halo%20PT%20Readymix%20Beton%20Indonesia,%20saya%20ingin%20tanya%20mengenai%20pemesanan%20readymix.
+          - generic [ref=e480]: 
+          - text: Chat Whatsapp
+    - generic [ref=e481]:
+      - generic [ref=e483]:
+        - heading "DOKUMENTASI PROYEK TERBARU" [level=2] [ref=e486]
+        - generic [ref=e488]:
+          - img "Dokumentasi Proyek 1" [ref=e490] [cursor=pointer]
+          - img "Dokumentasi Proyek 2" [ref=e492] [cursor=pointer]
+          - img "Dokumentasi Proyek 3" [ref=e494] [cursor=pointer]
+          - img "Dokumentasi Proyek 4" [ref=e496] [cursor=pointer]
+          - img "Dokumentasi Proyek 5" [ref=e498] [cursor=pointer]
+          - img "Dokumentasi Proyek 6" [ref=e500] [cursor=pointer]
+          - img "Dokumentasi Proyek 7" [ref=e502] [cursor=pointer]
+          - img "Dokumentasi Proyek 8" [ref=e504] [cursor=pointer]
+          - img "Dokumentasi Proyek 9" [ref=e506] [cursor=pointer]
+          - img "Dokumentasi Proyek 10" [ref=e508] [cursor=pointer]
+          - img "Dokumentasi Proyek 11" [ref=e510] [cursor=pointer]
+          - img "Dokumentasi Proyek 12" [ref=e512] [cursor=pointer]
+      - text:            
+    - generic [ref=e515]:
+      - heading "Apa Kata Mereka Tentang Layanan Kami?" [level=3] [ref=e518]
+      - generic [ref=e520]:
+        - generic [ref=e522]:
+          - generic [ref=e523]:
+            - img "Mas Hendra" [ref=e525]
+            - heading "Mas Hendra" [level=5] [ref=e526]
+            - generic [ref=e527]: Kontraktor Ruko - Cikarang
+            - paragraph [ref=e528]: "\"Beton readymix-nya dikirim tepat waktu ke area proyek. Mutunya presisi tinggi, mantap gak mengecewakan.\""
+          - generic [ref=e529]:
+            - generic [ref=e530]: 
+            - generic [ref=e531]: 
+            - generic [ref=e532]: 
+            - generic [ref=e533]: 
+            - generic [ref=e534]: 
+        - generic [ref=e536]:
+          - generic [ref=e537]:
+            - img "Mbak Citra" [ref=e539]
+            - heading "Mbak Citra" [level=5] [ref=e540]
+            - generic [ref=e541]: Pemilik Rumah - Bekasi
+            - paragraph [ref=e542]: "\"Pesan jayamix buat nge-dak rumah lancar banget dari proses survei, dibantu sewa pompa beton long boom juga.\""
+          - generic [ref=e543]:
+            - generic [ref=e544]: 
+            - generic [ref=e545]: 
+            - generic [ref=e546]: 
+            - generic [ref=e547]: 
+            - generic [ref=e548]: 
+        - generic [ref=e550]:
+          - generic [ref=e551]:
+            - img "Ibu Hj. Aminah" [ref=e553]
+            - heading "Ibu Hj. Aminah" [level=5] [ref=e554]
+            - generic [ref=e555]: Pengurus Yayasan - Jakarta
+            - paragraph [ref=e556]: "\"Alhamdulillah pengecoran lantai masjid berjalan sukses. Pelayanannya sangat ramah dan harganya bersahabat.\""
+          - generic [ref=e557]:
+            - generic [ref=e558]: 
+            - generic [ref=e559]: 
+            - generic [ref=e560]: 
+            - generic [ref=e561]: 
+            - generic [ref=e562]: 
+        - generic [ref=e564]:
+          - generic [ref=e565]:
+            - img "Pak Sarif" [ref=e567]
+            - heading "Pak Sarif" [level=5] [ref=e568]
+            - generic [ref=e569]: Developer Senior - JABODETABEK
+            - paragraph [ref=e570]: "\"Sudah puluhan tahun main proyek bangunan, armada Nuhaldi ini termasuk yang paling sigap di lapangan.\""
+          - generic [ref=e571]:
+            - generic [ref=e572]: 
+            - generic [ref=e573]: 
+            - generic [ref=e574]: 
+            - generic [ref=e575]: 
+            - generic [ref=e576]: 
+    - generic [ref=e579]:
+      - generic [ref=e581]:
+        - heading "HUBUNGI KAMI" [level=2] [ref=e582]
+        - paragraph [ref=e584]: Punya pertanyaan mengenai mutu beton atau rencana pengecoran proyek Anda? Tim kami siap melayani Anda sepenuh hati.
+      - generic [ref=e585]:
+        - generic [ref=e586]:
+          - generic [ref=e587]:
+            - generic [ref=e589]: 
+            - generic [ref=e590]:
+              - heading "Our Office" [level=4] [ref=e591]
+              - paragraph [ref=e592]: Jl. Ciremai Raya 10 No. 22, Des. Sukadami, Kec. Cikarang Selatan, Kab. Bekasi, Prov. Jawa Barat
+          - generic [ref=e593]:
+            - generic [ref=e595]: 
+            - generic [ref=e596]:
+              - heading "Call Us" [level=4] [ref=e597]
+              - paragraph [ref=e598]: +62 812-1283-0218
+          - generic [ref=e599]:
+            - generic [ref=e601]: 
+            - generic [ref=e602]:
+              - heading "Email Us" [level=4] [ref=e603]
+              - paragraph [ref=e604]: hif9687@gmail.com
+          - generic [ref=e605]:
+            - generic [ref=e607]: 
+            - generic [ref=e608]:
+              - heading "Working Hours" [level=4] [ref=e609]
+              - paragraph [ref=e610]: Ready 24 Hours !!!
+        - generic [ref=e613]:
+          - generic [ref=e614]:
+            - generic [ref=e615]:
+              - generic [ref=e616]: Your Name
+              - textbox "Your Name" [ref=e617]
+            - generic [ref=e618]:
+              - generic [ref=e619]: Your Email
+              - textbox "Your Email" [ref=e620]
+          - generic [ref=e621]:
+            - generic [ref=e622]:
+              - generic [ref=e623]: Phone Number
+              - textbox "Phone Number" [ref=e624]
+            - generic [ref=e625]:
+              - generic [ref=e626]: Select a Service
+              - combobox "Select a Service" [ref=e627]:
+                - option "Pemesanan Beton Readymix"
+                - option "Sewa Pompa Beton (Concrete Pump)"
+                - option "Permintaan Survey Lokasi"
+                - option "Konsultasi / Lainnya"
+          - generic [ref=e628]:
+            - generic [ref=e629]: Subject
+            - textbox "Subject" [ref=e630]
+          - generic [ref=e631]:
+            - generic [ref=e632]: Describe your requirements...
+            - textbox "Describe your requirements..." [ref=e633]:
+              - /placeholder: Describe your project requirements...
+          - button "Send Message" [ref=e635] [cursor=pointer]
+  - contentinfo [ref=e636]:
+    - generic [ref=e637]:
+      - generic [ref=e638]:
+        - generic [ref=e639]:
+          - generic [ref=e640]:
+            - img "Logo PT Readymix Beton Indonesia" [ref=e642]
+            - paragraph [ref=e643]: Solusi penyedia Ready mix, Mini mix, Big mix, Concrete pump, Se JABODETABEK untuk membantu proyek anda
+          - generic [ref=e644]:
+            - link "" [ref=e645] [cursor=pointer]:
+              - /url: https://wa.me/6281212830218?text=Halo+Readymixnh%2C+saya+ingin+tanya+mengenai+pemesanan+readymix.
+              - generic [ref=e646]: 
+            - link "" [ref=e647] [cursor=pointer]:
+              - /url: https://www.instagram.com/jualraedymixcorrjabodetabek?igsh=bjVqMW8xam90OGVk&utm_source=qr
+              - generic [ref=e648]: 
+            - link "" [ref=e649] [cursor=pointer]:
+              - /url: https://www.tiktok.com/@readymixpompacor?_r=1&_t=ZS-972VI7DhgaT
+              - generic [ref=e650]: 
+        - generic [ref=e651]:
+          - heading "Useful Links" [level=5] [ref=e652]
+          - list [ref=e653]:
+            - listitem [ref=e654]:
+              - link " Home" [ref=e655] [cursor=pointer]:
+                - /url: http://localhost:8000/#home
+                - generic [ref=e656]: 
+                - text: Home
+            - listitem [ref=e657]:
+              - link " About Us" [ref=e658] [cursor=pointer]:
+                - /url: http://localhost:8000/#about
+                - generic [ref=e659]: 
+                - text: About Us
+            - listitem [ref=e660]:
+              - link " Services" [ref=e661] [cursor=pointer]:
+                - /url: http://localhost:8000/#services
+                - generic [ref=e662]: 
+                - text: Services
+            - listitem [ref=e663]:
+              - link " Project" [ref=e664] [cursor=pointer]:
+                - /url: http://localhost:8000/#project
+                - generic [ref=e665]: 
+                - text: Project
+            - listitem [ref=e666]:
+              - link " Contact" [ref=e667] [cursor=pointer]:
+                - /url: http://localhost:8000/#contact
+                - generic [ref=e668]: 
+                - text: Contact
+        - generic [ref=e669]:
+          - heading "Our Services" [level=5] [ref=e670]
+          - list [ref=e671]:
+            - listitem [ref=e672]:
+              - link " Product dan layanan" [ref=e673] [cursor=pointer]:
+                - /url: http://localhost:8000/#services
+                - generic [ref=e674]: 
+                - text: Product dan layanan
+            - listitem [ref=e675]:
+              - link " Cara Pemesanan" [ref=e676] [cursor=pointer]:
+                - /url: http://localhost:8000/#how-to-order
+                - generic [ref=e677]: 
+                - text: Cara Pemesanan
+        - generic [ref=e678]:
+          - heading "Contact Us" [level=5] [ref=e679]
+          - generic [ref=e680]:
+            - 'link " Telephone: 0812-1283-0218" [ref=e681] [cursor=pointer]':
+              - /url: tel:+6281212830218
+              - generic [ref=e682]: 
+              - generic [ref=e683]: "Telephone: 0812-1283-0218"
+            - 'link " Whatsapp: 0812-1283-0218" [ref=e684] [cursor=pointer]':
+              - /url: https://wa.me/6281212830218?text=Halo+PT+Readymix+Beton+Indonesia%2C+saya+ingin+tanya+mengenai+pemesanan+readymix.
+              - generic [ref=e685]: 
+              - generic [ref=e686]: "Whatsapp: 0812-1283-0218"
+            - 'link " Instagram: @jualreadymixcorrjabodetabek" [ref=e687] [cursor=pointer]':
+              - /url: https://www.instagram.com/jualraedymixcorrjabodetabek?igsh=bjVqMW8xam90OGVk&utm_source=qr
+              - generic [ref=e688]: 
+              - generic [ref=e689]: "Instagram: @jualreadymixcorrjabodetabek"
+            - 'link " Tiktok: readymixpompacor" [ref=e690] [cursor=pointer]':
+              - /url: https://www.tiktok.com/@readymixpompacor?_r=1&_t=ZS-972VI7DhgaT
+              - generic [ref=e691]: 
+              - generic [ref=e692]: "Tiktok: readymixpompacor"
+      - separator [ref=e693]
+      - generic [ref=e695]:
+        - paragraph [ref=e696]: © Copyright Readymix Nuhaldi. All Rights Reserved.
+        - paragraph [ref=e697]: Designed by @ajitech

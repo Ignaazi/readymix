@@ -199,3 +199,14 @@ html {
         background-color: #f8f9fa;
     }
 }
+
+/* FIX: Keep desktop nav on iPad Pro — thinner button & hidden phone text */
+@media (max-width: 1199.98px) and (min-width: 992px) {
+    .btn-get-readymix {
+        padding-left: 0.75rem !important;
+        padding-right: 0.75rem !important;
+    }
+    .header-phone-text {
+        display: none;
+    }
+}
