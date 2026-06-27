@@ -56,7 +56,7 @@
                     </div>
                     
                     <div class="hero-btn-group-mini">
-                        <!-- 🔥 FIXED: Sudah ditambahkan urlencode langsung di href (Menggunakan nama panjang agar tidak bug) -->
+                        <!--  FIXED: Sudah ditambahkan urlencode langsung di href (Menggunakan nama panjang agar tidak bug) -->
                         <a href="https://wa.me/6281212830218?text={{ urlencode('Halo Readymixnh Beton Indonesia, saya ingin tanya mengenai pemesanan readymix.') }}" target="_blank" rel="nofollow noopener" class="btn-mini-fluid btn-mini-whatsapp">
                             <i class="bi bi-whatsapp"></i> Whatsapp
                         </a>

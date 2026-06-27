@@ -10,7 +10,7 @@
                 <div class="steps-title-line mx-auto"></div>
                 <p class="text-muted mt-3 max-w-600 mx-auto fs-5">
                     Teman-Teman Ayo Ikuti 4 langkah praktis berikut untuk melakukan pemesanan !!!
-                </p> <!-- 📑 FIX: Menambahkan penutup tag p yang tadi hilang -->
+                </p> <!-- FIX: Menambahkan penutup tag p yang tadi hilang -->
             </div>
         </div>
 
@@ -106,7 +106,7 @@
             <div class="col-12 text-center">
                 <p class="fw-bold text-dark mb-3 fs-4">Sudah Siap Cor? Hubungi Kami Sekarang</p>
                 <div class="d-flex justify-content-center">
-                    <!-- 🔥 FIX: Class tombol diubah ke btn-services-wa agar berubah warna hijau flat sesuai scss tadi -->
+                    <!--  FIX: Class tombol diubah ke btn-services-wa agar berubah warna hijau flat sesuai scss tadi -->
                     <a href="https://wa.me/6281212830218?text=Halo%20PT%20Readymix%20Beton%20Indonesia,%20saya%20ingin%20tanya%20mengenai%20pemesanan%20readymix." 
                        target="_blank" 
                        class="btn-services-wa shadow-sm"
