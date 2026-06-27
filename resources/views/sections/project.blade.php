@@ -13,51 +13,51 @@
         <div class="project-gallery-grid mb-5">
 
             <div class="project-gallery-card" data-bs-toggle="modal" data-bs-target="#projectModalPic2">
-                <img src="{{ asset('pic2.webp') }}" alt="Dokumentasi Proyek 1" class="w-100 h-100 project-gallery-img">
+                <img src="{{ asset('pic2.webp') }}" alt="Pengecoran Ready Mix Jayamix - Dokumentasi Proyek 1" width="400" height="400" loading="lazy" class="w-100 h-100 project-gallery-img">
             </div>
 
             <div class="project-gallery-card" data-bs-toggle="modal" data-bs-target="#projectModalPic3">
-                <img src="{{ asset('pic3.webp') }}" alt="Dokumentasi Proyek 2" class="w-100 h-100 project-gallery-img">
+                <img src="{{ asset('pic3.webp') }}" alt="Pengecoran Ready Mix Jayamix - Dokumentasi Proyek 2" width="400" height="400" loading="lazy" class="w-100 h-100 project-gallery-img">
             </div>
 
             <div class="project-gallery-card" data-bs-toggle="modal" data-bs-target="#projectModalPic4">
-                <img src="{{ asset('pic4.webp') }}" alt="Dokumentasi Proyek 3" class="w-100 h-100 project-gallery-img">
+                <img src="{{ asset('pic4.webp') }}" alt="Pengecoran Ready Mix Jayamix - Dokumentasi Proyek 3" width="400" height="400" loading="lazy" class="w-100 h-100 project-gallery-img">
             </div>
 
             <div class="project-gallery-card" data-bs-toggle="modal" data-bs-target="#projectModalPic5">
-                <img src="{{ asset('pic5.webp') }}" alt="Dokumentasi Proyek 4" class="w-100 h-100 project-gallery-img">
+                <img src="{{ asset('pic5.webp') }}" alt="Pengecoran Ready Mix Jayamix - Dokumentasi Proyek 4" width="400" height="400" loading="lazy" class="w-100 h-100 project-gallery-img">
             </div>
 
             <div class="project-gallery-card" data-bs-toggle="modal" data-bs-target="#projectModalPic8">
-                <img src="{{ asset('pic8.webp') }}" alt="Dokumentasi Proyek 5" class="w-100 h-100 project-gallery-img">
+                <img src="{{ asset('pic8.webp') }}" alt="Pengecoran Ready Mix Jayamix - Dokumentasi Proyek 5" width="400" height="400" loading="lazy" class="w-100 h-100 project-gallery-img">
             </div>
 
             <div class="project-gallery-card" data-bs-toggle="modal" data-bs-target="#projectModalPic11">
-                <img src="{{ asset('pic11.webp') }}" alt="Dokumentasi Proyek 6" class="w-100 h-100 project-gallery-img">
+                <img src="{{ asset('pic11.webp') }}" alt="Pengecoran Ready Mix Jayamix - Dokumentasi Proyek 6" width="400" height="400" loading="lazy" class="w-100 h-100 project-gallery-img">
             </div>
 
             <div class="project-gallery-card" data-bs-toggle="modal" data-bs-target="#projectModalPic14">
-                <img src="{{ asset('pic14.webp') }}" alt="Dokumentasi Proyek 7" class="w-100 h-100 project-gallery-img">
+                <img src="{{ asset('pic14.webp') }}" alt="Pengecoran Ready Mix Jayamix - Dokumentasi Proyek 7" width="400" height="400" loading="lazy" class="w-100 h-100 project-gallery-img">
             </div>
 
             <div class="project-gallery-card" data-bs-toggle="modal" data-bs-target="#projectModalPic15">
-                <img src="{{ asset('pic15.webp') }}" alt="Dokumentasi Proyek 8" class="w-100 h-100 project-gallery-img">
+                <img src="{{ asset('pic15.webp') }}" alt="Pengecoran Ready Mix Jayamix - Dokumentasi Proyek 8" width="400" height="400" loading="lazy" class="w-100 h-100 project-gallery-img">
             </div>
 
             <div class="project-gallery-card" data-bs-toggle="modal" data-bs-target="#projectModalPic16">
-                <img src="{{ asset('pic16.webp') }}" alt="Dokumentasi Proyek 9" class="w-100 h-100 project-gallery-img">
+                <img src="{{ asset('pic16.webp') }}" alt="Pengecoran Ready Mix Jayamix - Dokumentasi Proyek 9" width="400" height="400" loading="lazy" class="w-100 h-100 project-gallery-img">
             </div>
 
             <div class="project-gallery-card" data-bs-toggle="modal" data-bs-target="#projectModalPic17">
-                <img src="{{ asset('pic17.webp') }}" alt="Dokumentasi Proyek 10" class="w-100 h-100 project-gallery-img">
+                <img src="{{ asset('pic17.webp') }}" alt="Pengecoran Ready Mix Jayamix - Dokumentasi Proyek 10" width="400" height="400" loading="lazy" class="w-100 h-100 project-gallery-img">
             </div>
 
             <div class="project-gallery-card" data-bs-toggle="modal" data-bs-target="#projectModalPic18">
-                <img src="{{ asset('pic18.webp') }}" alt="Dokumentasi Proyek 11" class="w-100 h-100 project-gallery-img">
+                <img src="{{ asset('pic18.webp') }}" alt="Pengecoran Ready Mix Jayamix - Dokumentasi Proyek 11" width="400" height="400" loading="lazy" class="w-100 h-100 project-gallery-img">
             </div>
 
             <div class="project-gallery-card" data-bs-toggle="modal" data-bs-target="#projectModalPic19">
-                <img src="{{ asset('pic19.webp') }}" alt="Dokumentasi Proyek 12" class="w-100 h-100 project-gallery-img">
+                <img src="{{ asset('pic19.webp') }}" alt="Pengecoran Ready Mix Jayamix - Dokumentasi Proyek 12" width="400" height="400" loading="lazy" class="w-100 h-100 project-gallery-img">
             </div>
 
         </div>

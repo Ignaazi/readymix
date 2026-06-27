@@ -1,5 +1,7 @@
 @extends('layouts.app')
 
+@section('title', 'Kebijakan Privasi - Readymix Nuhaldi')
+
 @section('content')
 <div class="terms-wrapper">
     <div class="terms-container">

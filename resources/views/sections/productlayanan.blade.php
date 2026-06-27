@@ -28,7 +28,7 @@
                             <!-- Poster Aturan Mutu Ukuran 1 -->
                             <div class="col-6 d-flex">
                                 <div class="services-poster-container flex-grow-1 d-flex align-items-center justify-content-center bg-transparent border-0 p-0 m-0 position-relative overflow-hidden w-100">
-                                    <img src="{{ asset('pic12.webp') }}" alt="Aturan Mutu Struktur Ukuran 1" class="img-fluid services-poster-img rounded w-100 h-100">
+                                    <img src="{{ asset('pic12.webp') }}" alt="Aturan Mutu Struktur Ukuran 1" width="360" height="480" loading="lazy" class="img-fluid services-poster-img rounded w-100 h-100">
                                     
                                     <div class="services-poster-overlay d-flex flex-column flex-sm-row gap-2 align-items-center justify-content-center">
                                         <button type="button" class="btn btn-light btn-sm shadow-sm fw-bold px-2 py-1 small" data-bs-toggle="modal" data-bs-target="#previewPosterModal">
@@ -41,7 +41,7 @@
                             <!-- Poster Aturan Mutu Ukuran 2 -->
                             <div class="col-6 d-flex">
                                 <div class="services-poster-container flex-grow-1 d-flex align-items-center justify-content-center bg-transparent border-0 p-0 m-0 position-relative overflow-hidden w-100">
-                                    <img src="{{ asset('pic13.webp') }}" alt="Aturan Mutu Struktur Ukuran 2" class="img-fluid services-poster-img rounded w-100 h-100">
+                                    <img src="{{ asset('pic13.webp') }}" alt="Aturan Mutu Struktur Ukuran 2" width="360" height="480" loading="lazy" class="img-fluid services-poster-img rounded w-100 h-100">
                                     
                                     <div class="services-poster-overlay d-flex flex-column flex-sm-row gap-2 align-items-center justify-content-center">
                                         <button type="button" class="btn btn-light btn-sm shadow-sm fw-bold px-2 py-1 small" data-bs-toggle="modal" data-bs-target="#previewPoster2Modal">
@@ -235,7 +235,7 @@
                         <!-- Poster Kanan 1 -->
                         <div class="col-6 d-flex">
                             <div class="services-poster-container flex-grow-1 d-flex align-items-center justify-content-center bg-transparent border-0 p-0 m-0 position-relative overflow-hidden w-100">
-                                <img src="{{ asset('pic6.webp') }}" alt="Poster Order Konstruksi 1" class="img-fluid services-poster-img rounded w-100 h-100">
+                                <img src="{{ asset('pic6.webp') }}" alt="Poster Order Konstruksi 1" width="360" height="480" loading="lazy" class="img-fluid services-poster-img rounded w-100 h-100">
                                 <div class="services-poster-overlay d-flex flex-column flex-sm-row gap-2 align-items-center justify-content-center">
                                         <button type="button" class="btn btn-light btn-sm shadow-sm fw-bold px-2 py-1 small" data-bs-toggle="modal" data-bs-target="#previewPosterOrder1Modal">
                                             <i class="bi bi-eye"></i> Preview
@@ -247,7 +247,7 @@
                         <!-- Poster Kanan 2 -->
                         <div class="col-6 d-flex">
                             <div class="services-poster-container flex-grow-1 d-flex align-items-center justify-content-center bg-transparent border-0 p-0 m-0 position-relative overflow-hidden w-100">
-                                <img src="{{ asset('pic7.webp') }}" alt="Poster Order Konstruksi 2" class="img-fluid services-poster-img rounded w-100 h-100">
+                                <img src="{{ asset('pic7.webp') }}" alt="Poster Order Konstruksi 2" width="360" height="480" loading="lazy" class="img-fluid services-poster-img rounded w-100 h-100">
                                 <div class="services-poster-overlay d-flex flex-column flex-sm-row gap-2 align-items-center justify-content-center">
                                         <button type="button" class="btn btn-light btn-sm shadow-sm fw-bold px-2 py-1 small" data-bs-toggle="modal" data-bs-target="#previewPosterOrder2Modal">
                                             <i class="bi bi-eye"></i> Preview

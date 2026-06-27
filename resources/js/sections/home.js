@@ -1,4 +1,4 @@
-// Fungsi menyalin teks pada tombol copy di seksi Home
+// Fungsi menyalin teks pada tombol copy di section Home
 window.copyText = function(buttonElement) {
     const textToCopy = buttonElement.parentElement.querySelector('.copy-target').innerText;
     navigator.clipboard.writeText(textToCopy).then(() => {
@@ -10,13 +10,17 @@ window.copyText = function(buttonElement) {
     });
 };
 
-// Counter animasi statistik di seksi Home
+// Counter animasi statistik di section Home (Dioptimasi dengan IntersectionObserver)
 document.addEventListener("DOMContentLoaded", () => {
-    const counters = document.querySelectorAll('.counter');
+    const statsRow = document.querySelector('.hero-stats-flat-row');
+    if (!statsRow) return;
+
+    const counters = statsRow.querySelectorAll('.counter');
     const duration = 1000; 
-    counters.forEach(counter => {
+
+    const startCounter = (counter) => {
+        const target = +counter.getAttribute('data-target');
         const updateCount = () => {
-            const target = +counter.getAttribute('data-target');
             const count = +counter.innerText;
             const increment = Math.ceil(target / (duration / 16));
             if (count < target) {
@@ -27,5 +31,22 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         };
         updateCount();
-    });
+    };
+
+    if (typeof IntersectionObserver === 'undefined') {
+        // Fallback untuk browser lawas
+        counters.forEach(counter => startCounter(counter));
+    } else {
+        const observer = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    counters.forEach(counter => startCounter(counter));
+                    observer.unobserve(entry.target); // Matikan observer setelah berjalan sekali
+                }
+            });
+        }, {
+            threshold: 0.1 // Berjalan ketika 10% elemen terlihat di layar
+        });
+        observer.observe(statsRow);
+    }
 });

@@ -127,7 +127,7 @@
                         <div class="about-photo-grid-inside flex-grow-1">
                             <div class="about-project-card custom-card-hover">
                                 <div class="project-thumb-wrapper">
-                                    <img src="{{ asset('pic2.webp') }}" alt="Proyek Pengecoran Beton Masjid" class="img-fluid">
+                                    <img src="{{ asset('pic2.webp') }}" alt="Proyek Pengecoran Beton Masjid" width="480" height="300" loading="lazy" class="img-fluid">
                                 </div>
                                 <div class="project-desc-banner">
                                     <div class="project-info-left">
@@ -142,7 +142,7 @@
 
                             <div class="about-project-card custom-card-hover">
                                 <div class="project-thumb-wrapper">
-                                    <img src="{{ asset('pic3.webp') }}" alt="Pengecoran Struktur Gedung Kantor" class="img-fluid">
+                                    <img src="{{ asset('pic3.webp') }}" alt="Pengecoran Struktur Gedung Kantor" width="480" height="300" loading="lazy" class="img-fluid">
                                 </div>
                                 <div class="project-desc-banner">
                                     <div class="project-info-left">
@@ -157,7 +157,7 @@
 
                             <div class="about-project-card custom-card-hover">
                                 <div class="project-thumb-wrapper">
-                                    <img src="{{ asset('pic4.webp') }}" alt="Pengecoran Lantai Lapangan Sekolah" class="img-fluid">
+                                    <img src="{{ asset('pic4.webp') }}" alt="Pengecoran Lantai Lapangan Sekolah" width="480" height="300" loading="lazy" class="img-fluid">
                                 </div>
                                 <div class="project-desc-banner">
                                     <div class="project-info-left">
@@ -172,7 +172,7 @@
 
                             <div class="about-project-card custom-card-hover">
                                 <div class="project-thumb-wrapper">
-                                    <img src="{{ asset('pic5.webp') }}" alt="Pengecoran Beton Cor Rumah Tinggal" class="img-fluid">
+                                    <img src="{{ asset('pic5.webp') }}" alt="Pengecoran Beton Cor Rumah Tinggal" width="480" height="300" loading="lazy" class="img-fluid">
                                 </div>
                                 <div class="project-desc-banner">
                                     <div class="project-info-left">
@@ -197,7 +197,7 @@
                         <div class="about-photo-grid-inside flex-grow-1">
                             <div class="about-project-card custom-card-hover">
                                 <div class="project-thumb-wrapper">
-                                    <img src="{{ asset('pic8.webp') }}" alt="Layanan Beton Readymix" class="img-fluid">
+                                    <img src="{{ asset('pic8.webp') }}" alt="Layanan Beton Readymix" width="480" height="300" loading="lazy" class="img-fluid">
                                 </div>
                                 <div class="project-desc-banner">
                                     <div class="project-info-left">
@@ -212,7 +212,7 @@
 
                             <div class="about-project-card custom-card-hover">
                                 <div class="project-thumb-wrapper">
-                                    <img src="{{ asset('pic9.webp') }}" alt="Layanan Beton Minimix" class="img-fluid">
+                                    <img src="{{ asset('pic9.webp') }}" alt="Layanan Beton Minimix" width="480" height="300" loading="lazy" class="img-fluid">
                                 </div>
                                 <div class="project-desc-banner">
                                     <div class="project-info-left">
@@ -227,7 +227,7 @@
 
                             <div class="about-project-card custom-card-hover">
                                 <div class="project-thumb-wrapper">
-                                    <img src="{{ asset('pic10.webp') }}" alt="Layanan Pompa Beton Standard" class="img-fluid">
+                                    <img src="{{ asset('pic10.webp') }}" alt="Layanan Pompa Beton Standard" width="480" height="300" loading="lazy" class="img-fluid">
                                 </div>
                                 <div class="project-desc-banner">
                                     <div class="project-info-left">
@@ -242,7 +242,7 @@
 
                             <div class="about-project-card custom-card-hover">
                                 <div class="project-thumb-wrapper">
-                                    <img src="{{ asset('pic11.webp') }}" alt="Layanan Pompa Mini / Long Boom" class="img-fluid">
+                                    <img src="{{ asset('pic11.webp') }}" alt="Layanan Pompa Mini / Long Boom" width="480" height="300" loading="lazy" class="img-fluid">
                                 </div>
                                 <div class="project-desc-banner">
                                     <div class="project-info-left">
