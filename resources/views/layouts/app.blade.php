@@ -65,7 +65,9 @@
         "addressRegion": "Jawa Barat",
         "addressCountry": "ID"
       },
+      "hasMap": "https://maps.app.goo.gl/y7jsg8iHUiPBMaCC9",
       "sameAs": [
+        "https://maps.app.goo.gl/y7jsg8iHUiPBMaCC9",
         "https://www.instagram.com/jualraedymixcorrjabodetabek?igsh=bjVqMW8xam90OGVk&utm_source=qr",
         "https://www.tiktok.com/@readymixpompacor?_r=1&_t=ZS-972VI7DhgaT"
       ],
